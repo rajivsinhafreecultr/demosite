@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js sidebar-large lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]><html class="no-js sidebar-large lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]><html class="no-js sidebar-large lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html>
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>.:: SAMPLE ::.</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- css library start -->
+<link href="commonincludes/css/bootstrap.css" rel="stylesheet">
+<link href="commonincludes/css/bootstrap-theme.css" rel="stylesheet">
+<link href="commonincludes/css/bootstrap_calendar.css" rel="stylesheet">
+<link href="commonincludes/css/custom.css" rel="stylesheet">
+<link href="commonincludes/css/custom-icons.css" rel="stylesheet">
+<link href="commonincludes/css/jquery.mCustomScrollbar.css" rel="stylesheet">
+<link href="commonincludes/css/bootstrap-select.css" rel="stylesheet">
+<!-- css library ends -->
+</head>
+
+<body>
+<!-- header start-->
+<!-- Mobile headertop start -->
+<div class="topheader-mobile col-md-12">
+<ul class="pull-left"><li class="dropdown">
+    <!-- After login this link appear start -->
+    <a class="dropdown-toggle" href="#">Credit:<del>&#2352;</del> 81137.65</a>
+    <!-- After login this link appear start -->
+    <!-- Before login this link appear start -->
+    <a aria-expanded="false" role="button" data-toggle="dropdown" class="dropdown-toggle" href="#">Sign Up</a>
+    <ul role="menu" class="dropdown-menu">
+      <li class="col-md-12"><a href="student-registration.php" class="become-student">Become a Student</a></li>
+      <li class="col-md-12"><a href="tutor-registration.php" class="become-student">Become A Tutor</a></li>
+    </ul>
+    <!-- Before login this link appear start -->
+</li>
+</ul>
+
+<ul class="pull-right"><li class="dropdown pull-right">
+<!-- After login this link appear start -->
+    <a class="dropdown-toggle" href="#">Sumit Sethi...</a>
+    <!-- After login this link appear start -->
+    <!-- Before login this link appear start -->
+    <a aria-expanded="false" role="button" data-toggle="dropdown" class="dropdown-toggle" href="#">Login</a>
+    <ul role="menu" class="dropdown-menu">
+      <li class="col-md-12"><a href="signin.php?type=1" class="login-student">Student Login</a></li>
+      <li class="col-md-12"><a href="signin.php?type=2" class="login-tutor">Tutor Login</a></li>
+    </ul>
+</li>
+</ul>
+</div>
+
+<!-- Mobile headertop ends -->
+
+<div class="container-fluid header-container">
+<!-- Navbar Start-->
+<nav class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <!-- mobile notification start -->
+            <div class="mobile-notification">
+                    <li class="dropdown">
+                    	<a aria-expanded="false" role="button" data-toggle="dropdown" class="dropdown-toggle" href="#"><span class="glyphicon glyphicon-bell notification-bell"><i>22</i></span></a>
+                        <ul role="menu" class="dropdown-menu mobile-notification-box">
+                        <li class="col-md-12">
+                        <div class="col-md-2 col-xs-3"><img src="images/notify-img/notify-pro-img1.png" alt=""/></div>
+                        <div class="col-md-8 col-xs-9"><a href="#">Ankit A.</a> confirmed a session<span>Tue,  Apr 11 4:15 PM IST &bull; 30 min</span></div>
+                        <div class="col-md-2 notification-time">Just Now</div>
+                        </li>
+                        <li class="col-md-12">
+                        <div class="col-md-2 col-xs-3"><img src="images/notify-img/notify-pro-img2.png" alt=""/></div>
+                        <div class="col-md-8 col-xs-9"><a href="#">Sarvan K.C. </a> sent an email<span>Tue,  Apr 11 4:15 PM IST &bull; 30 min</span></div>
+                        <div class="col-md-2 notification-time">33 min ago</div>
+                        </li>
+                        <!--li class="divider"></li-->
+                        <li class="text-center"><a href="#">See All</a></li>
+                        </ul>
+                    </li>
+                    </div>
+            <!-- mobile notification ends -->
+              <button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
+              <span class="sr-only">Menu</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a href="#" class="navbar-brand logo"><img src="images/logo.png" alt="" class="img-responsive" /></a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+             
+            <ul class="nav navbar-nav navbar-right">
+              <li class="hide"><a href="tel:180030105555"><span aria-hidden="true" class="glyphicon glyphicon-earphone"></span>1800-3010-5555</a></li>
+              <li class="dropdown desktop-ipad-notification">
+                <a aria-expanded="false" role="button" data-toggle="dropdown" class="dropdown-toggle" href="#"><span class="glyphicon glyphicon-bell notification-bell"><i>22</i></span></a>
+                <ul role="menu" class="dropdown-menu notification-msg-box">
+                  <li class="col-md-12">
+                    <div class="col-md-2"><img src="images/notify-img/notify-pro-img1.png" alt=""/></div>
+                    <div class="col-md-8"><a href="#">Ankit A.</a> confirmed a session<span>Tue,  Apr 11 4:15 PM IST &bull; 30 min</span></div>
+                    <div class="col-md-2 notification-time">Just Now</div>
+                  </li>
+                  <li class="col-md-12">
+                    <div class="col-md-2"><img src="images/notify-img/notify-pro-img2.png" alt=""/></div>
+                    <div class="col-md-8"><a href="#">Sarvan K.C. </a> sent an email<span>Tue,  Apr 11 4:15 PM IST &bull; 30 min</span></div>
+                    <div class="col-md-2 notification-time">33 min ago</div>
+                  </li>
+                   <!--li class="divider"></li-->
+                  <li class="text-center"><a href="#">See All</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a aria-expanded="false" role="button" data-toggle="dropdown" class="dropdown-toggle" href="#">My Account <span class="caret"></span></a>
+                <ul role="menu" class="dropdown-menu my-account-menu">
+                    <li><a href="#" class="active">My Account</a></li>
+                    <li class="desktop-show"><a href="#">My Transactions</a></li>
+                    <li class="desktop-show"><a href="#">My Profile</a></li>
+                    <li class="desktop-show"><a href="#">My Mailbox</a></li>
+                    <li class="desktop-show divider"></li>
+                    <li class="desktop-show"><a href="#">Logout</a></li>
+                </ul>
+              </li>
+              
+              <!-- mobile view start-->
+                    
+                    <li class="dropdown show-mobile"><a aria-expanded="false" role="button" href="#" data-toggle="dropdown" class="dropdown-toggle">My Transactions <span class="caret"></span></a>
+                    	<ul role="menu" class="dropdown-menu my-account-menu">
+                        	<li><a href="#">My Transaction Dashboard</a></li>
+                            <li><a href="#">My Transaction</a></li>
+                            <li><a href="#">My Cash Requests</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown show-mobile"><a aria-expanded="false" role="button" href="#" data-toggle="dropdown" class="dropdown-toggle">My Profile <span class="caret"></span></a>
+                    	<ul role="menu" class="dropdown-menu my-account-menu">
+                        	<li><a href="#">Address And Phone</a></li>
+                            <li><a href="#">Email And Password</a></li>
+                            <li><a href="#">Banking Info</a></li>
+                        </ul>
+                    
+                    </li>
+                    <li class="dropdown show-mobile"><a href="#" data-toggle="dropdown" class="dropdown-toggle">My Mailbox <span class="caret"></span></a>
+                    	<ul role="menu" class="dropdown-menu my-account-menu">
+                        	<li><a href="#">Inbox (112)</a></li>
+                            <li><a href="#">Sent Mail (200)</a></li>
+                            <li><a href="#">Draft (12)</a></li>
+                        </ul>
+                    </li>
+                    <li class="show-mobile"><a href="#" class="dropdown-toggle border-no">Logout</a></li>
+                    
+                    <!-- mobile view ends-->
+                    
+              
+              
+              
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>
+<!-- Navbar Start-->
+</div>
+<!-- header ends-->
+<div class="container"> 
+  <!--tutor search List Start-->
+  
+  <div class="col-md-12 col-xs-12 search-panel-container search-panel-container-inside">
+    <div class="col-md-7 pad-rgt-60">
+      <h3>Find The Best Teacher for Home And Online Tuition</h3>
+      <div class="search-container col-md-12">
+        <input type="text" class="form-control search-icon-img">
+      </div>
+    </div>
+    <div class="col-md-5 pos-rel our-staff-text">
+      <div class="or-divider"><span>Or</span></div>
+      <h3>Have Our Staff Find A Tutor For You!</h3>
+      <div class="text-center"><a href="#" class="btn btn-orange find-me-tutor open-modal">Find Me A Tutor</a></div>
+    </div>
+  </div>
+  <div class="col-md-12 col-xs-12 col-sm-12 back-to-link"><a href="#">< Back to search results</a> </div>
+  <h2 class="h3-blue student-credit-name">Ketan G. <span class="student-credit">Student Credit: <span class="rupee_foradianregular">`</span> 300.00</span></h2>
+  <div class="col-md-12 col-sm-12 col-xs-12 book-session-container form-group">
+    <div class="col-md-4 col-sm-4 text-center">
+      <div class="col-md-12">
+      	<div class="boook-session-profile-img"><img src="images/pro-img2.png" alt=""></div>
+      </div>
+      <div class="col-md-12">
+      	<div class="hourly-fees text-center"><span class="rupee_foradianregular">`</span> <span>300</span> per hour</div>
+       </div>
+      <div class="col-md-12 text-center book-session-add-fav"><i class="icon1-add-favourite-tutor"></i> <a href="#">Add Favourite Tutor</a></div>
+      <div class="col-md-12 text-center tutor-status"><a href="#"><i class="icon1-imonline"></i> I&acute;m online! Get help now.</a></div>
+      
+      <div class="availability-time-show col-md-12 col-sm-11 col-xs-12">
+      	<div class="col-md-12">Wednesday, May 20,2015<br>8:00 PM to 8:30 PM</div>
+          <div class="col-md-12 price-tuition">
+        	<div class="col-md-8">Tuition Price</div>
+            <div class="col-md-4"><span class="rupee_foradianregular">`</span>150</div>
+        </div>
+      
+      </div>
+      
+      
+      
+    </div>
+    <div class="col-md-8 col-sm-8">
+      <h3 class="text-org">Book Home Tuition for Class IX Mathematics with me.</h3>
+      <form action="">
+      <!--
+      <div class="col-md-12 row form-group">
+        <label class="control-label">Choose Subject</label>
+         <input type="text" class="form-control col-md-12 col-sm-5 col-xs-11">
+            </div> 
+            -->
+      
+      <div class="col-md-12 row form-group">
+        <label class="control-label booksession-font">Select a Date and Time.</label>
+        <div id="datetimepicker1" class="input-group date">
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+                    <input type="text" class="form-control">
+                </div>
+            </div>    
+                
+                
+                <div class="col-md-12 date-time-show col-xs-12 col-sm-12">
+                	<div class="calendar-book-session col-md-8 col-xs-12"></div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                    	<div class="timepick-book-session">
+                        	<span>Wednesday, May 20, 2015</span>
+                            <div class="label-scroll top-notification-scroll" data-mcs-theme="dark">
+                            <label><input type="radio" name="radio1"> 7:00 PM to 7:30 PM</label>
+                            <label><input type="radio" name="radio1"> 7:30 PM to 8:00 PM</label>
+                            <label><input type="radio" name="radio1"> 8:00 PM to 8:30 PM</label>
+                            <label><input type="radio" name="radio1"> 8:30 PM to 9:00 PM</label>
+                            <label><input type="radio" name="radio1"> 9:00 PM to 9:30 PM</label>
+                            <label><input type="radio" name="radio1"> 9:30 PM to 10:00 PM</label>
+                            <label><input type="radio" name="radio1"> 7:30 PM to 8:00 PM</label>
+                            <label><input type="radio" name="radio1"> 8:00 PM to 8:30 PM</label>
+                            <label><input type="radio" name="radio1"> 8:30 PM to 9:00 PM</label>
+                            <label><input type="radio" name="radio1"> 9:00 PM to 9:30 PM</label>
+                            <label><input type="radio" name="radio1"> 9:30 PM to 10:00 PM</label>
+                            </div>
+                            <em>All times in IST</em>
+                        </div>
+                    </div>
+                </div>
+                
+             
+        <div class="col-md-12 row form-group"><a href="#">View cancellation policy</a></div>
+        
+        <div class="col-md-8 duration-type form-group">
+        	<label class="control-label col-md-12 col-sm-5 col-xs-11 row booksession-font">Duration</label>
+            
+            <select class="form-control col-md-12 col-sm-5 col-xs-11">
+              <option>30 Minutes</option>
+              <option>60 Minutes</option>
+            </select>
+          </div>
+          
+          <div class="col-md-12 form-group tuition-withhour">
+        	<label class="control-label col-md-12 col-sm-12 col-xs-11 row booksession-font">Tuition within 24 Hours</label>
+            <div class="col-md-12 col-sm-12 col-xs-11 row checkbox-communicated">
+           <input type="checkbox"> <span class="col-md-11 col-sm-12 col-xs-12">I have commiunicated with the tutor and tutor has started that he/she will logon to tutor account and accept this tuition time.</span></div>
+          </div>
+          
+          <div class="col-md-12 row form-group">
+        	<label class="control-label col-md-12 col-sm-12 col-xs-11 row booksession-font">Select a Type of Tuition</label>
+            <div class="col-md-12 col-sm-12 col-xs-11 box-form">
+           <label class="col-md-4 col-sm-6 col-xs-12"><input type="radio" name="visit1"> Tutor Visits Student</label> <label class="col-md-6 col-sm-6 col-xs-12"><input type="radio" name="visit1"> Student Visits Tutor</label>
+           
+           </div>
+          </div>
+          
+          
+          <div class="col-md-12 row form-group">
+			<div style="display: block;" id="address_div_adr" class="col-md-12 student-visits-container">
+			<div class="student-visits-container-header"><label>Address Detail</label></div>
+				<div class="col-md-6 col-sm-6 form-group">
+					<label class="control-label">State:<span class="mandatory">*</span></label>
+					<select class="form-control" name="drpState" id="drpState" onchange="fillCityDrp(this.value,0);">
+						<option value=""> Choose State </option>
+						<option value="1" label="Andaman &amp; Nicobar Islands">Andaman &amp; Nicobar Islands</option>
+<option value="2" label="Andhra Pradesh">Andhra Pradesh</option>
+<option value="3" label="Arunachal Pradesh">Arunachal Pradesh</option>
+<option value="4" label="Assam">Assam</option>
+<option value="5" label="Bihar">Bihar</option>
+<option value="6" label="Chandigarh">Chandigarh</option>
+<option value="7" label="Chattisgarh">Chattisgarh</option>
+<option value="8" label="Dadra &amp; Nagar Haveli">Dadra &amp; Nagar Haveli</option>
+<option value="9" label="Daman &amp; Diu">Daman &amp; Diu</option>
+<option value="10" label="Delhi">Delhi</option>
+<option value="11" label="Goa">Goa</option>
+<option value="12" label="Gujarat">Gujarat</option>
+<option value="13" label="Haryana">Haryana</option>
+<option value="14" label="Himachal Pradesh">Himachal Pradesh</option>
+<option value="15" label="Jammu &amp; Kashmir">Jammu &amp; Kashmir</option>
+<option value="16" label="Jharkhand">Jharkhand</option>
+<option value="17" label="Karnataka">Karnataka</option>
+<option value="18" label="Kerala">Kerala</option>
+<option value="19" label="Lakshadweep">Lakshadweep</option>
+<option value="20" label="Madhya Pradesh">Madhya Pradesh</option>
+<option value="21" label="Maharashtra">Maharashtra</option>
+<option value="22" label="Manipur">Manipur</option>
+<option value="23" label="Meghalaya">Meghalaya</option>
+<option value="24" label="Mizoram">Mizoram</option>
+<option value="25" label="Nagaland">Nagaland</option>
+<option value="26" label="Odisha">Odisha</option>
+<option value="27" label="Pondicherry">Pondicherry</option>
+<option value="28" label="Punjab">Punjab</option>
+<option value="29" label="Rajasthan">Rajasthan</option>
+<option value="30" label="Sikkim">Sikkim</option>
+<option value="31" label="Tamil Nadu">Tamil Nadu</option>
+<option value="32" label="Tripura">Tripura</option>
+<option selected="selected" value="33" label="Uttar Pradesh">Uttar Pradesh</option>
+<option value="34" label="Uttarakhand">Uttarakhand</option>
+<option value="35" label="West Bengal">West Bengal</option>
+
+					</select>
+				</div>
+				<div class="col-md-6 col-sm-6 form-group">
+					<label class="control-label">City/Division/District:<span class="mandatory">*</span></label>
+					<select class="form-control" name="drpCity" id="drpCity" onchange="javascript:pinCodeData();" onclick="CheckCity();">
+						<option value=""> Choose City </option>
+						<option value="1162" label="Agra">Agra</option>
+<option value="1164" label="Akbarpur">Akbarpur</option>
+<option value="1165" label="Aligarh">Aligarh</option>
+<option value="1166" label="Allahabad">Allahabad</option>
+<option value="1169" label="Amethi">Amethi</option>
+<option value="1170" label="Amroha">Amroha</option>
+<option value="1172" label="Anupshahr">Anupshahr</option>
+<option value="1174" label="Auraiya">Auraiya</option>
+<option value="1176" label="Azamgarh">Azamgarh</option>
+<option value="1178" label="Baghpat">Baghpat</option>
+<option value="1179" label="Baheri">Baheri</option>
+<option value="1180" label="Bahraich">Bahraich</option>
+<option value="1182" label="Ballia">Ballia</option>
+<option value="1183" label="Balrampur">Balrampur</option>
+<option value="1184" label="Banda">Banda</option>
+<option value="1186" label="Barabanki">Barabanki</option>
+<option value="1187" label="Baraut">Baraut</option>
+<option value="1188" label="Bareilly">Bareilly</option>
+<option value="1190" label="Basti">Basti</option>
+<option value="1192" label="Bazpur">Bazpur</option>
+<option value="1193" label="Bhadohi">Bhadohi</option>
+<option value="1195" label="Bijnor">Bijnor</option>
+<option value="1197" label="Bilari">Bilari</option>
+<option value="1198" label="Bisauli">Bisauli</option>
+<option value="1200" label="Budaun">Budaun</option>
+<option value="1535" label="Bulandshahar">Bulandshahar</option>
+<option value="1203" label="Chandauli">Chandauli</option>
+<option value="1204" label="Chandausi">Chandausi</option>
+<option value="1205" label="Chandpur">Chandpur</option>
+<option value="1207" label="Dadri">Dadri</option>
+<option value="1209" label="Deoband">Deoband</option>
+<option value="1210" label="Deoria">Deoria</option>
+<option value="1212" label="Dhampur">Dhampur</option>
+<option value="1215" label="Etah">Etah</option>
+<option value="1217" label="Etawah">Etawah</option>
+<option value="1219" label="Faizabad">Faizabad</option>
+<option value="1221" label="Farrukhabad">Farrukhabad</option>
+<option value="1222" label="Fatehgarh">Fatehgarh</option>
+<option value="1223" label="Fatehpur">Fatehpur</option>
+<option value="1224" label="Firojabad">Firojabad</option>
+<option selected="selected" value="1227" label="Ghaziabad">Ghaziabad</option>
+<option value="1228" label="Ghazipur">Ghazipur</option>
+<option value="1229" label="Gola">Gola</option>
+<option value="1230" label="Gonda">Gonda</option>
+<option value="1231" label="Gorakhpur">Gorakhpur</option>
+<option value="1234" label="Haldwani">Haldwani</option>
+<option value="1236" label="Hamirpur">Hamirpur</option>
+<option value="1237" label="Hapur">Hapur</option>
+<option value="1238" label="Hardoi">Hardoi</option>
+<option value="1243" label="Jalaun">Jalaun</option>
+<option value="1244" label="Jansath">Jansath</option>
+<option value="1245" label="Jaunpur">Jaunpur</option>
+<option value="1246" label="Jhansi">Jhansi</option>
+<option value="1248" label="Kairana">Kairana</option>
+<option value="1249" label="Kannauj">Kannauj</option>
+<option value="1250" label="Kanpur">Kanpur</option>
+<option value="1578" label="Kanpur Moffusil">Kanpur Moffusil</option>
+<option value="1251" label="Kanth">Kanth</option>
+<option value="1252" label="Kasganj">Kasganj</option>
+<option value="1255" label="Khatima">Khatima</option>
+<option value="1534" label="Kheri">Kheri</option>
+<option value="1257" label="Khurja">Khurja</option>
+<option value="1260" label="Lakhimpur">Lakhimpur</option>
+<option value="1262" label="Lalitpur">Lalitpur</option>
+<option value="1264" label="Lansdowne">Lansdowne</option>
+<option value="1265" label="Lucknow">Lucknow</option>
+<option value="1266" label="Maharajganj">Maharajganj</option>
+<option value="1268" label="Mainpuri">Mainpuri</option>
+<option value="1269" label="Mathura">Mathura</option>
+<option value="1270" label="Mau">Mau</option>
+<option value="1273" label="Meerut">Meerut</option>
+<option value="1274" label="Mirzapur">Mirzapur</option>
+<option value="1275" label="Modinagar">Modinagar</option>
+<option value="1276" label="Moradabad">Moradabad</option>
+<option value="1279" label="Muzaffarnagar">Muzaffarnagar</option>
+<option value="1281" label="Nagina">Nagina</option>
+<option value="1282" label="Nainital">Nainital</option>
+<option value="1283" label="Najibabad">Najibabad</option>
+<option value="1284" label="Nautanwa">Nautanwa</option>
+<option value="1286" label="Noida">Noida</option>
+<option value="1288" label="Orai">Orai</option>
+<option value="1292" label="Pauri">Pauri</option>
+<option value="1293" label="Pilibhit">Pilibhit</option>
+<option value="1296" label="Pratapgarh">Pratapgarh</option>
+<option value="1297" label="Puranpur">Puranpur</option>
+<option value="1533" label="Rae Bareilly">Rae Bareilly</option>
+<option value="1299" label="Rampur">Rampur</option>
+<option value="1304" label="Saharanpur">Saharanpur</option>
+<option value="1306" label="Sambhal">Sambhal</option>
+<option value="1309" label="Shahjahanpur">Shahjahanpur</option>
+<option value="1311" label="Shamli">Shamli</option>
+<option value="1314" label="Shikohabad">Shikohabad</option>
+<option value="1319" label="Sidhauli">Sidhauli</option>
+<option value="1322" label="Sitapur">Sitapur</option>
+<option value="1323" label="Sitarganj">Sitarganj</option>
+<option value="1325" label="Sonbhadra">Sonbhadra</option>
+<option value="1327" label="Sultanpur">Sultanpur</option>
+<option value="1328" label="Tanda">Tanda</option>
+<option value="1329" label="Tilhar">Tilhar</option>
+<option value="1331" label="Unnao">Unnao</option>
+<option value="1332" label="Varanasi">Varanasi</option>
+<option value="1334" label="Zamania">Zamania</option>
+<option value="1289" label="Other">Other</option>
+
+					</select>	
+				</div>
+				<div class="col-md-6 col-sm-6 form-group">
+					<label class="control-label">Pin Code:<span class="mandatory">*</span></label>
+					<div class="verify-mobile">
+						<div class="col-md-9 col-sm-8 col-xs-9">
+							<input type="text" readonly onclick="checkPinCode();" autocomplete="off" value="201002" maxlength="6" id="trPinCode" name="PinCode" class="form-control ">
+							<input type="hidden" value="201002" name="tempPincode">
+						</div>
+						<a class="btn btn-orange col-md-3" onclick="javascript:pinCodeData();" href="javascript:void(0);">Show</a>
+						<!--<div id="suggestCityPinCode" class="suggestkeyword" style="display:none;"></div>-->
+						<div align="left" style="display:none;left:15px;top:35px;overflow-y:scroll;height:200px;" class="suggestkeyword" id="suggestCityPinCode"></div>
+						<input type="hidden" value="13283" id="pinCodeId" name="pinCodeId">	
+					</div>	 
+				</div>
+				<div class="col-md-6 col-sm-6 form-group">
+					<label class="control-label">Choose Nearest Area:<span class="mandatory">*</span></label>
+					<select onclick="CheckArea();" class="form-control" id="drpArea12" name="drpArea">
+						<option value=""> Choose Area </option>
+						<option selected="selected" value="141265" label="Ingram Institute">Ingram Institute</option>
+<option value="141405" label="Kamla Nehru Nagar">Kamla Nehru Nagar</option>
+<option value="141157" label="Kavi Nagar">Kavi Nagar</option>
+<option value="141237" label="New Raj Nagar">New Raj Nagar</option>
+<option value="141165" label="Old Raj Nagar">Old Raj Nagar</option>
+<option value="141417" label="Police Line Harsaon">Police Line Harsaon</option>
+<option value="141318" label="Postal Staff College (I)">Postal Staff College (I)</option>
+<option value="141166" label="Raispur">Raispur</option>
+<option value="141241" label="Rajapur">Rajapur</option>
+<option value="141356" label="Sadarpur">Sadarpur</option>
+<option value="141246" label="Shahpur Bamheta">Shahpur Bamheta</option>
+<option value="141391" label="Shastri Nagar">Shastri Nagar</option>
+<option value="141395" label="Vivekanand Nagar">Vivekanand Nagar</option>
+<option value="166828" label="Other">Other</option>
+
+					</select>
+				</div>
+				<div class="col-md-6 col-sm-6 form-group">
+					<label class="control-label">Address1:<span class="mandatory">*</span></label>
+					<input type="text" value="121ewte" id="TN_Address1" name="TN_Address1" class="form-control">
+				</div>
+				<div class="col-md-6 col-sm-6 form-group">
+					<label class="control-label">Address2:<span class="mandatory">*</span></label>
+					<input type="text" value="55htht" class="form-control" id="TN_Address2" name="TN_Address2">
+				</div>
+			</div>
+			</div>
+          
+            
+  
+  
+  <!-- Recurrence Page Start -->
+  <div class="col-md-12 row">
+  <div class="col-md-12 col-sm-12 col-xs-12 recurrence-main-div">
+    <div class="recurrence-header col-md-12 col-sm-12 col-xs-12">Appointment Recurrence <i class="glyphicon glyphicon-menu-up"></i><span class="reset-recurrence"><a class="reset" href="#">Reset Recurrence</a></span></div>
+    
+    <div class="col-md-12 col-sm-12 col-xs-12 recurrence-container">
+    <div class="col-md-12 col-sm-12 col-xs-12 booksession-font">Recurrence Pattern</div>
+    
+    <div class="col-md-12 col-sm-12 col-xs-12 recurrence-plan">
+    <div class="col-md-2 col-sm-12 col-xs-12 select-plan">
+    <span><input type="radio" name="radiobutton" checked id="daily" value="1"> Daily</span>
+    <span><input type="radio" name="radiobutton" id="weekly" value="2"> Weekly</span>
+    <span><input type="radio" name="radiobutton" id="monthly" value="3"> Monthly</span>
+    </div>
+    
+    <div class="col-md-10 col-sm-12 col-xs-12 plan-datail">
+    
+    <div class="col-md-12 col-sm-12 col-xs-12 daily-plan" id="daily-div">
+    <form action="">
+    <div class="col-md-12 col-sm-12 col-xs-12 input-day-type">
+    <span>Recur every</span>
+    <span class="input-field"><input type="text" value="1" class="form-control"></span>
+    <span>Day</span>
+    </div>
+    </form>
+    </div>
+    
+    <div class="col-md-12 col-sm-12 col-xs-12 weekly-plan" id="weekly-div">
+    <form action="">
+    <div class="col-md-12 col-sm-12 col-xs-12 input-day-type">
+    <span>Recur every</span>
+    <span class="input-field"><input type="text" value="1" class="form-control"></span>
+    <span>week(s) on:</span>
+    </div>
+    
+    <div class="col-md-12 col-sm-12 col-xs-12 week-list">
+    <div class="col-md-3 col-sm-3 col-xs-6"><input type="checkbox"> Sunday</div>
+    <div class="col-md-3 col-sm-3 col-xs-6"><input type="checkbox"> Monday</div>
+    <div class="col-md-3 col-sm-3 col-xs-6"><input type="checkbox"> Tuesday</div>
+    <div class="col-md-3 col-sm-3 col-xs-6"><input type="checkbox"> Wednesday</div>
+    <div class="col-md-3 col-sm-3 col-xs-6"><input type="checkbox"> Thursday</div>
+    <div class="col-md-3 col-sm-3 col-xs-6"><input type="checkbox"> Friday</div>
+    <div class="col-md-3 col-sm-3 col-xs-6"><input type="checkbox"> Saturday</div>
+    </div>
+    </form>
+    
+    </div>
+    <div class="col-md-12 col-sm-12 col-xs-12 monthly-plan" id="monthly-div">
+    
+    <div class="col-md-12 col-sm-12 col-xs-12 form-group">
+    <div class="col-md-2 col-sm-2 col-xs-12">Months</div>
+    <div class="col-md-10 col-sm-10 col-xs-12 custom-width-mockup-select-multiple">
+                <select id="" class="selectpicker form-control" multiple > 
+                <option class="select-all-option">Select All Months</option>               
+                <option>January</option>
+                <option>February</option>
+                <option>March</option>
+                <option>April</option>
+                <option>May</option>
+                <option>June</option>
+                <option>July</option>
+                <option>August</option>
+                <option>September</option>
+                <option>October</option>
+                <option>November</option>
+                <option>December</option>
+                </select>
+            </div>
+    </div>
+    
+    
+    <div class="col-md-12 col-sm-12 col-xs-12 form-group">
+    <div class="col-md-2 col-sm-2 col-xs-12"><input type="radio" value=""> Days</div>
+    <div class="col-md-10 col-sm-10 col-xs-12 day-input-box pos-rel">
+    <span class="arrow-down-day"><i class="glyphicon glyphicon-triangle-bottom"></i></span>
+    <input type="text" class="form-control day-select-option" value="">
+      
+    <div class="day-list-box">
+    <ul>
+    <li class="active"><a href="javascript:void();">1</a></li>
+    <li class="active"><a href="javascript:void();">2</a></li>
+    <li class="active"><a href="javascript:void();">3</a></li>
+    <li><a href="javascript:void();">4</a></li>
+    <li><a href="javascript:void();">5</a></li>
+    <li><a href="javascript:void();">6</a></li>
+    <li><a href="javascript:void();">7</a></li>
+    <li><a class="active" href="javascript:void();">8</a></li>
+    <li><a href="javascript:void();">9</a></li>
+    <li><a href="javascript:void();">10</a></li>
+    <li><a href="javascript:void();">11</a></li>
+    <li><a href="javascript:void();">12</a></li>
+    <li><a href="javascript:void();">13</a></li>
+    <li><a href="javascript:void();">14</a></li>
+    <li><a class="active" href="javascript:void();">15</a></li>
+    <li><a href="javascript:void();">16</a></li>
+    <li><a href="javascript:void();">17</a></li>
+    <li class="active"><a href="javascript:void();">18</a></li>
+    <li><a href="javascript:void();">19</a></li>
+    <li><a href="javascript:void();">20</a></li>
+    <li><a href="javascript:void();">21</a></li>
+    <li><a class="active" href="javascript:void();">22</a></li>
+    <li><a href="javascript:void();">23</a></li>
+    <li><a href="javascript:void();">24</a></li>
+    <li><a href="javascript:void();">25</a></li>
+    <li><a href="javascript:void();">26</a></li>
+    <li><a href="javascript:void();">27</a></li>
+    <li><a href="javascript:void();">28</a></li>
+    <li><a href="javascript:void();">29</a></li>
+    <li><a href="javascript:void();">30</a></li>
+    <li><a href="javascript:void();">31</a></li>
+    <li><a href="javascript:void();">Last</a></li>
+    </ul>
+    </div>
+    
+    </div>
+    </div>
+    
+    <div class="col-md-12 col-sm-12 col-xs-12">
+    <div class="col-md-2 col-sm-2 col-xs-12"><input type="radio" value=""> On</div>
+    <div class="col-md-10 col-sm-10 col-xs-12">
+    <div class="col-md-6 col-sm-6 col-xs-12 custom-width-mockup-select-multiple">
+    <select id="" class="selectpicker form-control" multiple >              
+        <option>First</option>
+        <option>Second</option>
+        <option>Third</option>
+        <option>Fourth</option>
+        <option>Last</option>
+    </select>
+    </div>
+    <div class="col-md-6 col-sm-6 col-xs-12 custom-width-mockup-select-multiple padding-left-15px">
+    <select id="" class="selectpicker form-control" multiple >
+    <option class="select-all-option">Select All</option>              
+        <option>Sunday</option>
+        <option>Monday</option>
+        <option>Tuesday</option>
+        <option>Wednesday</option>
+        <option>Thursday</option>
+        <option>Friday</option>
+        <option>Saturday</option>
+    </select>
+    </div>
+    </div>
+    </div>
+    
+    
+    </div>
+    
+    </div>
+    
+    <div class="col-md-12 col-sm-12 col-xs-12 range-of-recurrence">
+    
+    <div class="col-md-12 col-sm-12 col-xs-12 form-group booksession-font">Range of Recurrence</div>
+    <form action="">
+    <div class="col-md-12 col-sm-12 col-xs-12 form-group">
+    <div class="col-md-2 col-sm-4 col-xs-12">Start</div>
+    <div class="col-md-6 col-sm-6 col-xs-12"><input type="text" class="form-control"></div>
+    </div>
+    
+    
+    <div class="col-md-12 col-sm-12 col-xs-12 form-group">
+    <div class="col-md-2 col-sm-4 col-xs-12"><input type="radio" value=""> End After</div>
+    <div class="col-md-6 col-sm-6 col-xs-12 occurrences"><span class="input-field"><input type="text" class="form-control"></span> Occurrences</div>
+    </div>
+    
+    
+    <div class="col-md-12 col-sm-12 col-xs-12">
+    <div class="col-md-2 col-sm-4 col-xs-12"><input type="radio" value=""> End By</div>
+    <div class="col-md-6 col-sm-6 col-xs-12"><input type="text" class="form-control"></div>
+    </div>
+    </form>
+    
+    </div>
+    
+    </div>
+    
+    </div>
+  
+  </div>
+  </div>
+  <!-- Recurrence Page  End-->
+  
+       
+        
+        
+       
+          
+          
+          
+         <div class="col-md-12 col-sm-12 col-xs-12 row book-tuition-margin"><a class="btn btn-default btn-book-tuition" href="#">Book Tuition</a></div>  
+        </div>
+        
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Footer start-->
+<div class="col-md-12 footer-container mobile-in-hide">
+  <footer class="container">
+    <div class="col-md-2 col-sm-4 col-xs-6">
+      <label class="control-label">Learn With Us</label>
+      <a href="adv_tutor_search.php">Search for a Tutor</a> <a href="findmeatutor.php?new_session_type=tutorTravelStudent">Find me a Tutor</a>
+      <label class="connect-with-us">Connect With Us</label>
+      <div class="social-links"> <a target="_blank" href="https://www.facebook.com/EduwizardsIndiaTutoring"><i class="icon1-facebook"></i></a> <a href="javascript:void();"><i class="icon1-linkedin"></i></a> <a href="javascript:void();"><i class="icon1-youtube"></i></a> <a target="_blank" href="https://twitter.com/EduwizardsIndia"><i class="icon1-twitter"></i></a> </div>
+    </div>
+    <div class="col-md-2 col-sm-4 col-xs-6">
+      <label class="control-label">Get To Know Us</label>
+      <a href="about-us.php">About Us</a> <a href="contact-us.php">Contact Us</a> <a href="#">Our Team</a> <a href="reviews_testimonials.php">Reviews and Testimonials</a> <a href="termsandconditions.php?event=TutorHiringSafetyTips">Safety</a> </div>
+    <div class="col-md-2 col-sm-4 col-xs-6">
+      <label class="control-label">Tutors By Location</label>
+      <a href="search.php?city_name=Delhi&amp;city_id=252&amp;FormSubmiteed=1">Tutors In Delhi</a> <a href="search.php?city_name=Gurgaon&amp;city_id=413&amp;FormSubmiteed=1">Tutors In Gurgaon</a> <a href="search.php?city_name=Noida&amp;city_id=1286&amp;FormSubmiteed=1">Tutors In Noida</a> <a href="search.php?city_name=Faridabad&amp;city_id=408&amp;FormSubmiteed=1">Tutors In Faridabad</a> <a href="search.php?city_name=Ghaziabad&amp;city_id=1227&amp;FormSubmiteed=1">Tutors In Ghaziabad</a> <a href="tutor_all_cities.php?left_flag=1&amp;event=cityTutorCount">More ..</a> </div>
+    <div class="col-md-2 col-sm-4 col-xs-6">
+      <label class="control-label">Tutors By Subjects</label>
+      <a href="search.php?course_name=Mathematics&amp;FormSubmiteed=1">Tutors In Mathematics</a> <a href="search.php?course_name=Science&amp;FormSubmiteed=1">Tutors In Science</a> <a href="search.php?course_name=English&amp;FormSubmiteed=1">Tutors In English</a> <a href="search.php?course_name=Statistics&amp;FormSubmiteed=1">Tutors In Statistics</a> <a href="search.php?course_name=Test Preparation&amp;FormSubmiteed=1">Tutors In Test Preparation</a> <a href="tutor_all_subjects.php?left_flag=1&amp;event=subjectTutorCount">More ..</a> </div>
+    <div class="col-md-4 col-sm-8 col-xs-12 need-help text-center">
+      <h3 class="">Need Help?</h3>
+      <div class="col-md-12 col-xs-12"> Call us at <a href="#">1800-3010-5555</a> </div>
+      <div class="col-md-12 col-xs-12">or email us at:</div>
+      <div class="col-md-12 col-xs-12">
+        <label class="col-md-4 col-xs-5 text-right">Students:</label>
+        <div class="col-md-8 col-xs-7 text-left"><a href="mailto:student@eduwizards.com">student@eduwizards.com</a></div>
+      </div>
+      <div class="col-md-12 col-xs-12">
+        <label class="col-md-4 col-xs-5 text-right">Tutors:</label>
+        <div class="col-md-8 col-xs-7 text-left"><a href="mailto:itutor@eduwizards.com">itutor@eduwizards.com</a></div>
+      </div>
+      <div class="col-md-12 col-xs-12">
+        <label class="col-md-4 col-xs-5 text-right">New Tutors:</label>
+        <div class="col-md-8 col-xs-7 text-left"><a href="mailto:apply@eduwizards.com">apply@eduwizards.com</a></div>
+      </div>
+    </div>
+  </footer>
+</div>
+
+
+<div class="footer-container iphone-needhelp">
+<footer>
+    <div class="col-md-4 col-sm-8 col-xs-12 need-help text-center">
+      <h3 class="">Need Help?</h3>
+      <div class="col-md-12 col-xs-12"> Call us at <a href="#">1800-3010-5555</a> </div>
+      <div class="col-md-12 col-xs-12">or email us at:</div>
+      <div class="col-md-12 col-xs-12">
+        <label class="col-md-4 col-xs-5 text-right">Students:</label>
+        <div class="col-md-8 col-xs-7 text-left"><a href="mailto:student@eduwizards.com">student@eduwizards.com</a></div>
+      </div>
+      <div class="col-md-12 col-xs-12">
+        <label class="col-md-4 col-xs-5 text-right">Tutors:</label>
+        <div class="col-md-8 col-xs-7 text-left"><a href="mailto:itutor@eduwizards.com">itutor@eduwizards.com</a></div>
+      </div>
+      <div class="col-md-12 col-xs-12">
+        <label class="col-md-4 col-xs-5 text-right">New Tutors:</label>
+        <div class="col-md-8 col-xs-7 text-left"><a href="mailto:apply@eduwizards.com">apply@eduwizards.com</a></div>
+      </div>
+    </div>
+    </footer>
+ </div>   
+<div class="footer-iphone HelveticaNeue-Light">
+  <ul>
+    <li class="has-sub"> <a class="uper-c" href="#"><span>Tutors By Location</span></a>
+      <ul>
+        <li><a href="#">Tutors In Delhi</a></li>
+        <li><a href="#">Tutors In Gurgaon</a></li>
+        <li><a href="#">Tutors In Noida</a></li>
+        <li><a href="#">Tutors In Faridabad</a></li>
+        <li> <a href="#">Tutors In Ghaziabad</a></li>
+      </ul>
+    </li>
+    <li class="has-sub"><a class="uper-c" href="#"><span>Tutors By Subjects</span></a>
+      <ul>
+        <li> <a href="#">Tutors In Mathematics</a> </li>
+        <li> <a href="#">Tutors In Science</a> </li>
+        <li> <a href="#">Tutors In English</a> </li>
+        <li> <a href="#">Tutors In Statistics</a> </li>
+        <li> <a href="#">Tutors In Test Preparation</a> </li>
+        <li><a href="#">More ..</a></li>
+      </ul>
+    </li>
+    <li class="has-sub"><a class="uper-c" href="#"><span>GET TO KNOW US</span></a>
+      <ul>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="javascript:void();">Our Team</a></li>
+        <li><a href="#">Reviews and Testimonials</a></li>
+        <li><a href="#">Safety</a></li>
+      </ul>
+    </li>
+    <li class="has-sub "><a class="uper-c" href="#"><span>Learn With Us</span></a> 
+      
+      <!-- student Session show this link start -->
+      <ul>
+        <li><a href="#">Search for a Tutor</a></li>
+        <li><a href="#">Find me a Tutor</a></li>
+      </ul>
+      <!-- student Session show this link ends --> 
+    </li>
+  </ul>
+</div>
+
+
+<div class="copyright col-md-12 col-xs-12 col-sm-12">
+  <div class="col-md-6 col-xs-12 col-sm-6">&copy; 2015 Eduwizards All Rights Reserved</div>
+  <div class="col-md-6 col-xs-12 col-sm-6 pull-right text-right"><a href="termsandconditions.php?event=TermsOfUse">Terms of Use</a> | <a href="privacy.php">Privacy Policy</a></div>
+</div>
+<!-- Footer ends-->
+
+ <!-- Modal box start -->
+ 
+
+    <div id="myModal" class="modal fade book-tuition-modal-box">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Book Tuition on date 20 June 2015 to 23 June 2015</h4>
+                </div>
+                <div class="modal-body">
+                <div class="col-md-12 col-sm-12 col-xs-12 form-group pad-zero">
+                	<div class="col-md-6 col-sm-6 col-xs-12 pad-right-ten">
+                    	<div class="divider-lists"></div>
+                    	<div class="note-red col-md-12 col-sm-12 col-xs-12 form-group">Tutor is not available on below dates.</div>
+                        <div class="scroll-new">
+                            <span class="col-md-12 col-sm-12 col-xs-12">25 Aug 2015, 9:11 AM IST</span>
+                            <span class="col-md-12 col-sm-12 col-xs-12">1 Nov 2015, 4:15 AM IST</span>
+                            <span class="col-md-12 col-sm-12 col-xs-12">16 Jan 2016, 6:00 PM IST</span>
+                            <span class="col-md-12 col-sm-12 col-xs-12">25 Aug 2015, 9:11 AM IST</span>
+                            <span class="col-md-12 col-sm-12 col-xs-12">1 Nov 2015, 4:15 AM IST</span>
+                            <span class="col-md-12 col-sm-12 col-xs-12">16 Jan 2016, 6:00 PM IST</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12 pad-left-ten">
+                    	<div class="note-normal col-md-12 col-sm-12 col-xs-12 form-group">Tutor is available on below dates.</div>
+                        <div class="scroll-new">
+                            <span class="col-md-12 col-sm-12 col-xs-12">25 Aug 2015, 9:11 AM IST</span>
+                            <span class="col-md-12 col-sm-12 col-xs-12">1 Nov 2015, 4:15 AM IST</span>
+                            <span class="col-md-12 col-sm-12 col-xs-12">16 Jan 2016, 6:00 PM IST</span>
+                            <span class="col-md-12 col-sm-12 col-xs-12">25 Aug 2015, 9:11 AM IST</span>
+                            <span class="col-md-12 col-sm-12 col-xs-12">1 Nov 2015, 4:15 AM IST</span>
+                            <span class="col-md-12 col-sm-12 col-xs-12">16 Jan 2016, 6:00 PM IST</span>
+                        </div>
+                    </div>
+                    	 
+                </div>
+                <div class="col-md-12 col-sm-12 col-xs-12 note-grey">Tuition Session(s) will be booked only for times at which tutor is available.</div>
+                  
+                    
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-grey" data-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-book-tuition">Book Tuition</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+ <!-- Modal box ends -->
+
+<!-- JS library start --> 
+<script src="js/jquery-1.11.js"></script> 
+<script src="js/bootstrap.js"></script> 
+<script src="js/bootstrap_calendar.js"></script>
+<script src="js/bootstrap.file-input.js"></script> 
+<script src="js/footer-iphone.js"></script>
+<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="js/jquery.bootstrap.wizard.js"></script>
+<script src="js/bootstrap-select.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	
+		$("#myModal").modal('show');
+	
+});
+
+
+
+
+
+
+<!-- JS recurrence start --> 
+$('.recurrence-header').click(function(){
+  $('.recurrence-container').slideToggle('fast');
+  $('a.reset').hide('fast');
+  $("i",this).toggleClass("glyphicon-menu-up glyphicon-menu-down");
+});
+
+
+$(document).ready(function () {  
+$('#daily-div').show();                          
+    $("#daily").click(function () {
+            $('#daily-div').show();
+			$('#monthly-div').hide();
+			$('#weekly-div').hide();
+    });
+	$("#weekly").click(function () {
+            $('#weekly-div').show();
+			$('#daily-div').hide();
+			$('#monthly-div').hide(); 
+    }); 
+	$("#monthly").click(function () {
+            $('#monthly-div').show();
+			$('#weekly-div').hide();
+			$('#daily-div').hide();
+    });         
+});
+
+ $('.day-select-option').click(function(event){
+       $('.day-list-box').slideToggle(); 
+     event.stopPropagation();
+ });
+
+
+
+
+$('.day-list-box ul li a').click(function(){
+ $(".day-list-box ul li:checked").addClass("active");
+});
+
+
+<!-- JS recurrence End --> 
+
+
+
+
+
+$(document).ready(function(){
+	
+	var AddNewNumber = jQuery('#AddNewNumber');
+var select = this.value;
+AddNewNumber.change(function () {
+    if ($(this).val() == 'add-new-number-show') {
+        $('#add-new-number-show').show();
+    }
+    else $('#add-new-number-show').hide();
+});
+});
+
+<!-- JS Tooltip start -->
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip({
+        placement : 'top'
+    });
+});
+<!-- JS Tooltip end -->
+    </script> 
+
+    
+    
+<script type="text/javascript">
+			$(document).ready( function(){
+				theMonths = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+				theDays = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+
+				$('.calendar-book-session').calendar({
+					months: theMonths,
+					days: theDays,
+					req_ajax: {
+						type: 'get'
+					}
+				});
+			});
+		</script>
+<script>
+$(document).ready(function(){
+	$("#datetimepicker1").click(function(){
+		$(".date-time-show").toggle();
+		$("#datetimepicker1").hide();
+	});
+});
+//Notification Scroller Plugin Js
+(function($){
+	$(window).load(function(){
+		$(".top-notification-scroll").mCustomScrollbar();
+	});
+})(jQuery);
+</script>
+<script>
+Selectpicker.DEFAULTS = {
+noneSelectedText: 'Nothing selected',
+noneResultsText: 'No results matched {0}'
+}
+</script>
+<!-- JS library ends -->
+</body>
+</html>

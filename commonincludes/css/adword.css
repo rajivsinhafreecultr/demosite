@@ -1,0 +1,224 @@
+.findmetutor-adword{padding:10px 10px;}
+.findmetutor-adword .tutoring-type{margin-bottom:10px; padding:5px 10px 0; background:#faf9f7; border:1px solid #ccc;}
+.findmetutor-adword .tutoring-type input[type="radio"], .findmetutor-adword .tutoring-type input[type="checkbox"]{vertical-align:top;}
+.findmetutor-adword .tutoring-type .inputfield-area{padding-left:0;}
+.findmetutor-adword .tutoring-type .inputfield-area div{padding:0; margin-right:10px;}
+.findmetutor-adword  .find-me-tutor-row{padding:0;}
+.findmetutor-adword  .find-me-tutor-row div:nth-child(2) label{padding-left:0!important;}
+.findmetutor-adword.rat-container label{padding-left:0;}
+.findmetutor-adword .attachment-list-fmt .bootstrap-filestyle .group-span-filestyle{width:38%;}
+.findmetutor-adword .pad-zero{padding:0;}
+.findmetutor-adword .btn.btn-book-tuition, .btn.btn-book-free-tuition{margin-top:0!important;}
+.findmetutor-adword .new-chkbox input[type="radio"], .findmetutor-adword .new-chkbox  input[type="checkbox"]{margin-top:2px;}
+
+
+/*********************Search list css by rajeev sinha ************************/
+#results{padding-left:0; padding-right:0;}
+h4.page-heading{font-size:23px;}
+.adwords-container h4.page-heading{border-bottom:none!important;}
+.main-nav{display:none;}
+.sort-by-adword{padding:5px 0;}
+.adword-tutor-lists .student-about-tutor{padding:0; margin-top:34px;}
+.border-bottom-div{border-bottom:solid 1px #ccc; width:100%; float:left; height:10px;}
+.tagline{background:#f9f9f9; padding:20px; margin:0 0 20px 0;}
+.tagline h6{font-size:30px;}
+.tagline span{font-size:17px;}
+
+
+.findmetutor-adword .attachment-list-fmt .bootstrap-filestyle input[type="text"]{width:193px;}
+.findmetutor-adword  .attachment-list-fmt.custom-input-file .add-more-input-file{right:0; margin-right:0;}
+.findmetutor-adword  .find-me-tutor-row .case-sen{display:block;}
+.findmetutor-adword img#capchaImage{height:34px;}
+.findmetutor-adword .btn-apply-coupon #apply_coupon{width:100%;}
+
+.article-content{background:#f9f9f9; /*border-top:1px solid #ccc; border-bottom:1px solid #ccc;*/}
+
+.fmt-carousel-heading{color:#eb8000; padding:0; font-size:23px; }
+
+/* carousel For FMT Page Start */
+.see-all-tutors{margin:0 0 20px; text-align:center;}
+.see-all-tutors a{font-size:16px;}
+.carousel-fmt-container{border:1px solid #ccc; margin:15px 0 15px; padding:0;}
+.fmt-carousel #carousel-example-generic1{}
+.fmt-carousel .carousel-caption{ color:#000; position:static; text-shadow:none; text-align:left; padding:0;}
+.fmt-carousel .carousel-control{background:none; height:20px; width:20px; opacity:1; padding:2px; top:44%;}
+.fmt-carousel .carousel-control .glyphicon-chevron-left, .fmt-carousel .carousel-control .glyphicon-chevron-right, .fmt-carousel .carousel-control .icon-prev, .testimonial-carousel .carousel-control .icon-next{font-size:23px; width:inherit; height:inherit; position:absolute; margin:inherit; right:-23px; top:2px; text-shadow:none; color:#000;}
+.fmt-carousel .carousel-control.left{left:-23px;}
+.fmt-carousel .carousel-control .icon-prev, .carousel-control .glyphicon-chevron-left{left:1px;}
+.fmt-carousel .testimonial-carousel-content{margin:10px 0;}
+.fmt-tutor-profile{border-right:1px solid #ccc; padding:15px 0;}
+.fmt-tutor-profile.last-child{border-right:none;}
+.fmt-tutor-profile .tutor-profile-view-pic{width:130px;}
+.fmt-tutor-profile .tutor-profile-view-pic img{float:left; width:100%;}
+.fmt-tutor-profile .tutor-profile-view-pic span{background:#00abe6;box-sizing:border-box;color:#fff;float:left;padding:2px 10px;text-align:center;
+width:100px; font-size:18px;}
+.fmt-tutor-profile .tutor-profile-view-pic span i{display:block; font-size:14px; font-style:normal;}
+.fmt-tutor-profile .tutor-area-address{padding:0;}
+.fmt-tutor-profile .tutor-area-address div{padding:0;}
+.fmt-tutor-profile .tutor-pro-view-name{font-size:18px; color:#eb8000; text-transform:capitalize; line-height:16px;}
+.fmt-tutor-profile .tutor-pro-view-street{margin:5px 0; height:20px;}
+.fmt-tutor-profile .tutor-pro-view-street i.icon1-home-tutoring{background-position:-7px -6px;height:20px;width:25px;vertical-align:sub;}
+.fmt-tutor-profile .tutor-pro-view-street i.icon1-online-tutoring{background-position:-7px -34px;height:20px; width:25px;vertical-align:sub;}
+.fmt-tutor-profile .tutor-pro-view-street i.icon1-student-visit-tutor{background-position:-7px -64px;height:20px; width:25px;vertical-align:sub;}
+.fmt-tutor-profile .tutor-pro-view-rating{margin:3px 0;}
+.fmt-tutor-profile .tutor-pro-view-rating i.icon1-star{background-position:-10px -157px;height:20px; width:25px;vertical-align:bottom;}
+.fmt-tutor-profile .tutor-pro-view-subjects{bottom:-41px;position:absolute;}
+
+/* carousel For FMT Page end */
+.list-box .profile-desc{padding-left:25px;}
+.list-actions.col-md-2{padding-left:0;}
+.inside-height-visitors h4.page-heading{padding-top:5px;}
+.navbar-inner .container{padding:0;}
+.bordertop-top{border-top:1px solid #ccc; height:1px; width:100%;}  
+.sort-by-best-match{display:none;}
+.filters .sort-by{width:26%;}
+
+.tutor-pro-view-rating i.icon1-star{background-position: -9px -154px!important; width:20px; height:23px !important; vertical-align:text-bottom;}
+.tutor-pro-view-rating a span{color:#606365;}
+
+.fmt-adword-email-verify .wrong{color:#eb8000;display:none;font-size:22px;position:absolute;right:5px;
+top:3px;}
+.fmt-adword-email-verify .email-check{background:#fff;color:#0084ca !important;
+left:3%;padding:0 5px;position:absolute;top:23%;width:80%;}
+.fmt-adword-email-verify .right{color:#8dc644;display:none;font-size:22px;position:absolute;right: 10px;top:3px;
+}
+
+
+/*********Adwords start ****************/
+#adword-register .modal-dialog{width:510px;}
+#adword-register .modal-mody{width:100%;}
+#adword-register .signup-adword{width:270px; margin:0 auto; float:none; padding:0;}
+#adword-register .signup-adword img.img-responsive{display:inline-block; margin:10px 0;}
+#adword-register .signup-adword div{padding:0;}
+#adword-register .divider-or{border-bottom:1px solid #f3f3f3; position:relative; width:100%; float:left; margin:20px 0 30px 0;}
+#adword-register .divider-or em{background:#cacaca; border:1px solid #d2d2d2; border-radius:27px; color:#717171; display:inline-block; font-style:normal; padding:10px; position:absolute; left:45%; text-shadow:0 0 0 #000; top:-21px; z-index:9;}
+#adword-register .fill-form{font-weight:bold; margin:10px 0; display:block;}
+#adword-register .margin-bottom10{margin-bottom:10px;}
+#adword-register input[type="text"]{letter-spacing:0px;}
+#adword-register #capchaImage{margin-right:10px;}
+#adword-register label{margin-right:10px;}
+#adword-register .btn-default{margin:0; font-size:19px; padding:10px 20px; border:2px solid #77aa2b; border-radius:3px; moz-border-radius:3px;}
+#adword-register .already-account{border-top:solid 1px #ccc; padding:10px 0!important; margin-top:15px;}
+/*********Adwords ends ****************/
+
+
+
+
+@media (max-width: 991px){
+.list-actions.col-md-2{padding-right:0;}
+.findmetutor-adword  .find-me-tutor-row{padding:0;}
+.findmetutor-adword  .find-me-tutor-row label{padding:0;}
+.findmetutor-adword  .attachment-list-fmt.custom-input-file .add-more-input-file{right:0; margin-right:0;}
+.findmetutor-adword .attachment-list-fmt .bootstrap-filestyle input[type="text"]{width:186px;}
+.findmetutor-adword  .find-me-tutor-row .case-sen{display:inline-block; margin-left:5px;}
+.findmetutor-adword .tutoring-type .inputfield-area{padding:0;}
+.findmetutor-adword .tutoring-type .inputfield-area div{padding:0; margin-right:0px;}
+.findmetutor-adword .attachment-list-fmt .bootstrap-filestyle .group-span-filestyle{width:37%;}
+.fmt-tutor-profile.ipad-last-child{border-right:none;}
+.fmt-tutor-profile.last-child{display:none;}
+
+.fmt-carousel .carousel-control{background:#ccc; width:22px; height:23px;}
+.fmt-carousel .carousel-control.left{left:-9px;}
+.fmt-carousel .carousel-control .glyphicon-chevron-left, .fmt-carousel .carousel-control .glyphicon-chevron-right, .fmt-carousel .carousel-control .icon-prev, .testimonial-carousel .carousel-control .icon-next{right:-1px; font-size:14px; top:4px;}
+.carousel-control.right{right:-7px;}
+.findmetutor-adword input[type="radio"], .findmetutor-adword  input[type="checkbox"]{margin:0;}
+.article-content .business-world{width:39%;}
+.article-content .financial-express .img-responsive{max-width:inherit;}
+.list-box .profile-desc{padding-left:0;}
+.about-us-content{padding-left:0;}
+}
+
+
+@media (min-width:1023px) and (max-width:1024px){
+.list-actions.col-md-2{padding-right:0!important; padding-left:0!important;}
+.findmetutor-adword input[type="radio"], .findmetutor-adword  input[type="checkbox"]{margin:0;}
+.findmetutor-adword .attachment-list-fmt .bootstrap-filestyle input[type="text"]{width:61%;}
+.fmt-carousel .carousel-control{background:#ccc; width:22px; height:23px;}
+.fmt-carousel .carousel-control.left{left:-9px;}
+.fmt-carousel .carousel-control .glyphicon-chevron-left, .fmt-carousel .carousel-control .glyphicon-chevron-right, .fmt-carousel .carousel-control .icon-prev, .testimonial-carousel .carousel-control .icon-next{right:-1px; font-size:14px; top:4px;}
+.carousel-control.right{right:-7px;}
+.fmt-tutor-profile .tutor-pro-view-rating{margin:0;}
+.fmt-tutor-profile .tutor-pro-view-street{margin:2px 0;}
+.fmt-tutor-profile .tutor-pro-view-subjects{bottom:-42px;}
+.list-box .profile-desc{padding-left:30px;}
+.about-us-content{padding-left:0;}
+.list-actions span a i{width:30px;}
+.profile-desc label:nth-child(6){padding-bottom:5px;overflow:hidden; padding-bottom:0!important; margin-bottom:0;}/*height:57px!important;*/
+/*.profile-desc .profile-offers{bottom:-29px!important}*/
+
+.sort-by label{padding-right:5px !important; margin-right:0; text-align:right; font-size:14px; padding-top:3px!important;}/*24/6/2015*/
+.sort-by select{padding:5px; height:28px; width:130px;}/*24/6/2015*/
+.filters .sort-by{width:30%;}/*24/6/2015*/
+}
+@media (min-width:767px) and (max-width:768px){
+.profile-desc label:nth-child(6){padding-bottom:5px;overflow:hidden; padding-bottom:0!important}/*height:57px!important;*/
+/*.profile-desc .profile-offers{bottom:-29px!important}*/
+.sort-by label{padding-right:5px !important; margin-right:0; text-align:right; font-size:14px; padding-top:3px!important;}/*24/6/2015*/
+.sort-by select{padding:5px; height:28px; width:130px;}/*24/6/2015*/
+.filters .sort-by{width:28%;}/*24/6/2015*/
+}
+
+@media (min-width:280px) and (max-width:767px){
+.legends.text-right{margin-top:0;}
+.legends-for-tutor-list{margin-top:0!important;}
+.tagline{padding:10px;}
+.tutor-list-mobile-view{text-align:left;}
+.sort-by-best-match{display:inline-block;}
+.adword-search{padding-left:10px !important; padding-right:10px !important;}
+.container-homepage1 .search-panel-container{margin-top:0!important;}
+.bordertop-top{margin-bottom:15px;}
+.list-box .profile-desc{padding-left:0;}
+.about-us-content{padding-left:0;}
+.findmetutor-adword .attachment-list-fmt .bootstrap-filestyle .group-span-filestyle{width:38%!important;}
+.tagline h6{font-size:19px;}
+.container-visitor-inner h4.page-heading{font-size:19px;}
+.adwords-container{padding:15px 10px 0 !important;}
+.main-nav{display:block!important;}
+.pad-rgt-60 h3,
+.or-divider{display:none;}
+.our-staff-text h3{font-size:15px;}
+
+.article-content .business-world{width:100%;}
+.findmetutor-adword .captcha-code-width{width:144px;}
+.findmetutor-adword  .captcha-image-width{width:120px;}
+.findmetutor-adword .coupon-code-width{width:58%;}
+.findmetutor-adword.container-visitor-inner, .container-visitor-inner div.col-md-8.col-sm-12.col-xs-12{padding:0;}
+.findmetutor-adword .custom-width-input-file{width:100%!important;}
+.findmetutor-adword .attachment-list-fmt.custom-input-file .add-more-input-file{width:auto; padding-top: 10px !important;}
+.fmt-carousel-heading{font-size:19px; line-height:18px;}
+
+
+.fmt-tutor-profile.last-child{display:block;}
+.fmt-tutor-profile{border-right:none; border-bottom:1px solid #ccc;}
+.fmt-tutor-profile.last-child{border-bottom:none;}
+.fmt-tutor-profile .tutor-pro-view-subjects{bottom:-66px;}
+
+.fmt-carousel .carousel-control{display:none;}
+.findmetutor-adword .attachment-list-fmt .bootstrap-filestyle input[type="text"]{width:61%;}
+.padding-zero-new{padding:0 !important;}
+.padtopzero{padding-top:0 !important;}
+
+/*********Adwords start ****************/
+#adword-register .modal-dialog{width:95%;}
+/*********Adwords ends ****************/
+
+
+}
+@media (min-width:280px) and (max-width:360px){
+.fmt-tutor-profile .tutor-area-address{width:54%;}
+.fmt-tutor-profile .tutor-pro-view-subjects{height:20px; overflow:hidden; bottom:-25px;}
+}
+@media (min-width:361px) and (max-width:375px){
+.fmt-tutor-profile .tutor-pro-view-subjects{bottom:-46px;}
+}
+
+@media (max-width: 667px) and (min-width: 639px){
+.attachment-list-fmt.custom-input-file .bootstrap-filestyle{width:100%;}
+.attachment-list-fmt.custom-input-file .add-more-input-file{right:0px!important;}
+.attachment-list-fmt .bootstrap-filestyle input[type="text"]{width:75%!important;}
+#attach_file .attachment-list-fmt .bootstrap-filestyle .group-span-filestyle{width:22%!important;}
+
+}
+
+
+

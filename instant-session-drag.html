@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js sidebar-large lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]><html class="no-js sidebar-large lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]><html class="no-js sidebar-large lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html>
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>.:: SAMPLE ::.</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- css library start -->
+<link href="commonincludes/css/bootstrap.css" rel="stylesheet">
+<link href="commonincludes/css/bootstrap-theme.css" rel="stylesheet">
+<link href="commonincludes/css/bootstrap_calendar.css" rel="stylesheet">
+<link href="commonincludes/css/font-awesome.css" rel="stylesheet">
+<link href="commonincludes/css/font-awesome-ie7.css" rel="stylesheet">
+<link href="commonincludes/css/custom.css" rel="stylesheet">
+<link href="commonincludes/css/slideshow.css" rel="stylesheet">
+<link href="commonincludes/css/jcarousel.responsive.css" rel="stylesheet">
+<link href="commonincludes/css/responsive-visitor.css" rel="stylesheet">
+<link href="commonincludes/css/custom-icons.css" rel="stylesheet">
+<link href="commonincludes/css/jquery.mCustomScrollbar.css" rel="stylesheet">
+<!-- css library ends -->
+</head>
+
+<body>
+<!--mobile links start-->
+<div class="topheader-mobile">
+<a href="javascript:void();" class="become-student pull-left">Sign&nbsp;Up</a>
+<span class="signup-tooltip" style="display: none;">
+	<i class="node-top-lft"></i>
+	<a href="student-registration.php" class="become-student">Become a Student</a>
+    <a href="tutor-registration.php" class="become-student">Become A Tutor</a>
+</span>
+
+<a href="javascript:void();" class="call-talk pull-right">Login</a>
+<span class="login-tooltip zindexnew" style="display: none;">
+	<i class="node-top-rgt"></i>
+	<a href="signin.php?type=1" class="login-student">Student Login</a>
+    <a href="signin.php?type=2" class="login-tutor">Tutor Login</a>
+</span>
+</div>
+<!--mobile links ends-->
+<!--upper links start-->
+<div class="container container-homepage pad-zero">
+	<!-- header start here -->
+    <nav class="navbar navbar-inverse navbar-fixed-top " role="navigation">
+<div class="navbar-inner"> <!--changes made here-->
+    <div class="container">
+
+        <div class="navbar-header">
+            <a class="navbar-brand logo" href="#" title="">
+                <img src="images/logo.png" alt="" class="img-responsive">
+            </a>
+        </div>
+<input type='hidden' name='show_toggle' id='show_toggle'  value="">
+        <div class="collapse navbar-collapse visitor-top-nav" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="tel:1800-3010-5555"><i class="icon-phone phone-icon-visitor"></i> 1800-3010-5555</a></li>
+                <li><a href="#">Become a Student</a></li>
+                <li><a href="#">Become a Tutor</a></li>
+                <li><a href="#" class="login-visitor">Login</a></li>
+                <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="flag-img"><img src="images/india-flag.png" alt="India"></span>india <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+          <li><a href="#"><span class="flag-img"><img src="images/india-flag.png" alt="India"></span> India</a></li>
+            <li><a href="#"><span class="flag-img"><img src="images/usa-flag.png" alt="India"></span> USA</a></li>
+          </ul>
+        </li>
+            </ul>
+        </div>
+    </div>
+</div>
+</nav>
+    
+    <!--Header Ends here -->
+</div>
+<!--upper links ends-->
+<!--Main links start-->
+<div class="main-nav">
+
+<nav class="navbar navbar-default">
+        <div class="container container-homepage">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Menu</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse pos-rel">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Student <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Search For A Tutor</a></li>
+                  <li><a href="#">Find Me A Tutor</a></li>
+                  <li><a href="#">Login</a></li>
+                  <li><a href="#">Sign Up</a></li>
+                  <li><a href="#">FAQ</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Tutors <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Login</a></li>
+                  <li><a href="#">Sign Up</a></li>
+                  <li><a href="#">FAQ</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">How It Works <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">For Student</a></li>
+                  <li><a href="#">For Tutor</a></li>
+                </ul>
+              </li>
+              <li class="dropdown ipad-on-hide">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Reviews And Testimonials</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact Us <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Students And Parents</a></li>
+                  <li><a href="#">Tutors</a></li>
+                  <li><a href="#">Others</a></li>
+                </ul>
+              </li>
+            </ul>
+            <div class="pull-right"><a href="#" class="tutor-image-reg-bg"></a></div>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>
+
+
+</div>
+<!--Main links ends-->
+<!-- search global start -->
+ <div class="home-search-panel col-md-12 col-sm-12 col-xs-12 pull-left" id="stickyheader1">
+ 	<div class="col-md-12 col-xs-12  container-homepage float-none">
+	 <span class="title-search-home col-md-12 col-sm-12 col-xs-12">Find The Best Teacher for Home And Online Tuition</span>
+		<!-- search bar comes here-->
+        <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+        <div class="col-md-8 col-sm-10 col-xs-12 input-container"><input type="text" class="form-control"></div>
+        </div>
+        <div class="helpyou-new col-md-12 col-sm-12 col-xs-12 text-center"><span>OR Have Our Staff Find A Tutor For You</span> <a  href="findmeatutor.php?new_session_type=tutorTravelStudent" target="_blank" class="btn btn-orange">Post Your Learning Requirement</a> <span class="call-us-tel">OR Call us at <a href="tel:180030105555">1800-3010-5555</a></span></div>
+
+	</div>
+ </div>
+<!-- search global ends --> 
+<!-- Home three text start -->
+ 
+
+<!-- Home three text ends -->
+ 
+<!-- Home three section and right review start --> 
+<div class="container container-homepage inside-height-visitors">
+	
+  <div class="col-md-12 col-sm-12 col-xs-12">
+  <div class="col-md-9 col-sm-12 col-xs-12 about-us-content">
+  <h4 class="page-heading">About Us</h4>
+  <div class="col-md-12 col-sm-12 col-xs-12 info-orange">
+    	With over 100,000 registered students, Eduwizards is the world's favorite tutoring website.<br>
+
+We are launching tutoring for India in April 2015 and are starting with Home Tutoring for Delhi /NCR students only.<br>
+
+In the coming months we will open Home Tutoring option for students in all cities and towns of India.<br>
+
+Online Tutoring, of course, does not depend on student's location and will be available to all students starting April 2015.<br><br>
+    </div> 
+  <div class="col-md-12 col-sm-12 col-xs-12">
+    Eduwizards features India's best home and online tutors, ranked and reviewed by students. We aim to openly identify India's best tutors, and have them constantly prove their excellence by getting top reviews from students.<br><br>
+
+At our website you can view tutor details and select the tutor you want OR our staff can find the right tutor for you!<br><br>
+
+Eduwizards was founded in India in 2007 and is now a multinational corporation, with offices in India and USA.
+<br><br>
+We have been providing online tutoring within the USA (and globally) since 2007. We are now expanding to provide tutoring (both Face-to-face Home Tutoring and Online Tutoring) to students in India.<br><br>
+
+We also provide an excellent opportunity for India's top tutors. There are no charges for tutors to sign up, have their submitted profile approved and be listed as a tutor on our website. We do not charge tutors until they get paid by students for tutoring sessions. Our basic model is to keep a percentage of the tutor's earnings as a "transaction fee."<br><br>
+
+We also have the option of Online Tutoring available for Indian Tutors who have broadband internet with power backup. Tutors who, in addition to these two requirements, have Excellent English with Neutral Accent can also give Online Tutoring directly to USA and other International students and earn in U.S. Dollars.
+</div>
+  </div>
+  
+  <div class="col-md-3 col-sm-12 col-xs-12 student-about-tutor">
+  	<div class="col-md-12 col-sm-12 col-xs-12 about-tutor">What students say about tutors</div>
+    <div class="review-lists">
+    	<span class="tutor-name">Pradeep Kr.</span>
+        <span class="review-txt">Good session.</span>
+        <span class="student-name">- Student Sumit, India</span>
+    </div>
+    <div class="review-lists">
+    	<span class="tutor-name">Pradeep Kr.</span>
+        <span class="review-txt"> It is a long established fact that a reader will be distracted by the readable content of a page whe <a href="#">...</a></span>
+        <span class="student-name">- Student Sumit, India</span>
+    </div>
+    <div class="review-lists">
+    	<a href="#" class="pull-right">More Student Reviews »</a>
+    </div>
+  </div>
+  
+  
+  
+  </div>
+  
+    
+    
+     
+    
+    
+</div>
+<!-- News start -->
+     
+    <!-- News ends -->
+
+<!-- Home three section and right review ends -->
+<!-- Footer start-->
+<div class="col-md-12 footer-container mobile-in-hide">
+  <footer class="container">
+    <div class="col-md-2 col-sm-4 col-xs-6">
+      <label class="control-label">Learn With Us</label>
+      <a href="adv_tutor_search.php">Search for a Tutor</a> <a href="findmeatutor.php?new_session_type=tutorTravelStudent">Find me a Tutor</a>
+      <label class="connect-with-us">Connect With Us</label>
+      <div class="social-links"> <a target="_blank" href="https://www.facebook.com/EduwizardsIndiaTutoring"><i class="icon1-facebook"></i></a> <a href="javascript:void();"><i class="icon1-linkedin"></i></a> <a href="javascript:void();"><i class="icon1-youtube"></i></a> <a target="_blank" href="https://twitter.com/EduwizardsIndia"><i class="icon1-twitter"></i></a> </div>
+    </div>
+    <div class="col-md-2 col-sm-4 col-xs-6">
+      <label class="control-label">Get To Know Us</label>
+      <a href="about-us.php">About Us</a> <a href="contact-us.php">Contact Us</a> <a href="#">Our Team</a> <a href="reviews_testimonials.php">Reviews and Testimonials</a> <a href="termsandconditions.php?event=TutorHiringSafetyTips">Safety</a> </div>
+    <div class="col-md-2 col-sm-4 col-xs-6">
+      <label class="control-label">Tutors By Location</label>
+      <a href="search.php?city_name=Delhi&amp;city_id=252&amp;FormSubmiteed=1">Tutors In Delhi</a> <a href="search.php?city_name=Gurgaon&amp;city_id=413&amp;FormSubmiteed=1">Tutors In Gurgaon</a> <a href="search.php?city_name=Noida&amp;city_id=1286&amp;FormSubmiteed=1">Tutors In Noida</a> <a href="search.php?city_name=Faridabad&amp;city_id=408&amp;FormSubmiteed=1">Tutors In Faridabad</a> <a href="search.php?city_name=Ghaziabad&amp;city_id=1227&amp;FormSubmiteed=1">Tutors In Ghaziabad</a> <a href="tutor_all_cities.php?left_flag=1&amp;event=cityTutorCount">More ..</a> </div>
+    <div class="col-md-2 col-sm-4 col-xs-6">
+      <label class="control-label">Tutors By Subjects</label>
+      <a href="search.php?course_name=Mathematics&amp;FormSubmiteed=1">Tutors In Mathematics</a> <a href="search.php?course_name=Science&amp;FormSubmiteed=1">Tutors In Science</a> <a href="search.php?course_name=English&amp;FormSubmiteed=1">Tutors In English</a> <a href="search.php?course_name=Statistics&amp;FormSubmiteed=1">Tutors In Statistics</a> <a href="search.php?course_name=Test Preparation&amp;FormSubmiteed=1">Tutors In Test Preparation</a> <a href="tutor_all_subjects.php?left_flag=1&amp;event=subjectTutorCount">More ..</a> </div>
+    <div class="col-md-4 col-sm-8 col-xs-12 need-help text-center">
+      <h3 class="">Need Help?</h3>
+      <div class="col-md-12 col-xs-12"> Call us at <a href="#">1800-3010-5555</a> </div>
+      <div class="col-md-12 col-xs-12">or email us at:</div>
+      <div class="col-md-12 col-xs-12">
+        <label class="col-md-4 col-xs-5 text-right">Students:</label>
+        <div class="col-md-8 col-xs-7 text-left"><a href="mailto:student@eduwizards.com">student@eduwizards.com</a></div>
+      </div>
+      <div class="col-md-12 col-xs-12">
+        <label class="col-md-4 col-xs-5 text-right">Tutors:</label>
+        <div class="col-md-8 col-xs-7 text-left"><a href="mailto:itutor@eduwizards.com">itutor@eduwizards.com</a></div>
+      </div>
+      <div class="col-md-12 col-xs-12">
+        <label class="col-md-4 col-xs-5 text-right">New Tutors:</label>
+        <div class="col-md-8 col-xs-7 text-left"><a href="mailto:apply@eduwizards.com">apply@eduwizards.com</a></div>
+      </div>
+    </div>
+  </footer>
+</div>
+
+
+<div class="footer-container iphone-needhelp">
+<footer>
+    <div class="col-md-4 col-sm-8 col-xs-12 need-help text-center">
+      <h3 class="">Need Help?</h3>
+      <div class="col-md-12 col-xs-12"> Call us at <a href="#">1800-3010-5555</a> </div>
+      <div class="col-md-12 col-xs-12">or email us at:</div>
+      <div class="col-md-12 col-xs-12">
+        <label class="col-md-4 col-xs-5 text-right">Students:</label>
+        <div class="col-md-8 col-xs-7 text-left"><a href="mailto:student@eduwizards.com">student@eduwizards.com</a></div>
+      </div>
+      <div class="col-md-12 col-xs-12">
+        <label class="col-md-4 col-xs-5 text-right">Tutors:</label>
+        <div class="col-md-8 col-xs-7 text-left"><a href="mailto:itutor@eduwizards.com">itutor@eduwizards.com</a></div>
+      </div>
+      <div class="col-md-12 col-xs-12">
+        <label class="col-md-4 col-xs-5 text-right">New Tutors:</label>
+        <div class="col-md-8 col-xs-7 text-left"><a href="mailto:apply@eduwizards.com">apply@eduwizards.com</a></div>
+      </div>
+    </div>
+    </footer>
+ </div>   
+<div class="footer-iphone HelveticaNeue-Light">
+  <ul>
+    <li class="has-sub"> <a class="uper-c" href="#"><span>Tutors By Location</span></a>
+      <ul>
+        <li><a href="#">Tutors In Delhi</a></li>
+        <li><a href="#">Tutors In Gurgaon</a></li>
+        <li><a href="#">Tutors In Noida</a></li>
+        <li><a href="#">Tutors In Faridabad</a></li>
+        <li> <a href="#">Tutors In Ghaziabad</a></li>
+      </ul>
+    </li>
+    <li class="has-sub"><a class="uper-c" href="#"><span>Tutors By Subjects</span></a>
+      <ul>
+        <li> <a href="#">Tutors In Mathematics</a> </li>
+        <li> <a href="#">Tutors In Science</a> </li>
+        <li> <a href="#">Tutors In English</a> </li>
+        <li> <a href="#">Tutors In Statistics</a> </li>
+        <li> <a href="#">Tutors In Test Preparation</a> </li>
+        <li><a href="#">More ..</a></li>
+      </ul>
+    </li>
+    <li class="has-sub"><a class="uper-c" href="#"><span>GET TO KNOW US</span></a>
+      <ul>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="javascript:void();">Our Team</a></li>
+        <li><a href="#">Reviews and Testimonials</a></li>
+        <li><a href="#">Safety</a></li>
+      </ul>
+    </li>
+    <li class="has-sub "><a class="uper-c" href="#"><span>Learn With Us</span></a> 
+      
+      <!-- student Session show this link start -->
+      <ul>
+        <li><a href="#">Search for a Tutor</a></li>
+        <li><a href="#">Find me a Tutor</a></li>
+      </ul>
+      <!-- student Session show this link ends --> 
+    </li>
+  </ul>
+</div>
+
+
+<div class="copyright col-md-12 col-xs-12 col-sm-12">
+  <div class="col-md-6 col-xs-12 col-sm-6">&copy; 2015 Eduwizards All Rights Reserved</div>
+  <div class="col-md-6 col-xs-12 col-sm-6 pull-right text-right"><a href="termsandconditions.php?event=TermsOfUse">Terms of Use</a> | <a href="privacy.php">Privacy Policy</a></div>
+</div>
+<!-- Footer ends-->
+
+<!-- new html for drag dialog box start -->
+<div class="drag-box" id="draggable">
+	<h4 class="heading">Instant Session<i class="pull-right icon-large icon-move"></i></h4>
+	<div class="session-data col-md-12 col-sm-12 col-xs-12  padding-zero">
+    	<div class="col-md-2 col-sm-2"><a href="#">Ankit A.</a></div>
+        <div class="col-md-7 col-sm-7">Class X Mathematics</div>
+        <div class="col-md-3 col-sm-3"><a href="#"><i class="icon1-tutor-sms"></i></a><a href="#"><i class="icon1-tutor-msg"></i></a></div>
+    </div>
+    <div class="col-md-12 col-sm-12 col-xs-12 padding-zero">
+    	<div class="col-md-7 col-sm-7 col-xs-12"><div class="countdown styled"></div></div>
+        <div class="col-md-5 col-sm-5 col-xs-12 padding-zero"><a href="#" class="btn btn-default" style="width:64px;">Chat</a><a href="#" class="btn btn-default" style="width:79px;">Join Tutor</a><a href="#" class="btn btn-end-session"></a></div>
+    </div>
+
+</div>
+<!-- new html for drag dialog box ends -->
+<!-- JS library start --> 
+<script src="js/jquery-1.11.js"></script> 
+<script src="js/bootstrap.js"></script> 
+<script src="js/bootstrap_calendar.js"></script>
+<script src="js/bootstrap.file-input.js"></script> 
+<script src="js/footer-iphone.js"></script> 
+<!-- new js for slideshow start-->
+<script defer src="js/jquery.flexslider.js"></script>
+<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<script>
+$(document).ready(function () {
+	if( /Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+   
+    $('.navbar-default .navbar-nav > li.dropdown').click(function () {
+        $('ul.dropdown-menu', this).toggle.slideDown('fast');
+        $(this).addClass('open');
+    }, function () {
+        $('ul.dropdown-menu', this).toggle.slideUp('fast');
+        $(this).removeClass('open');
+    });
+	
+		}
+	
+	else {
+		
+    $('.navbar-default .navbar-nav > li.dropdown').hover(function () {
+        $('ul.dropdown-menu', this).stop(true, true).slideDown('fast');
+        $(this).addClass('open');
+    }, function () {
+        $('ul.dropdown-menu', this).stop(true, true).slideUp('fast');
+        $(this).removeClass('open');
+    });
+		
+		}
+});
+// Can also be used with $(document).ready()
+</script>
+<!-- new js for slideshow ends-->
+<script>
+$('.carousel').carousel(100);
+</script>
+<script> 
+jQuery(document).ready(function($){
+    // Sticky Header
+    if ($('#stickyheader').length) {
+    $(function()
+    {
+        var stickyHeaderTop = $('#stickyheader').offset().top;
+        $(window).scroll(function()
+        {
+            if ($(window).scrollTop() > (stickyHeaderTop -130))
+            {
+                $('#stickyheader').css(
+                {
+                    position: 'fixed',
+                    top: '124px'
+                });
+                $('.admin-bar #stickyheader').css(
+                {
+                    top: '0',
+					
+                });
+            }
+            else
+            {
+                $('#stickyheader').css(
+                {
+                    position: 'relative',
+                    top: '0px',
+                });
+            }
+        });
+    });
+    };
+
+}); 
+
+</script>   
+<!-- JS library ends -->
+
+<!-- js for Drag start-->
+  <script>
+  $(function() {
+	$('#draggable').each(function(){
+    $(this).draggable({
+        containment: $(this).parent().parent()
+    });
+});
+
+  });
+  </script>
+  <!-- js for Drag ends-->
+
+<script defer src="js/jquery.countdown.js"></script>
+<script type="text/javascript">
+      $(function() {
+        var endDate = "July 22, 2015 17:30:00";
+
+        
+
+        $('.countdown.styled').countdown({
+          date: endDate,
+          render: function(data) {
+            $(this.el).html("<div class='timezone'>" + this.leadingZeros(data.min, 2) + " <span>minutes</span></div><div class='timezone'>" + this.leadingZeros(data.sec, 2) + " <span>seconds</span></div>");
+          }
+        });
+
+        
+
+        // End time for diff purposes
+        var endTimeDiff = new Date().getTime() + 15000;
+        // This is server's time
+        var timeThere = new Date();
+        // This is client's time (delayed)
+        var timeHere = new Date(timeThere.getTime() - 5434);
+        // Get the difference between client time and server time
+        var diff_ms = timeHere.getTime() - timeThere.getTime();
+        // Get the rounded difference in seconds
+        var diff_s = diff_ms / 1000 | 0;
+        
+        var notice = [];
+        notice.push('Server time: ' + timeThere.toDateString() + ' ' + timeThere.toTimeString());
+        notice.push('Your time: ' + timeHere.toDateString() + ' ' + timeHere.toTimeString());
+        notice.push('Time difference: ' + diff_s + ' seconds (' + diff_ms + ' milliseconds to be precise). Your time is a bit behind.');
+        
+        $('.offset-notice').html(notice.join('<br />'));
+        
+        $('.offset-server .countdown').countdown({
+          date: endTimeDiff,
+          offset: diff_s * 1000,
+          onEnd: function() {
+            $(this.el).addClass('ended');
+          }
+        });
+        
+        $('.offset-client .countdown').countdown({
+          date: endTimeDiff,
+          onEnd: function() {
+            $(this.el).addClass('ended');
+          }
+        });
+
+      });
+    </script>
+
+</body>
+</html>

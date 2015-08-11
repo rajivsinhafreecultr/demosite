@@ -1,0 +1,2692 @@
+@font-face {
+	font-family: 'HelveticaLTStd-Light';
+	src: url('../../fonts/HelveticaLTStd-Light.eot');
+	src: url('../../fonts/HelveticaLTStd-Light.woff') format('woff'), url('../../fonts/HelveticaLTStd-Light.ttf') format('truetype'), url('../../fonts/HelveticaLTStd-Light.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+/************Rupees sign ******************/
+@font-face {
+    font-family: 'rupee_foradianregular';
+    src: url('../../fonts/rupee_foradian-webfont.eot');
+    src: url('../../fonts/rupee_foradian-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../../fonts/rupee_foradian-webfont.woff2') format('woff2'),
+	url('../../fonts/rupee_foradian-webfont.woff') format('woff'),
+	url('../../fonts/rupee_foradian-webfont.ttf') format('truetype'),
+	url('../../fonts/rupee_foradian-webfont.svg#rupee_foradianregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{font-family: 'HelveticaLTStd-Light'; font-size:14px; color:#535251; margin:0; padding:0;}
+a{color:#0084ca; text-decoration:none; outline:0;}
+a:hover, a:focus, a:active{color:#0084ca; text-decoration:none; outline:0;}
+h3{font-size:23px;}
+del{margin:0 5px; font-weight:normal;}
+textarea{letter-spacing:0.5px; resize:none;}
+input[type="text"]{letter-spacing:1px;}
+input[type="submit"], input[type="button"]{letter-spacing:0px;}
+/*rajeev changes 11/06/02015 */
+label{font-size:14px;/*AS Per our Pm */ font-weight:normal; }
+h4.page-heading{/*text-transform:uppercase;*/ font-size:19px; color:#eb8000; margin:0 0 20px; padding:5px 0 5px 0; border-bottom:1px solid #ddd;}
+.label{padding:5px; font-size:12px;}
+.form-control{border-radius:0; border:1px solid #727171;}
+.header-container{padding:0;}
+.navbar{margin:0;}
+.navbar-default{background:none; border-radius:0; box-shadow:none; border:0;}
+.navbar-collapse.collapse{padding-top:33px; padding-right:0;}
+.container-fluid{border:0; border-bottom:solid 1px #e7e7e7;}
+
+.navbar-brand{height:auto;}
+.notification-bell{font-size:24px; position:relative; font-style:normal;}
+.notification-bell i{background:#eb8000; border-radius:20px; width:22px; height:22px; color:#fff; padding:5px 0px 0px 0px; position:absolute; text-align:center; font-size:11px; top:-8px; right:-10px; font-style:normal; font-family: 'HelveticaLTStd-Light'; text-shadow:0 0 0 #fff;}
+.dropdown-toggle{color:#535251; font-size:16px;}
+.dropdown-menu{box-shadow:0px 0px 5px #ccc; background-color: #f6f6f6;}
+.navbar-nav > li{/*margin-left:10px;*/}
+.navbar-nav > li > .dropdown-menu{border-radius:5px;}
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus{background:none;}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus{background:none;box-shadow:none;}
+.navbar-nav > li > .dropdown-menu:before {border-bottom:7px solid #f6f6f6;border-left:5px solid transparent;border-right:5px solid transparent; content: "";
+height:0; position:absolute; right:20px; top:-7px; width:0; z-index: 999; box-shadow:0px 0px 0px #ccc;}
+
+.navbar-nav > li > .dropdown-menu:after {border-bottom: 8px solid #ccc; border-left: 7px solid transparent; border-right: 7px solid transparent; content: "";
+height:0; position:absolute; right:18px; top:-8px; width:0; z-index:99;}
+
+.dropdown-menu.notification-msg-box{width:400px; right:-135px; left:auto; padding:15px 0 10px 0; }
+.dropdown-menu.notification-msg-box div{padding:0;}
+.dropdown-menu.notification-msg-box .col-md-8 span{display:block; font-size:13px;}
+.dropdown-menu.notification-msg-box li.col-md-12{display:block; padding:10px 5px 10px 10px; border-bottom:solid 1px #c8c8c8;}
+.dropdown-menu.notification-msg-box li.col-md-12:hover{background:#fff;}
+.dropdown-menu.notification-msg-box li.col-md-12.active{background:#fff;}
+.dropdown-menu.notification-msg-box .divider{width:100%;}
+.dropdown-menu > li > a, .dropdown-menu > li > a{color:#1ab7ea;}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus{background:none; color:#1ab7ea;}
+.notification-time{color:#9b9b9b; font-size:11px;}
+.navbar-nav > li > .dropdown-menu.notification-msg-box:before {border-bottom:16px solid #f6f6f6; border-left:10px solid transparent; border-right:10px solid transparent; content: ""; height:0; position:absolute; right:138px; top:-16px; width:0; z-index: 999; box-shadow:0px 0px 0px #ccc;}
+
+.navbar-nav > li > .dropdown-menu.notification-msg-box:after {border-bottom:20px solid #ccc; border-left:12px solid transparent; border-right:12px solid transparent; content: ""; height:0; position:absolute; right:136px; top:-20px; width:0; z-index:99;}
+
+.pos-rel{position:relative;}
+.pad-rgt-60{padding-right:44px;}
+
+.or-divider{position:absolute; left:-38px; top:-66px; height:218px;}
+
+.or-divider span{background:#fff; border:solid 1px #d1d1d1; -webkit-border-radius:35px; border-radius:35px; font-size:16px; padding:10px; text-transform:uppercase; margin-top:85px; float:left;}
+
+.search-panel-container{border:solid 1px #c6c6c6; background:url("../../images/divider-bg.png") repeat-y 57% top #f0f0f0; -webkit-border-radius: 5px; border-radius: 5px; padding:65px 0; box-sizing:border-box; margin-bottom:20px; text-align:center;}
+.search-panel-container h3{margin:0;}
+
+
+.available{background:url("../../images/available.png") no-repeat left top; padding-left:20px; margin:0 0 0 10px; }
+.container{}
+.btn{padding:8px; margin:0 5px 5px 0; line-height:15px; font-size:14px;}/* rajeev changes 11/06/02015 */
+.btn:hover, .btn:focus, .btn.focus{color:#fff;}
+.btn-default{background:#8dc644; color:#fff; border:0; text-shadow:none; border-radius:0;}
+.btn-default:hover, .btn-default:focus{color:#fff; background:#8dc644;}
+.btn-grey{background:#e0e0e0; color:#515151; border:0; text-shadow:none; border-radius:0;}
+.btn-grey:hover, .btn-grey:focus{color:#515151; background:#e0e0e0 ;}
+
+.btn-dark-grey{background:#4a4a4a; color:#fff; border:0; text-shadow:none; border-radius:0;}
+.btn-dark-grey:hover, .btn-dark-grey:focus{color:#fff; background:#4a4a4a ;}
+
+.btn-blue{background:#0084ca; color:#fff; border:0; text-shadow:none; border-radius:0;}
+.btn-blue:hover, .btn-blue:focus{color:#fff; background:#0084ca ;}
+
+.btn-orange{background:#eb8000; color:#fff; border:0; text-shadow:none; border-radius:0;}
+.list-blocks{-webkit-box-shadow:0 0 2px 0px #737373; box-shadow:0 0 2px 0px #737373; margin:0 0 20px 0; padding:0; float:left;}
+.list-blocks h3{padding:13px 10px; font-size:19px; color:#eb8000; margin:0;}
+.list-blocks div{padding:0;}
+.list-blocks input[type="checkbox"]{margin-top:8px;}
+.list-blocks .btn-default{width:122px; padding:8px 0;}
+.list-blocks .btn-grey{width:116px; padding:8px 0;}
+.block-row{border-top:solid 1px #d4d4d4; padding:20px 10px!important; float:left;}
+.block-row .col-md-3, .block-row .col-md-9, .block-row .col-md-2,
+.block-row .col-md-1{padding-top:10px;}
+.block-row .col-md-3 .col-md-3{padding-top:0;}
+.block-row img{/*position:absolute; left:-50px; top:0;*/}
+.legends{padding:0 0 5px 0;}
+h2{margin-bottom:0; font-weight:normal; font-size:23px;/*Edited by pradeep*/ /*line-height:55px;*/}
+h2 .student-credit{float:right; color:#eb8000; font-size:23px;}
+.btn-orange.find-me-tutor{font-size:20px; padding:10px 20px;}
+.search-panel-container h3{padding:0 0 20px 0;}
+.legends label{display:inline-block; font-size:14px;}
+.my-account-menu{width:200px;}
+.my-account-menu a{color:#000!important;}
+.my-account-menu a.active{color:#eb8000!important;}
+.dropdown-menu .divider{margin:5px 0;}
+.navbar-right .glyphicon-earphone{font-size:17px; vertical-align:middle;}
+ 
+.rating .glyphicon-star-empty{font-size:20px; padding-top:5px;}
+.topheader-mobile{display:none;}
+.mobile-notification{display:none;}
+.modal-body{display:inline-block;}
+.modal-dialog .btn-grey{margin-bottom:0;}
+.alert{padding:5px !important; float:left; width:100%;}
+.list-blocks .alert{margin:10px 0 0 0;}
+.h3-buttons-container{padding:11px 10px 0 0 !important; color:#0085ca;}
+.view-more{padding:0 15px 5px 15px !important;}/*Edited By Pradeep*/
+.view-more a span{font-size:20px;}
+.cancelled{color:#eb8000;}
+/*Book Session-1 Css*/
+.search-panel-container-inside{padding:10px 0; margin:20px 0 35px 0;}/* rajeev changes 11/06/02015 */
+
+.h3-blue{color:#0084ca;}
+.book-session-container{border:solid 1px #c6c6c6; background:#f0f0f0; -webkit-border-radius: 5px; border-radius: 5px; padding:40px 60px 20px 20px;/*edited by pradeep*/ box-sizing:border-box;}
+.boook-session-profile-img{width:168px; height:auto; border:6px solid #ffffff; padding:12px 20px; box-sizing:border-box; overflow:hidden; display:inline-block;} 
+.hourly-fees{background:#fff; width:168px; padding:5px 10px; box-sizing:border-box; color:#eb8200; border:solid 1px #cacaca; font-size:11px; display:inline-block;}
+.hourly-fees span{font-size:25px; font-weight:bold; line-height:30px;}
+.hourly-fees del{font-size:17px;}
+
+.book-session-add-fav{padding:0px; margin:10px 0 0 0;}
+.tutor-status{margin-top:5px;}
+.tutor-status, .tutor-status a{color:#8dbf44; padding:0px;}
+.text-org{color:#eb8000;}
+
+.book-session-container h3{margin:0 0 20px 0;}
+.btn-book-tuition, .btn-book-tuition:hover{color:#fff; font-size:23px; border:2px solid #77aa2b; border-radius:3px; padding:13px 30px; /*margin-top:20px;*/}
+
+.btn-book-free-tuition, .btn-book-free-tuition:hover{color:#fff; font-size:23px; border:2px solid #d37301; border-radius:3px; padding:13px 30px; /*margin-top:20px;*/}
+
+.mandatory{color:#eb8000;}
+.timepick-book-session{background:#fff; padding:10px 0 0px !important; width:100%;}
+.timepick-book-session span{display:block; margin:0 0 10px 0; font-size:12px; font-weight:bold; padding:0 10px;}
+.timepick-book-session em{font-style:normal; font-size:12px; margin:0px 0 0 0; padding:0px 10px 6px 10px; display:block; font-weight:bold;}
+.timepick-book-session label{display:block; font-size:12px; font-weight:bold; padding:3px 0 4px 0;}
+.date-time-show{display:none; padding:0; }
+#date-time-show{margin-left:10px;}
+.date-time-show div{padding:0;}
+.availability-time-show{background:#eb8000; padding:10px 0; color:#fff; margin:20px 0 0 10px; width:94%;}
+.price-tuition{border-top:solid 1px #fff; padding:10px 20px; margin:10px 0 0 0; font-size:23px;}
+.price-tuition div{padding:0 2px;}
+.price-tuition div del{font-size:20px;}
+.box-form{border:solid 1px #ccc; padding:7px; -webkit-border-radius:5px; border-radius:5px;}
+.caution{color:#eb8000; margin-bottom:10px; display:block;}/* rajeev changes 11/06/02015 */
+.caution,
+.caution:hover,
+.caution:focus{text-decoration:none; color:#eb8000; text-transform:uppercase;}
+.caution i{background:#eb8000; color:#fff; font-size:20px; font-style:normal; padding:0 5px 2px 6px; margin:0 10px 0 0;} /* rajeev changes 11/06/02015 */
+#date-time-show{float:left;}
+
+/*Request A Tutor Css*/
+
+.rat-container{padding:0; border:solid 1px #ccc; padding:20px 10px; margin-bottom:20px;}
+.coupon-code div,
+.captcha-code div{padding:0;}
+
+
+.request-a-tutor .price-rang{padding:0px;}
+.request-a-tutor .price-rang label{margin-top:6px;}
+.add-more-input-file{position:absolute; right:0px; top:0px;padding-bottom:11px!important; z-index:99;}
+.remove-more-input-file,
+.remove-more-input-file:hover{position:absolute; right:5px; top:10px;padding-bottom:11px; z-index:99; color:#a94442; text-decoration:none;}
+
+ 
+.refresh-size{font-size:21px; color:#505050; position:absolute; right:auto; top:5px;}
+.to-text{padding-top:6px;}
+.custom-input-file .bootstrap-filestyle{width:98%;}
+.attachment-list-fmt.custom-input-file .bootstrap-filestyle{width:94%;}
+.attachment-list-fmt.custom-input-file .add-more-input-file{right:12px;}
+ 
+.custom-input-file .bootstrap-filestyle .btn-default{width:93%; background:#ececec; color:#000; border:1px solid #ccc; box-shadow:none;  padding:9px 9px 8px;}
+.attachment-list-fmt.custom-input-file .bootstrap-filestyle .btn-default{width:100%; background:#ececec; color:#000; border:1px solid #ccc; box-shadow:none;  padding:9px 9px 8px; margin-right:0;}
+
+.custom-input-file .form-control{background:#fff;}
+.rat-container label{padding-right:0;}
+.rat-container .pricing-plan label{padding:0 0 0 15px;}
+.price-rang div label{padding:0;}
+.calendar .daysmonth td{padding:10px 0;/* background:#bcf7a7;*/}
+.calendar .daysmonth td:hover{background:#7fbf69;}
+.calendar .daysmonth td a,
+.calendar .daysmonth td a:hover{padding:10px 19px; color:#000; text-decoration:none;}
+.caret{margin-top:9px; float:right;}
+
+.navbar-nav .open .dropdown-menu > li > a {border-bottom:0px solid #e7e7e7; line-height: 24px;}/* rajeev changes 11/06/02015 */
+.navbar-nav .open .dropdown-menu > li > a:hover{color:#eb8000 !important;}
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus{border-bottom:1px solid #e7e7e7;}
+.dropdown-menu .divider{display:none;}
+
+/*Notification*/
+/*Notification*/
+.page-heading a{font-size:14px; text-transform:none;}
+.notifications-page ul{list-style:none; margin:0px; padding:0px;}
+.notifications-page ul li{list-style:none; margin:0px; padding:10px 7px; border-bottom:1px solid #e7e7e7; background:#f6f6f6; float:left;}
+.notifications-page ul li:hover,
+.notifications-page ul li.active:hover{background:#f5f5f5;}
+.notifications-page ul li.active, .notifications-page ul li:focus, .notifications-page ul li:visited{background:#fff;}
+.notifications-page ul li span{display:block;}
+
+
+/*My Transation Dashboard edited by pradeep 26-5-2015*/
+.my-transaction{margin-top:20px; padding:0px;}
+.after-login-sidebar{padding:0px;}
+.after-login-sidebar a{display:block; padding:5px 10px; border-bottom:1px dashed #bdbdbd; color:#535250; text-decoration:none;}
+.after-login-sidebar a:hover{background:#f7f7f7;color:#1ab7ea;}
+.after-login-sidebar a.active, .after-login-sidebar a.active:hover{color:#1ab7ea; background:none;}
+
+.transaction-dashboard{margin:0 auto; float:none; margin-bottom:20px;}/*Edited By Pradeep*/
+.transaction-dashboard .bg-gray{background:#f0f0f0; margin-top:20px;}
+.withdraw-funds .bg-gray .margin5{margin-top:5px;}
+.transaction-dashboard .credit-balance,
+.transaction-dashboard .available-balance{padding:50px 20px;} /* rajeev changes 11/06/02015 */
+.transaction-dashboard .credit-balance span,
+.transaction-dashboard .available-balance span{color:#eb8000; font-size:36px;}
+.transaction-dashboard h3{padding:0px; margin:0px;}
+.transaction-dashboard .balance-required{padding:0;}
+.transaction-dashboard .balance-required label{border-bottom:1px solid #bdbdbd; padding:0 0 5px; font-size:14px;}
+.transaction-dashboard .available-balance{border-left:solid 1px #bdbdbd; }
+.tab-content{padding:0 0 20px 0 !important;}
+#my-cash-requests{padding:0;}
+
+/*My Transaction Css*/
+.my-trans-filter-form{padding:10px 10px 0 !important; display:none; text-align:right;}
+.my-trans-filter-form div{padding:0;}
+.my-trans-filter-form select{width:155px;}
+.my-trans-filter-form .input-group[class*="col-"]{float:left !important;}
+.my-trans-filter-form label{margin-top:5px;}
+.my-trans-filter-form .btn-blue{margin-left:10px;}
+.transation-row{border-top:1px solid #d4d4d4;float:left; padding:20px !important;}
+.closing-balance{background:#f6f6f6; padding:10px 0px 30px 0!important; border:1px solid #d5d5d5; margin:10px; float:left; width:98%;}
+.closing-balance label{color:#eb8000; font-size:14px;}
+.add-balance{background:#eb8000; padding:1px 9px 4px 8px; width:40px; height:auto; border-radius:25px; display:inline; font-size:18px; color:#fff;}/* rajeev changes 11/06/02015 */
+.closing-balance .col-md-1{width:4% !important; padding:0;}
+.closing-balance div{padding:0;}
+.my-transation-blocks{-webkit-box-shadow:0 0 2px 0px #737373; box-shadow:0 0 2px 0px #737373; margin:0 0 20px 0; padding:0; float:left;}
+.my-transation-blocks h3{color: #eb8000; margin:0; padding:13px 10px;}
+.my-transation-blocks .h3-buttons-container{text-align:right;}
+.my-trans-filter-btn{width:auto; float:right;}
+.my-trans-filter-btn .btn-dark-grey{margin-right:0;}
+.my-trans-filter-btn .btn-blue{margin-left:0;}
+/*My Cash Requests Css*/
+.my-upcoming-request-blocks{-webkit-box-shadow:0 0 2px 0px #737373; box-shadow:0 0 2px 0px #737373; margin:0 0 20px 0; padding:0; float:left;}
+.my-upcoming-request-row{border-top:1px solid #d4d4d4;float:left; padding:20px;}
+.my-upcoming-request-blocks .alert{margin:10px 0 0;}
+.my-upcoming-request-blocks h3{color: #eb8000; margin:0; padding:13px 10px;}
+
+.my-past-request-blocks{-webkit-box-shadow:0 0 2px 0px #737373; box-shadow:0 0 2px 0px #737373; margin:0 0 20px 0; padding:0; float:left;}
+.my-past-request-row{border-top:1px solid #d4d4d4;float:left; padding:20px !important;}
+.my-past-request-blocks .alert{margin:10px 0 0;}
+.my-past-request-blocks h3{color: #eb8000; margin:0; padding:13px 10px;}
+.my-past-filter-form{padding:11px 0px 0 0 !important; float:right; /*margin-right:15px;*/}
+.my-past-filter-form .input-group[class*="col-"]{float:left !important;}
+.my-past-filter-form label{margin-top:5px;}
+.my-upcoming-request-blocks .cancel-hide-btn{display:none;}
+.my-past-filter-btn{padding:0;}
+.my-past-filter-btn .btn-dark-grey{margin-right:0px;}
+.my-past-filter-form div{padding:0;}
+.past-filter-by-part{padding:0; float:right;}
+.minus-price{padding:0;}
+.padding-transaction{padding-left:57px;}
+/**************Tutor Search List ****************/
+.filters{background:#00abe6; color:#fff; padding:9px 10px 8px; margin:0 0 20px 0;}
+.filters select{width:65%;}
+.filters span, .filters label{padding-top:7px; display:inline-block;}
+.filters .sort-by{padding:0; width:19%; float:right;}/*24/6/2015*/
+.list-box{margin-bottom:10px; float:left; width:100%; padding-bottom:10px; border-bottom:solid 1px #ccc;}
+
+.list-actions label .student-credit{float:none; font-size:25px;line-height:14px;text-align:right;}
+.list-actions span a i{float:left; height:30px;}
+.list-actions span a span{display:inline-block;float:right;text-align:right;width:auto; margin-top:5px;}
+
+.list-actions span{display:block; float:left; width:100%;}
+.list-actions label span{display:inline;}
+.list-actions label .student-credit{font-size:25px; line-height:14px; float:right; text-align:right;}
+.list-actions span a, .list-actions span a:hover{font-size:14px; color:#606365; text-decoration:none;}/*Edited By Pradeep*/
+.list-actions .btn{font-size:14px;}
+.list-box .profile-pic{width:12%;}
+.list-box .profile-desc{width:68%;}
+.list-box .list-action{width:20%;}
+.list-box .profile-name{font-size:16px; font-weight:normal; display:block; text-transform:uppercase;}
+.list-box label{display:block; font-size:14px;}/*Edited By Pradeep*/
+.list-box .list-actions label{display:block; font-size:14px; margin-bottom:0; color:#eb8000; line-height:22px; text-align:right; float:right;width:100%;}/*Edited By Pradeep*/
+.list-actions.col-md-2{width:20%;}
+.icons-status{height:25px;}
+.profile-sessions{background:#00abe6; color:#fff; width:100px; float:left; text-align:center; padding:2px 10px; box-sizing:border-box;}
+.profile-sessions span{display:block; line-height:20px;}
+.profile-sessions span:nth-child(1){font-size:22px; font-weight:normal;}
+.display-inline{display:inline!important;}
+.list-actions a{/*border-bottom:solid 1px #ccc;*/ display:block;}
+.list-actions input[type="button"]{width:100%; text-align:center; margin:5px 0 0 0;}
+.min-height{min-height:200px;}
+.max-height{height:258px;}
+/********** Address And Phone css **********************/
+.my-information{padding:0;}
+.my-information .label-info{margin-bottom:10px; display:inline-block;}
+.nav.nav-tabs{margin-bottom:20px;}
+.my-information .divider{margin:20px 0; border-bottom:1px solid #c4c3c3;  width:100%; float:left;}
+.change-email{cursor:pointer;}
+.open-change-email{display:none;}
+.verify-mobile div,
+.verified-mobile div{padding:0;}
+.verify-mobile a{margin:0!important; padding:10px 8px 9px 8px;}
+.verified-mobile .col-md-9{width:100% !important;}
+.verified-mobile {padding:0;}
+.verified-mobile .col-md-3{display:none;}
+.open-change-email .label-info{white-space:inherit;}
+.my-information label{padding-left:0;}
+/********** Custom Scroll-Bar css **********************/
+.top-notification-scroll{min-height:200px; max-height:210px;}
+.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {background-color:#cc0000;}
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{background-color: #cc0000;}
+
+/************* Favourite Tutors Css *****************/
+.favourite-tutor{padding:0;}
+.favourite-tutor .list-box{padding-bottom:10px; padding-top:10px; margin-bottom:0;}
+.favourite-tutor .panel{ box-shadow:none; margin-bottom:10px;}/*Edited By Pradeep*/
+.favourite-tutor .panel-heading{padding:0; background:#fff;}
+.favourite-tutor .panel-heading .panel-title a{padding:10px 15px; display:block; text-decoration:none;}
+.favourite-tutor .panel-heading .panel-title a:hover{text-decoration:none; color:#535251;}
+.panel-default > .panel-heading + .panel-collapse > .panel-body{padding:10px 10px;}
+.favourite-tutor .panel-title a i{float:right; }
+/*** My Account for Bug CSS ***/
+.all-top-margin i.icon1-online-tutoring{background-position:0px -35px !important; vertical-align:top !important;}
+.all-top-margin i.icon1-student-visit-tutor{background-position:0px -64px !important; vertical-align:top !important;}
+.all-top-margin i.icon1-home-tutoring{background-position:0px -5px !important; vertical-align:top !important;}
+.legends-for-tutor-list{padding:0;}
+.legends-for-tutor-list div{padding:0;}
+#filterdate{text-align:right;}
+
+/*******************Mailbox css ****************************/
+/*******************INBOX***********************************/
+.no-mail-yet{ text-align:center; border:solid 1px #ddd; padding:40px 20px !important; font-weight:normal;}
+.mailbox{padding:0;}
+.mailbox ul{list-style-type:none; width:100%; float:left; padding:0;}
+.mailbox li{list-style-type:none; width:100%; float:left; padding:3px 0 3px 10px; cursor:pointer; border-bottom:solid 1px #ddd; position:relative;}
+.mailbox li.read{background:#f3f1f0;}
+.mailbox div{padding:5px 0;}
+.mailbox-legend{border-bottom:solid 1px #ddd; padding:0; margin:10px 0;}
+.mailbox-legend label{font-size:14px;}
+.breadcrumbs{padding:0;}
+.new-legend{margin:10px 0; padding:0;}
+.new-legend div{padding:0;}
+.new-legend label{font-size:13px;}
+
+
+/*****************Reply **********************************/
+.reply span{color:#9f9f9f;}
+.reply .reply-name-subject{padding:0;}
+.read-complete .reply-name-subject span{display:block;}
+.mailbox .more-messages{background:#f3f1f0; padding-right:10px;}
+.mailbox .more-messages span{height:1px; margin:5px 0; background:#ccc; width:100%; float:left; position:relative;}
+.mailbox .more-messages em{position:absolute; left:40%; bottom:16%; z-index:999; background:#c0c0c0; padding:5px; font-style:normal;}
+.read-complete{cursor:default!important;}
+.read-complete .reply-name-subject span{color:#535251; disaplay:block;}
+.click-reply-box{background:#f6f6f6; padding:10px!important; }
+.click-reply-box .click-reply-button-box{background:#fff; padding:10px 10px 20px !important; border:solid 1px #cdcdcd;}
+.click-reply-box .click-reply-button-box a,
+.click-reply-box .click-reply-button-box a:hover{color:#535251; text-decoration:none;}
+.action-area-container{background:#f6f6f6; border:solid 1px #cdcdcd; border-top:solid 0px #fff; padding:20px !important;}
+.click-reply-box .action-area{float:right; text-align:right; padding-right:20px;}
+.click-reply-box .action-area label{padding:0 20px; cursor:pointer;}
+.click-reply-box .button-action{padding-left:20px;}
+.click-reply-box .button-action i{font-size:20px; margin-left:5px; cursor:pointer; }
+.click-reply-box .action-area label:nth-child(2){border-left:solid 1px #cdcdcd;}
+.attachment-container{border:solid 1px #cdcdcd; padding:20px!important;}
+.attachment-container .add-more-input-file{right:-18px; top:0; color:#fff !important; font-weight:bold;}
+.attachment-container .remove-more-input-file{right:-10px; top:10px; color:#a94442 !important; font-weight:bold; }
+.attachment-container .pos-rel{clear:left;}
+
+.attached-container{padding:20px 0 !important; border-bottom:solid 1px #cdcdcd;}
+.attached-container div{margin:0 10px 10px 0;}
+.attached-container a{padding:10px 10px 8px 10px; border:solid 1px #cdcdcd; color:#1ab7ea !important;}
+.attached-container a:nth-child(2){border:solid 1px #cdcdcd; color:#a94442 !important;background:#fff;}
+.attached-container a:nth-child(2):hover{border:solid 1px #cdcdcd; color:#fff !important; background:#a94442;}
+.paperclip-align{border-left: 1px solid #cdcdcd;
+    display: inline-block;
+    height: 25px;
+    margin-left: 15px;
+    padding-left: 12px;
+    padding-right: 10px;
+    padding-top: 1px;}
+
+/************* Add Funds Css *****************/
+.add-funds{padding:0;}
+.add-funds h3{color:#eb8000; margin:0 0 5px 0; font-size:16px; padding-bottom:5px; border-bottom:1px solid #eee;}
+.add-funds .input-group{float:left;}
+
+/************* Withdraw Funds Css *****************/
+.withdraw-funds .bg-gray{background:#f0f0f0; padding:20px 0;}
+.withdraw-funds .input-group{float:left;}
+
+table{width:100%; border-collapse:collapse;}
+th{background:#eae6e0;}
+td, th{padding:6px;border:1px solid #ccc; text-align:left;}
+.table-bordered > thead > tr > th, .table-bordered > thead > tr > td{ padding:5px 10px; font-weight:normal;}
+.table-width{width:100%;}
+.no-notification{padding:10px; min-height:50px; text-align:center;}
+/* ADDED BUY RAJEEV FOR BUGS **********/
+.form-control[readonly]{background:#fff;}
+.nsb-2-suggestbox p{margin-bottom:0 !important;}
+.suggestkeyword { background:#fff; -webkit-border-radius: 5px 5px 5px 5px;
+border-radius: 5px 5px 5px 5px; -webkit-box-shadow: 0 0 5px 0 rgba(83,82,81,1);
+box-shadow: 0 0 5px 0 rgba(83,82,81,1); /*url(../../images/plate.png) no-repeat*/; min-width:280px; max-width:365px; padding:10px; position: absolute; z-index: 999; left:0%; top:35px;}
+
+.suggestkeyword:after, .suggestkeyword:before {
+	bottom: 100%;
+	left: 50px;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.suggestkeyword:after {
+	border-color: rgba(136, 183, 213, 0);
+	border-bottom-color: #fff;
+	border-width: 10px;
+	margin-left: -30px;
+}
+.suggestkeyword:before {
+	border-color: rgba(194, 225, 245, 0);
+	border-bottom-color: #b8b7b7;
+	border-width: 13px;
+	margin-left: -33px;
+}
+/*
+.dropdown-menu.pin-code-msg-box a.close img{display:none;}
+.dropdown-menu.pin-code-msg-box a.close {width:auto; height:auto; background:#000; color:#fff !important; font-weight:bold;  text-align:center; border-radius:20px; -webkit-border-radius:20px; margin:0px 0px 0px 0px; position: absolute; z-index: 9999; right:-7px; top:-5px; text-decoration:none; padding: 2px 6px;}
+.dropdown-menu.pin-code-msg-box a.close:after{content:'x';}
+*/
+.border-zero{border:0 !important;}
+.my-account-pic-holder{padding-top:0 !important;}
+
+/****** Pin Code CSS *****/
+.dropdown-menu.pin-code-msg-box{width:100%; padding:10px; box-sizing:border-box;}
+
+/****************** Recording BTN Css *****************/
+.recording-btn .caret{float:none; margin-top:auto;}
+.recording-btn .btn{margin-left:3px!important; margin-right:0; font-size:14px;}
+.recording-btn .dropdown-toggle{font-size:14px;}
+.recording-btn .dropdown-menu{box-shadow:none; background:#fff;}
+.recording-btn ul.dropdown-menu{left:-35px; padding:10px 5px 0 3px;text-align:center; width:170px; margin-top:5px;}
+
+.recording-btn ul.dropdown-menu:before{border-bottom:8px solid #d4d4d4;border-right:5px solid transparent; border-left:5px solid transparent; box-shadow:0 0 0 #ccc;height:0;position:absolute;content: "";right:50%;width:0;z-index:999; top:-9px;}
+
+.recording-btn ul.dropdown-menu > li > a{padding:5px 10px; color:#fff;}
+.recording-btn .dropdown-menu li{display:inline-block; width:100%;}
+.recording-btn .dropdown-menu li:nth-child(2){margin-top:5px;}
+.recording-btn .dropdown-menu > li > a:hover, .recording-btn .dropdown-menu > li > a:focus{background:#0084ca; color:#fff;}
+/*************Rupees sign *******************/
+span.rupee_foradianregular{font-family:'rupee_foradianregular'; font-weight:normal;}
+
+
+/**************************************************************************
+CSS FOR TUTOR SCREEN CREATE BY PRADEEP
+**************************************************************************/
+
+
+/*** Tutor My Account Start ***/
+.tutor-my-account-recommended{background:#f0f0f0; border:1px solid #c6c6c6; border-radius:7px; padding:0; margin-bottom:20px;}
+.recommended{position:absolute; padding:0 10px; width:118px; margin:-1px 0 0 -8px; background:#e27b00; color:#fff;}
+.recommended-before{border-left:7px solid transparent; border-right:0 solid transparent; border-top:11px solid #774407; /*margin:25px 0 0 -10px;*/ position:absolute; left:0; top:20px;}
+.recommended-widget{margin:33px 0 0; -webkit-border-radius:5px; border-radius:5px; background:#fff; padding:5px 20px; color:#000;}
+.recommended-widget:hover{background:#8dbf44; color:#fff; cursor:default;}
+.recommended-widget input[type=checkbox]{margin-right:10px;}
+.recommended-widget .btn{margin-bottom:0px; padding:6px 8px; vertical-align:inherit;}
+.recommended-widget:nth-child(2){margin:10px 0 25px; padding:10px 20px;}
+.slider-bg{background:#fff; padding:20px 0; border-radius:0 0 5px 5px; box-shadow:0 -5px 5px -5px #ccc;}
+.slider-bg .carousel-control-div{width:165px; margin:auto; position:relative; z-index:999; top:3px;}
+.slider-bg .carousel-control{background:#fff; border:2px solid #222222; border-radius:23px; color:#222222;font-size:24px;font-weight:100;height:20px;left:15px;line-height:12px; margin-top:50px;opacity:0.5; position:absolute; text-align:center; top:40%; width:20px; text-shadow:none;}
+.slider-bg .carousel-control.right{left:auto; right:15px;}
+.slider-bg .carousel-control.left{left:15px; right:auto;}
+.slider-bg .carousel-inner{border-bottom:1px solid #ccc; margin-bottom:14px; padding:0 0 15px;}
+.slider-bg .carousel-indicators{bottom:-82px;}
+.slider-bg .carousel-indicators li{background:#5f5f5f; border:none;}
+.slider-bg .carousel-indicators .active{background:#eb8000; border:none;}
+.slider-bg .carousel.carousel .item{-webkit-transition:opacity .1s ease-in-out;-moz-transition:opacity .1s ease-in-out;-ms-transition:opacity .1s ease-in-out;-o-transition:opacity .1s ease-in-out;transition:opacity .1s ease-in-out;opacity:0}
+.slider-bg .carousel.carousel .active.item{opacity: 1;}
+.note-for-staff{display:block; font-size:12px;}
+.note-for-staff i{color:#4c4c4c; font-size:20px; margin:0 5px;}
+.list-blocks.tutor-account .btn-default{width:auto; padding:8px 10px;}
+.list-blocks.tutor-account span.rating{float:left; margin:8px 0 0 0;}
+.list-blocks.tutor-account .staus-subject span{display:block;}
+.list-blocks.tutor-account .profile-pic-student-tooltip span{display:block; font-size:13px;}
+.col-sm-3.note-for-staff1 .icon1-home-tutoring{width:25px; background-position:-6px -5px;}
+.margin-top10{margin-top:10px;}
+.name-margin-left{margin-left:25px;}
+.recommended-widget a.btn.btn-default{border:solid 1px #77ab2a; padding:4px 7px;}
+/*** Tutor My Account End ***/
+
+
+/*** My Transaction Start ***/
+
+.tutor-my-transaction{padding:0;}
+.tutor-my-transaction #charge-tutions,
+.tutor-my-transaction #my-transactions,
+.tutor-my-transaction #transaction-fees{padding:0;}
+.tutor-transaction-tab{background:#f7f7f7; border:1px solid #e0e0e0; padding:15px; margin-bottom:15px;}
+.tutor-transaction-tab a.btn{background:#f7f7f7; padding:10px 15px; border:1px solid #e0e0e0; color:#a0a0a0; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; -o-border-radius:5px; -ms-border-radius:5px; margin-bottom:0; margin-top:0;}
+.tutor-transaction-tab a.btn.active{color:#0084ca; background:#fff; box-shadow:none;}
+
+.payment-dashboard{background:#d9ffa1; border:1px dashed #b7e714; padding:12px 10px 11px 10px; margin-bottom:15px; text-align:center;}
+.request-btn-to-bank{margin-top:-2px;}
+.request-btn-to-bank a.btn{margin-bottom:0; padding-top:5px; padding-bottom:5px;}
+.payment-dashboard div{padding:0;}
+.payment-dashboard .glyphicon-usd{font-size:12px; top:1px;}
+
+.tutor-my-transaction .transation-row .infoiconsmall{padding:0;}
+.tutor-my-transaction .transation-row .infoiconsmall{padding:0; width:12%;}
+.tutor-my-transaction .my-transation-blocks .h3-buttons-container{padding:8px 0 0 !important;}
+.tutor-my-transaction .transation-row div{padding:0;}
+.tutor-my-transaction .transation-row .col-md-2{width:12.667%;}
+.tutor-my-transaction .transation-row .col-md-3{width:31%;}
+.tutor-my-transaction .transation-row .hours-time{padding:0; width:25%;}
+.tutor-my-transaction .transation-row .credit-wth{width:4%;}
+.tutor-my-transaction .transation-row .hours-time div{padding:0;}
+.tutor-my-transaction .transation-row .margin5{margin-top:4px;}
+.tutor-my-transaction .closing-balance{width:98%;}
+.tutor-my-transaction .closing-balance .col-md-3{width:22%;}
+.tutor-my-transaction .transation-row .paddingtotal{padding-left:40px;}
+/*** My Transaction End ***/
+
+/*** Change Tutions ***/
+.tutor-my-transaction .completed a i.icon1-info-small{width:25px;}
+.transaction-heading{padding:0; font-size:20px;}
+.online-tutoring-text{padding:5px 10px; background:#eae6e0;}
+/*** Change Tutions End ***/
+.tutor-my-transaction .back-to-link{margin:20px 0 15px;}
+
+
+
+/**********Footer css **********************/
+.footer-container{background:#0084ca; padding:10px; color:#fff;}
+.footer-container div{padding-left:2px; padding-right:0;}
+.footer-container footer label{color:#fff; text-transform:uppercase; display:block; font-size:14px;}
+.footer-container footer a{color:#fff; display:block; font-size:12px; margin:3px 0; text-transform: capitalize;}
+.footer-container footer .need-help{background:#2e6989; padding:10px; box-sizing:border-box;}
+.iphone-needhelp{padding:0; background:none; display:none;}
+.footer-container footer .need-help h3{margin:0 0 10px 0;}
+.footer-container footer .need-help a{display:inline;}
+.footer-container footer .need-help label{color:#fff; text-transform:none; display:block; font-size:12px;}
+.footer-container footer .social-links{padding:0;} 
+.footer-container footer .social-links a{display:inline;} 
+.copyright{background:#2e6989; color:#fff; font-size:12px; padding:5px 0;}
+.copyright a{color:#fff;}
+.connect-with-us{margin-top:8px; margin-bottom:5px;}
+.calendar-book-session{padding:0;}
+.calendar{border-radius:0;}
+.calendar td i.glyphicon {padding:8px 20px; cursor:pointer;}
+.calendar td .glyphicon.glyphicon-chevron-left{float:left;}
+.calendar td .glyphicon.glyphicon-chevron-right{float:right;}
+.calendar .table td{vertical-align:middle;}
+.visualmonthyear{font-weight:bold; font-size:14px; text-shadow:0 0 0 #000;}
+.need-help-bg-iphone{display:none;}
+.footer-iphone{display:none;}
+
+.hide{display:block !important;}
+.show-mobile{display:none !important;}
+.width-auto{width:auto!important; padding:8px !important}
+
+
+
+#address_div_adr{padding:0;}
+
+#address-and-phone{padding:0;}
+#apply_coupon{padding:10px;}
+
+.disabled{color:#000;}
+
+.captcha-code-width{/*width:56.667%;*/}/*rajeev changes 11/06/02015 */
+.coupon-code-width{/*width:67%;*/}
+#more{padding:0 0 30px 0;}
+.attachment-list-fmt .bootstrap-filestyle input[type="text"]{width:177px;}
+.attachment-list-fmt .bootstrap-filestyle .group-span-filestyle{/*width:115px;*/}
+.animation_image img{margin-right:10px;}
+.student-visits-container-header{border:1px solid #ccc; margin:0 0 10px; padding:10px; border-right:0; border-left:0; border-radius:5px 5px 0 0;}
+.student-visits-container{border:1px solid #ccc; border-top:0px; padding-top:10px; float:left; width:100%; border-radius:5px;}
+.label-info{border:1px solid #1ab7ea; color:#000; background:none!important;}
+.coupon-code-input{width:62%;}
+.add-new-phone-no{width:30%;}
+.profile-desc .icon1-home-tutoring{background-position:0 -1px;}
+
+.filter-div-to{width:auto;}
+.filter-div-status{width:10.667%;}
+.my-transation-blocks .my-trans-filter-form{padding-right:0 !important}
+.padding-zero{padding:0;}
+.custom-width-input-file{/*width:64.667%;*/}
+.past-div-one{width:15.667%;}
+.past-div-submit{width:21.667%; padding:0 0 0 10px !important}
+.my-transation-blocks .h3-buttons-container{padding:11px 0 0 !important}
+.legends .icon1-home-tutoring{background-position:0 -2px;}
+.rat-container .nsb-2-suggestbox2{left:15px; width:91% !important;}
+.close-btn{position:absolute; z-index:9999;}
+#no-more-tables{padding:0;}
+
+
+/*CSS DATE 8-6-2015*/
+.profile-offers{bottom:-28px; position:absolute;}
+.profile-desc label:nth-child(6){height:43px;}
+.filter-div{padding-bottom:10px;}
+/************* Step-4 CSS **************/
+.add-subject-show h3{padding:13px 15px;}
+div.add-subject-show.col-md-12.col-sm-12.col-xs-12{padding:0!important;}
+.list-blocks div.text-org.col-md-12.col-sm-12.col-xs-12{padding:0!important;}
+.subject-select{border-bottom:1px solid #ddd; padding:5px 15px!important; margin:0;}
+.subject-select a.glyphicon-remove.remove-data{top:3px; color:#a1a1a1; padding-bottom:11px; position:absolute; right:5px;text-decoration:none; z-index:99;}
+.subject-select a.glyphicon-remove.remove-data:hover{color:#eb8000;}
+
+/***************Media Query start here *********************************/
+
+/**************** BUG CSS DATE 9-6-2015 START ***************/
+.list-blocks .btn{margin-top:0px;}
+/**************** BUG CSS DATE 9-6-2015 END ***************/
+
+/**************************** NEW CSS FOR MOCKUP ************************/
+.my-accounts-blocks .info-icon-img.col-md-2{/*width:12%;*/ text-align:center;}
+.my-accounts-blocks .action-btn.col-md-4{width:30.333%;}
+.my-accounts-blocks .checkbox-show.col-md-4{width:30.333%; margin-top:9px !important; padding:0!important;}
+.my-accounts-blocks .month-time.col-md-4{width:32.333%;}
+.my-accounts-blocks .block-row .col-md-3, .my-accounts-blocks .block-row .col-md-9, .my-accounts-blocks .block-row .col-md-2, .my-accounts-blocks .block-row .col-md-4{padding-top:15px;} 
+.my-accounts-blocks .block-row .btn{margin-top:-4px;}
+.my-accounts-blocks .my-account-pic img{width:25%;}
+.my-accounts-blocks .h3-buttons-container{padding:8px 12px 0 0px !important;}
+.my-accounts-blocks .block-row{padding:20px 10px 20px 16px !important;}
+.my-accounts-blocks.list-blocks h3{padding:13px 10px 13px 16px !important;}
+.our-staff-text{text-align:center; /*color:#333192;*/}
+.cancel-whiteboard-btn{margin-top:3px;}
+.legends-icon{padding:0;}
+.cancel-hide-btn{padding:8px 14px 3px 0 !important;}
+.duration-type{padding:0; width:61.8%;}/*23/6/2015*/
+#add-new-number-show{display:none;}
+.form-control{font-size:13px;}/*As For Mockup Size*/
+.calendar{border:0;}
+.checkbox-communicated{padding-right:0;}
+.checkbox-communicated input[type="checkbox"]{float:left; margin-right:10px;}
+.tuition-withhour{padding:0;}
+.checkbox-communicated span{float:left; padding:0;}
+.book-session-container .btn-book-tuition{margin-top:8px;}
+.book-session-container .btn-book-free-tuition{margin-top:8px;}
+.hourly-fees span.rupee_foradianregular{font-size:13px;}
+.book-session-container .box-form label{margin-bottom:0 !important;}
+.student-credit-name{margin:30px 0; float:left; width:100%;}
+.student-credit-name1{margin:30px 0 10px; float:left; width:100%;}
+.back-to-link{display:inline-block; padding:0;}
+.input-group-addon{border:1px solid #727171;}
+.search-icon-img{background:#fff url(../../images/magnify.png) no-repeat 98%;}
+.header td, .header th{border:none;}
+.search-container{width:100%; margin:auto;}
+.label-scroll.top-notification-scroll{background:#fff; padding:0px 0 0 10px!important; min-height:230px; overflow:auto;}
+.label-scroll .mCSB_inside > .mCSB_container{margin-right:15px;}
+.book-tuition-margin{margin-top:20px;}
+.change-password-margin{margin-top:15px;}
+/* rajeev changes 11/06/02015 */
+.coupon-code .btn{padding:9px 8px 10px 8px;}
+.captcha-code img{height:34px;}
+.captcha-code img#capchaImage{height:34px; float:left;}
+.nav-tabs li a{color:#535251;}
+.nav-tabs li.active a{color:#0084ca; font-weight:bold;}
+.nav > li > a:hover, .nav > li > a:focus{background:#fff;}
+.nav-tabs > li{margin-left:10px;}
+.nav-tabs > li:nth-child(1){margin-left:0px;}
+.credit-balance h3,
+.available-balance h3{font-size:16px;}
+.my-trans-filter-form{padding:0!important;}
+.my-trans-filter-form input,
+.my-trans-filter-form select{height:27px; padding:3px 12px;}
+.my-transation-blocks h3{font-size:19px;}
+.my-trans-filter-form .btn.btn-blue{padding:5px 8px;}
+.select-tag-filter-close{width:15%;}
+
+.my-trans-filter-form label{margin:3px;}
+.padtop30{padding-top:30px!important;}
+.my-trans-filter-form label{font-size:14px;}
+.label01{width:31px; padding:0; text-align:center;}
+.label02{width:45px; padding:0; text-align:center;}
+.filter-container-new{padding-left:77px!important;/*Edited By pradeep*/ padding-top:3px !important;}
+
+.my-upcoming-request-blocks h3,
+.my-past-request-blocks h3{font-size:19px;}
+.cancel-hide-btn{padding-top:0 !important;}
+.my-upcoming-request-blocks .cancel-hide-btn .btn.btn-blue{padding:5px 8px;} 
+#action-cancel-div{padding-right:0!important;}
+.search-tutor-breadcrumbs{font-size:16px; padding-left:0;}
+.sort-by label{padding-right:5px !important; margin-right:0; text-align:right; font-size:14px; padding-top:3px!important;}/*24/6/2015*/
+.sort-by select{padding:5px; height:28px; width:130px;}/*24/6/2015*/
+.filters .search-tutor-breadcrumbs span{padding-top:3px;}
+.list-box .icons-status i{width:32px;}
+.tutor-list-top-checkbox,
+.tutor-list-top-checkbox div{padding:0;}
+.tutor-list-top-checkbox label{margin-right:10px; display:inline-block;}
+.notifications-page{padding:0;}
+.notification-msg-box div:nth-child(1){padding:0 0 0 5px; width:65px;}
+.notification-msg-box div:nth-child(2){padding:0 15px 0 0;}
+.notification-msg-box div:nth-child(2) span{font-size:13px; padding-top:5px;}
+.dropdown-menu.notification-msg-box div:nth-child(2){padding:0 10px; text-align:left;}  
+.dropdown-menu.notification-msg-box div:nth-child(1){width:auto!important;}
+.dropdown-menu.notification-msg-box .mCSB_draggerRail{padding:0 !important;}
+
+.notification-time{font-size:14px;}
+.attachment-date-legend div{padding:0;}
+.profile-desc label{}
+.navbar-nav .open .dropdown-menu > li:last-child a{border-top:1px solid #a4a4a4!important; margin-top:20px;}
+.bredcrumb-new-legend{padding:0;}
+.new-legend i{width:28px;}
+.new-legend label{margin-right:25px;}
+.mail-desc{color:#a09e9f;}
+.list-actions label .student-credit span.rupee_foradianregular{font-size:18px; padding-right:5px; padding-top:3px; width:auto;}
+.list-actions label .student-credit span{width:auto;}
+.list-actions label .student-credit span.per-hours{font-size:14px; margin-top:3px; width:auto; margin-left:5px;}
+#my-inbox, #my-inbox div{padding:0;}
+.margin-bottom10{margin-bottom:10px;}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus{color:#0084ca!important;}
+.cancel-hide-btn .btn{margin-bottom:0;}
+#Reply_Mess{border:solid 1px #ccc !important;}
+.staricon{margin-right:5px;}
+.remove-attachment{display:none;}
+.reply .reply-name-subject span{color:#535251;}
+.mailbox .label-info{background:#5bc0de!important; color:#fff; padding:2px !important;}
+#my-transation .filter-container-new{padding-top:0 !important;}
+.my-past-filter-form label{font-size:14px;}
+.my-past-filter-form  input, .my-past-filter-form  select{height:27px; padding:3px 12px;}
+.my-past-filter-form .btn.btn-blue{padding:5px 8px;}
+.change-password-margin{padding:0;}
+.completed{display:block; margin-top:10px;}
+/*.navbar-toggle{border:0 !important;}*/
+
+/***** Request Transfer to Bank Css ********************/
+.tutor-my-transaction .page-header{padding:0 0 10px 0; margin:0 0 15px;}
+.tutor-my-transaction .page-header h3{padding:0; margin:0;}
+.tutor-my-transaction .request-pending-text{margin-bottom:15px; padding:0;}
+.tutor-my-transaction .request-text{padding:0;}
+.tutor-my-transaction .request-text .internal-lable{padding:0;}
+.tutor-my-transaction .request-text .internal-lable div:nth-child(1){padding:0;}
+
+/*************Registration css start **********************/
+
+/*Step Design*/
+.registration-step{border-radius:7px; background:#fff; border:1px solid #c6c6c6; margin:10px 0; width:100%; float:left;}
+.registration-step-head{border-bottom:1px solid #c6c6c6; background:#f6f6f6; border-radius:7px 7px 0 0; padding:10px 0; text-align:center;}
+.registration-step-progress{padding:10px 10px 0;}
+.progress{width:100%; margin-top:10px;}
+.registration-step-head .navbar{min-height:35px;}
+.registration-step-head .navbar .navbar-inner .container{width:auto;}
+.straight-line{border-bottom:1px solid #c6c6c6; height:16px; display:inline-block;}
+.straight-line.nav > li > a{padding:5px 20px; background:#f6f6f6; border:1px solid #c6c6c6; color:#9C9B9B; }
+.straight-line.nav > li.active a{color:#0084ca; background:#fff;}
+.straight-line.nav > li{margin:0px 0px 0 30px;}
+.straight-line.nav > li:nth-child(1){margin-left:0;}
+.straight-line.nav > li > a:hover, .straight-line.nav > li > a:focus{background:#fff; color:#0084ca;}
+
+
+.tutor-account-registration-steps-block{border:solid 1px #ddd; -webkit-border-radius:5px; border-radius:5px; padding:0; margin-bottom:20px;}
+.tutor-account-registration-steps-block h3,
+.tutor-account-registration-steps-block h4{display:block; border-bottom:solid 1px #ddd; padding:10px 10px 10px 15px; margin:0; color:#eb8000;}
+.tutor-account-registration-steps-block .info-orange{color:#eb8000; padding:10px 0;}
+.tutor-account-registration-steps-block label{display:block; padding:5px 0; margin-bottom:0;}
+ 
+ 
+.tutor-account-registration-steps-block .form-container{padding:0 20px 20px 20px!important;}
+.tutor-account-registration-steps-block .form-container2{padding:20px 20px!important;}
+.tutor-account-registration-steps-block .form-container2.registration-2{padding:20px 0!important;}
+.tutor-account-registration-steps-block .form-container2.registration-3{padding:20px 15px!important;}
+.tutor-account-registration-steps-block .form-container2 .custom-input-file .bootstrap-filestyle{width:95%;}
+.tutor-account-registration-steps-block .form-container2 .custom-input-file .add-more-input-file{top:5px;}
+.tutor-account-registration-steps-block div.col-md-12.col-sm-12.col-xs-12{padding:5px 0;}
+.tutor-account-registration-steps-block .action-area-registration-steps{background:#f6f6f6; border-top:solid 1px #ddd; padding:10px 20px 5px 20px!important;}
+.padtop0{padding-top:0 !important;}
+
+/*23/6/2015*/
+.progress-bar{background-color:#5bc0de;}
+.view-address{width:138px!important; float:right;}
+.price-padding{padding-left:40px!important;}
+.label-padding{padding:0;}
+
+
+/*******************step3 css *************************/
+.tutor-account-registration-steps-inside-block{border:1px solid #ddd; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; padding:10px 15px  !important; padding-top:0!important; margin-bottom:20px;}
+
+.tutor-account-registration-steps-inside-block .custom-width-mockup .bootstrap-filestyle{width:50%!important;}
+.tutor-account-registration-steps-inside-block .custom-width-mockup-select-multiple{width:60%!important;}
+.tutor-account-registration-steps-inside-block .custom-width-mockup .btn.btn-orange.add-more-input-file{top:0!important; left:49%!important; right:auto;}
+.tutor-account-registration-steps-inside-block .info-dotted-orange{border:dotted 2px #8a8a8a; background:#f7f7f7; padding:10px!important; color:#eb8000;}
+.tutor-account-registration-steps-inside-block h4{font-size:19px;}
+.tutor-account-registration-steps-inside-block .checkbox-span-gap input[type="checkbox"]{float:left; width:20px;}
+.tutor-account-registration-steps-inside-block .checkbox-span-gap span{float:left; width:97%;}
+
+
+.btn-group.bootstrap-select .dropdown-menu{background:#fff;}
+.btn-group.bootstrap-select .btn-default{background:#fff; border:solid 1px #ccc; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; color:#535251;}
+.hint-form{font-size:12px;}
+.btn-group.bootstrap-select .dropdown-menu a{color:#535251;}
+.tutor-account-registration-steps-block div.col-md-12.col-sm-12.col-xs-12.nopad-left-right{padding-left:0 !important; padding-right:0 !important;}
+.tutor-account-registration-steps-block div.col-md-12.col-sm-12.col-xs-12.pad-left-right-15{padding-left:15px!important; padding-right:15px!important;}
+.tutor-account-registration-steps-block div.col-md-12.col-sm-12.col-xs-12.mar-left-right-15{margin-left:15px!important; margin-right:15px!important;}
+.tutor-account-registration-steps-block .example-modal{float:right; font-size:14px !important;}
+.tutor-account-registration-steps-block .per-statement-modal{float:right; font-size:14px !important;}
+.table-structure{/*border:solid 1px #d4d4d4;*/ margin-top:20px; padding:0!important; /*background:#ccc;*/}
+.table-structure .title{background:#eae6e0; padding:7px 10px; height:50px;}
+
+.table-structure div{padding:0.5px;}
+.pad-left15{padding-left:15px !important; padding-right:15px !important;}
+/*** Edited By Pradeep 22/6/2015 ***/
+.table-structure a i.icon-remove{padding:0 10px; margin:11px 0 10px 0; display:inline-block; width:100%; color:#a1a1a1;}
+.table-structure a i.icon-remove:hover{color:#eb8000;}
+.table-structure .input-main-width{width:19.6%; text-align:center;}
+.table-structure .close-icon-width{width:2%; text-align:center;}
+.margin-top0{margin-top:0;}
+
+#transaction-fees .table-responsive{padding:0;border:none;}
+.table > thead > tr > th{vertical-align:top;}
+#USDDIV{padding:0;}
+#INRDIV{padding:0;}
+.margin-top30{margin-top:30px;}
+.margin-top5{margin-top:5px;}
+.tutor-account-registration-steps-inside-block .form-group div{padding:0;}
+.no-link,
+.no-link:hover{cursor:text; color:#535251!important; text-decoration:none!important;}
+
+/*** Thanks Page ***/
+.information-thanks{padding:0; font-size:18px;}
+
+
+.past-filter-by-part .my-past-filter-form{padding:11px 0 0 73px !important;}
+.past-filter-by-part .my-past-filter-form .past-div-one{width:13.667%;}
+#banking-info{padding:0;}
+.modalbox-iframe{width:98%;} 
+.modal-body{width:98%;}
+.padding-left40{padding-left:40px!important;}
+
+.question-step5{position:relative; padding-left:16px !important;}
+.question-step5:before{content:'Q'; left:0; position:absolute;}
+
+/*30/06/2015*/
+.tutor-account-registration-steps-block .form-container2.registration-5 .form-group{margin-bottom:5px!important;}
+.btn-apply-coupon #apply_coupon{width:124px;}
+.rat-container textarea.form-control{height:110px;}
+.attachment-list-fmt .bootstrap-filestyle .group-span-filestyle{float:left; width:38%;}
+.attachment-list-fmt .remove-more-input-file,
+.attachment-list-fmt .remove-more-input-file:hover{background:#fff; padding:9px 7px; right:16px; top:0;width:25px; height:34px; border-left:1px solid #ccc;}
+
+.padtopnew-fmt{padding-top:7px!important;}
+
+.coupon-applied-new{color:#77aa2b; font-weight:normal;}
+
+.delete-fav-tutor,
+.delete-fav-tutor:hover,
+.delete-fav-tutor:focus{position:absolute; right:-3px; top:-7px; color:#ea1a16!important; text-decoration:none; z-index:999;}
+.delete-fav-tutor i.glyphicon-remove-circle{font-size:22px;}
+/* My Information Page CSS Date 30/06/2015 Start */
+.my-information-page{padding:0; margin-bottom:80px;}
+.my-information-page h3.text-org{padding-left:0;}
+.my-information-blog{border:1px solid #ccc; border-radius:5px; padding:0; height:250px;}
+.my-information-blog:hover{background:#f9f9f9;}
+.my-information-blog.active{background:#f9f9f9;}
+.my-information-blog .page-header{margin:0; padding:12px 10px 7px 22px; border-bottom:1px solid #ccc;}
+.my-information-blog h3{margin:0;}
+.my-information-blog-list{padding:10px 10px 7px 22px;}
+.my-information-blog-list a{margin:5px 0 7px; display:block;}
+
+/**************css by rajeev sinha for bugs on 01072015 */
+.my-information-page .padleft-zero{padding-left:0;}
+.my-information-page .padright-zero{padding-right:0;}
+.my-information-page .padlefright-zero{padding-left:0; padding-right:0;}
+
+/* My Information Page CSS Date 30/06/2015 End */
+
+.ipad-padding-left{padding-left:0;}
+.label-select{padding:0; margin-top:5px; width:34%;}
+.tutor-list-top-checkbox{margin-bottom:15px;}
+
+#my-transation .icon1-blank{width:25px;}
+
+/* CSS My Account 7/7/2015 */
+.my-accounts-blocks .month-time{padding-top:11px;}
+.my-accounts-blocks .icon1-home-tutoring{background-position: 0px -7px; height: 23px;}
+.my-accounts-blocks .icon1-student-visit-tutor{background-position: 0px -68px; height: 21px;}
+
+
+
+
+/* visitor page start */
+
+.navbar-inverse{background:#fff;}
+.navbar-inverse{border-color:#fff;}
+#stickyheader{z-index:9;}
+/*Css By Pradeep*/
+.visitor-top-nav .navbar-right{text-transform:uppercase; margin-right:0!important;}
+.visitor-top-nav.navbar-collapse.collapse{padding-top:40px;}
+.visitor-top-nav .phone-icon-visitor{font-size:20px;vertical-align:middle!important; color:#fff; text-shadow:0 0 1px #000;}
+.visitor-top-nav .navbar-nav > li > a{padding-top:0; padding-bottom:0; color:#535251;  text-shadow:none;}
+.visitor-top-nav .navbar-nav > li > a:hover, .visitor-top-nav .navbar-nav > li > a:focus{color:#535251;}
+.visitor-top-nav .login-visitor{background:#eb8000;color:#fff!important;}
+.visitor-top-nav .login-visitor:hover, .visitor-top-nav .login-visitor:focus{background:#eb8000!important;color:#fff!important;}
+.visitor-top-nav .navbar-nav > li > .dropdown-menu{border-radius:0px; box-shadow:none;}
+.visitor-top-nav .navbar-nav > li > .dropdown-menu::after{border:none;}
+.visitor-top-nav .navbar-nav > li > .dropdown-menu::before{border:none;}
+.visitor-top-nav .navbar-nav > .open > a, .visitor-top-nav .navbar-nav > .open > a:hover, .visitor-top-nav .navbar-nav > .open > a:focus{background:none; box-shadow:none; color:#535251; border:1px solid #eb8000}
+.visitor-top-nav .dropdown-toggle{font-size:14px; border:1px solid #eb8000; padding:0 10px 0 10px; margin-left:15px;}
+.visitor-top-nav .navbar-nav .open .dropdown-menu > li:last-child a{margin-top:0;}
+.flag-img{margin:0 5px 0 0; vertical-align:top;}
+.flag-img img{margin-top:-3px;}
+.topheader-mobile{display:none;}
+
+/*CSS For Main Navigation Start*/
+.main-nav{background:#535251; width:100%;}
+.main-nav .navbar-collapse.collapse{padding-top:0;}
+.main-nav .navbar{min-height:inherit;}
+.main-nav .navbar-nav > li > a{padding:10px 32px 9px;/*Edited by pradeep*/  color:#fff;  text-shadow:none;background:none!important; box-shadow:none;}
+.main-nav .navbar-nav > li:nth-child(1) a{padding-left:0;}
+.main-nav .navbar-nav > li > a:hover, .main-nav .navbar-nav > li > a:focus{color:#eb8000!important; }
+.main-nav .navbar-nav > .open > a, .main-nav .navbar-nav > .active > a{color:#eb8000!important; background-color:none !important; background-image:none!important; box-shadow:none;}
+.main-nav .nav .open > a, .main-nav .nav .open > a:hover, .main-nav .nav .open > a:focus{border-bottom:none;}
+.main-nav .navbar-nav > li > .dropdown-menu{border-radius:0px; background:#9d9d9d; box-shadow:none; padding:0; border:none;}
+.main-nav .navbar-nav > li > .dropdown-menu::after{border:none;}
+.main-nav .navbar-nav > li > .dropdown-menu::before{border:none;}
+.main-nav .navbar-nav .open .dropdown-menu > li > a{color:#fff; border-bottom:1px solid #dddddd; line-height:30px;}
+.main-nav .navbar-nav .open .dropdown-menu > li > a:hover{background:#eb8000; color:#fff!important;}
+.main-nav .navbar-nav .open .dropdown-menu > li:last-child a{margin-top:0;}
+.main-nav .dropdown-menu > li > a, .main-nav .dropdown-menu > li > a{color:#fff; border-bottom:1px solid #dddddd; line-height:26.2px!important;}
+.tutor-image-reg-bg{background:url("../../images/become-mem-large.jpg") no-repeat;height:39px;width:248px; position:absolute; right:0;}
+.main-nav #navbar .dropdown-toggle{font-size:14px;}
+/*CSS For Main Navigation End*/
+.navbar-fixed-top, .navbar-fixed-bottom{position:inherit;}
+/*Css By Pradeep End*/
+/* Slider */
+.home-page-slider{padding:0;}
+.home-page-slider .carousel .carousel-inner .item{opacity:0.5; -webkit-transition-property:opacity;transition-property:opacity;}
+.home-page-slider .carousel .carousel-inner .active{opacity:1;}
+.home-page-slider .carousel .carousel-control{z-index:2;}
+/* visitor page ends */
+
+/* visitor page ends */
+.container-homepage{width:1080px; margin:0 auto; padding:0;}
+.container-homepage div{padding:0;}
+.float-none{float:none;}
+.home-search-panel{background:#09ace6; float:none; color:#fff; padding:10px 0; margin-bottom:15px;}
+.home-search-panel .title-search-home{font-size:30px; text-align:center;}
+.home-search-panel a{color:#fff; margin-left:5px;}
+.home-search-panel .input-container{margin:10px auto 15px auto; float:none;}
+.home-search-panel .input-container input[type="text"]{background:url(../../images/magnify.png) no-repeat right 7px #fff; padding-right:35px;}
+.home-search-panel .helpyou-new {font-size:15px;}
+.home-search-panel .btn-orange{/*border:solid 1px #fff !important;*/}
+.subhead-titles{padding:20px 0;}
+.subhead-titles div:nth-child(1){font-size:30px;}
+.subhead-titles div:nth-child(2){font-size:17px; letter-spacing:0.2px;}
+.subhead-titles div:nth-child(2) span{color:#eb8000; display:block;}
+
+.three-columns{padding:10px 0;}
+.three-columns div{padding:0 10px; text-align:center;}
+.three-columns div span{text-align:justify; font-size:17px; padding:0;}
+.three-columns div b{display:block; font-size:18px; font-weight:normal;}
+.three-columns div:nth-child(1){padding:0 10px 0 0;}
+.three-columns div:nth-child(3){padding:0 0 0 10px;}
+.color-orange{color:#f17e24;}
+.color-blue{color:#009de0;}
+.color-darkpink{color:#ec1c24;}
+
+
+/* carousel CSS BY Pradeep Strart */
+.testimonials-home{background:#eae6e0; padding:19px 20px !important; height:237px !important; position:relative; margin:10px 0;}
+.testimonials-home .testimonials-home-title{font-size:30px; color:#807e7e; text-transform:capitalize; width:39%; padding-top:17px;}
+.testimonials-home .testimonials-home-lists{width:61%; padding-left:47px;}
+.testimonials-home .testimonials-home-lists:before{color:#fff; content:"\201C"; font-size:200px; position:absolute; left:-35px; top:-66px;}
+.testimonial-carousel{background:#fff;}
+.testimonial-carousel #carousel-example-generic1{height:200px;}
+.testimonial-carousel .carousel-caption{ color:#000; position:static; text-shadow:none; text-align:left; padding:10px 28px;}
+.testimonial-carousel .carousel-control{background:#a99f9d; height:20px; width:20px; opacity:1; padding:2px; top:44%;}
+.testimonial-carousel .carousel-control .glyphicon-chevron-left, .testimonial-carousel .carousel-control .glyphicon-chevron-right, .testimonial-carousel .carousel-control .icon-prev, .testimonial-carousel .carousel-control .icon-next{font-size:14px; width:inherit; height:inherit; position:absolute; margin:inherit; right:1px; top:2px; text-shadow:none;}
+.testimonial-carousel .carousel-control .icon-prev, .carousel-control .glyphicon-chevron-left{left:1px;}
+.testimonial-carousel .testimonial-carousel-content{margin:10px 0; height:108px;}
+/* carousel CSS BY Pradeep End */
+
+
+.success-story{border:1px solid #eae6e0; background:#fff; padding:11px 10px !important; margin:10px 0;}
+.success-story .profile-image{float:left; width:13%; height:93px; overflow:hidden;}
+.success-story .profile-image img{width:136%; margin-left:-36%;}
+.success-story .profile-content{width:87%; font-size:14px; padding-right:0;}
+.success-story .profile-content b{color:#ed8200; font-size:20px; font-weight:normal; display:block; text-transform: capitalize; margin-top:-7px;}
+.success-story .profile-content a.profile-link{display:block; text-align:right;}
+.success-story .profile-content a.profile-link img{margin-left:10px;}
+
+.cash-coupons{background:url(../../images/cash-coupons-home.jpg) no-repeat right top #00abe6; font-size:30px; color:#fff; padding:12px 20px 13px!important; margin:10px 0;}
+.cash-coupons a{color:#fff;}/*CSS Added By Pradeep*/
+.tutor-opportunity{padding:5px 0 0 0!important; font-size:14px; height:210px; overflow:hidden; text-align:justify;}
+.tutor-opportunity div:nth-child(1){padding:0 20px 0 0;}
+.tutor-opportunity div:nth-child(3){padding:0 0 0 20px;}
+.tutor-opportunity div b{font-size:30px; color:#f17e24; font-weight:normal; display:block; padding-bottom:15px; text-align:left;}
+.tutor-opportunity div span{display:block; padding-bottom:10px;}
+.tutor-opportunity .tutor-signup-link i{margin-top:0px;}
+.tutor-opportunity div i{font-style:normal; display:block; text-align:right;}
+.tutor-opportunity .tutor-signup-link{padding:0!important;}
+.tutor-opportunity img{width:67%;}
+
+
+.article-content{background:#eae6e0; padding:10px;} 
+.article-content .business-world{text-align:right; padding-right:20px; border-right:solid 1px #ccc;}
+.article-content .financial-express{text-align:left; padding-left:10px;}
+
+.rgt-panel{padding:0 0 0 20px !important; float:right;}
+.india-best-tutor{background:#8dbf44; color:#fff; padding:7px 10px 7px 14px!important; font-size:16px; line-height:20px;}
+.india-best-tutor-content{background:#eae6e0;}
+.india-best-tutor-content ul{list-style-type:none; padding:0; margin:0;}
+.india-best-tutor-content li{padding:0; margin:0;}
+.india-best-tutor-content li a{ padding:10px 15px 3px!important; margin:0; float:left; border-bottom:solid 1px #bbb; width:100%;/*CSS Added By Pradeep*/}
+.india-best-tutor-content li a:hover{background:#d7d3cd;}
+.india-best-tutor-content li a.last-child{padding:0 10px 1px !important; border-bottom:0; border-top:0;}
+
+.india-best-tutor-content li a .avatar-pic{float:left; width:79px; height:150px;} 
+.india-best-tutor-content li a .avatar-pic span{width:79px; background:#00abe6; padding:2px; color:#fff; float:left; text-align:center;}
+.india-best-tutor-content li a .avatar-pic span b,
+.india-best-tutor-content li a .avatar-pic span i{display:block; font-style:normal;}
+.india-best-tutor-content .profile-details{width:74%; /*Edited By Pradeep*/ padding-left:18px; float:left; position:relative;}
+.india-best-tutor-content li:nth-child(4) a{border-bottom:0;}
+
+.india-best-tutor-content .profile-details b{font-weight:normal; color:#535251; display:block;}
+.india-best-tutor-content .profile-details b:nth-child(1){color:#009de0; text-transform:uppercase;}
+
+/*CSS 8/7/2015*/
+.business-world a{float:right;}
+.cash-c-btn{display:none;}
+/*CSS 9/7/2015*/
+.navbar-brand{padding-left:0;}
+.container-homepage .navbar-inner{padding:9px 0 10px;}
+
+#suggestCityPinCode a.close{position:absolute; right:-6px; top:-8px;}
+.pincodeList div{padding-bottom:10px; padding-left:18px; text-align:left;}
+.marginbottom20{margin-bottom:20px;}
+
+.book-session-container .xdsoft_datetimepicker .xdsoft_calendar td:hover, .book-session-container .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div:hover{background:#80cc66!important;}
+
+.book-session-container .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_default, .book-session-container .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current, .book-session-container .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div.xdsoft_current{background:#80cc66!important; box-shadow:none;}
+.book-session-container #selectDateTimeDefault{margin-bottom:7px;}
+/*******Calendar css custom for disable *************/
+.specialDate { background-color: #BCF5A9 !important; }
+.speDate { background-color: #D3D3D3 !important;cursor:not-allowed!important; }
+.xdsoft_disabled {cursor:not-allowed!important; }
+.speDate div{display:none;}
+.my-accounts-blocks .block-row .btn.btn-grey.disabled{width:auto; padding:8px 5px;}
+.my-accounts-blocks .block-row .btn.btn-default{width:auto; padding:8px 5px;}
+.legends-for-tutor-list label{margin-right:10px;}
+.tutor-list .profile-pic{padding-left:0;}
+.tutor-list .list-actions{padding-right:0;}
+#email-and-password{padding:0;}
+.book-session-container .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_disabled:hover, .book-session-container .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div.xdsoft_disabled:hover{background-color:#d3d3d3!important;}
+
+.datetimepicker{display:block !important;}
+
+/*************about us css start ***************/
+.info-orange{color:#eb8000; padding:10px 0;}
+.about-us-content{padding-right:20px!important; text-align:justify;}
+.inside-height-visitors{ min-height:400px; max-height:100%; padding:20px 0; display:table;}
+.inside-height-visitors h4.page-heading{padding-top:15px;}
+.student-about-tutor{background:#eae6e0; margin-top:40px; margin-bottom:20px; }
+.student-about-tutor .about-tutor{background:#8dbf44; color:#fff; padding:7px 10px!important; font-size:16px; line-height:20px; text-transform:capitalize;}
+.student-about-tutor .review-lists{width:100%; float:left; padding:10px; position:relative;}
+.student-about-tutor .review-lists span{display:block;}
+.student-about-tutor .review-lists span.review-txt:before{content:"\201C"; font-size:44px; position:absolute; left:8px; top:20px; z-index:9; font-style:normal;}
+.student-about-tutor .review-lists span.review-txt{font-style:italic; padding-left:20px;}
+.student-about-tutor .review-lists span.student-name{text-align:right;}
+/*************about us css ends ***************/
+.inside-visitors-page .search-panel-container-inside{margin-bottom:0;}
+/*********New css for faq page by rajeev sinha ****************/
+.tab-content1 .accordion ul li{position:relative; list-style-type:none; border-bottom:1px dashed #ccc !important; width:100%; float:left; text-align:justify;}
+.tab-content1 .accordion ul{padding:0;}
+.tab-content1 .accordion ul ul{display:none; padding:0; width:100%; float:left;}
+.tab-content1 .accordion ul li.active{border:0!important;}
+.tutor-faq .faq-question:before{content:"Q."; position:absolute; left:0; top:5px; text-shadow:0 0 0 #fff;}
+.tutor-faq .faq-question{padding:5px 5px 5px 20px!important; width:100%; float:left;}
+.tutor-faq .faq-question span{font-sizze:16px;}
+.tutor-faq .faq-answer{padding:0 5px 5px 22px; width:100%; float:left;}
+.tutor-faq {padding-bottom:20px!important;}
+.container-homepage1{padding-left:0 !important; padding-right:0 !important;}
+
+.need-help a.call-us{font-size:17px;}
+.modal{z-index:9999!important;}
+.india-best-tutor-content i.icon1-star{background-position:-8px -153px;height:23px;
+width:23px; vertical-align:text-bottom;}
+
+.visitor-top-nav .navbar-nav > li:nth-child(4){margin:0 10px;}
+
+.india-best-tutor-content .profile-details b.statement-text{position:absolute; bottom:-24px;}
+.need-help a{text-transform:inherit!important;}
+
+.india-best-tutor-content .profile-details b:nth-child(4){height:60px;}
+
+/*CSS DATE 10-7-2015*/
+.mobile-logo{display:none;}
+
+
+/************ Login page css start *******************/
+.login-page{padding-bottom:20px!important; padding-top:20px!important;}
+.login-page .tabs{margin:0; padding:0; border-bottom:1px solid #ccc; float:left; width:100%; margin-bottom:20px;}
+.login-page .tabs li{float:left; list-style-type:none; padding:10px 20px; margin:0 5px 0 0 !important; font-size:18px; cursor:pointer;}
+.login-page .tabs li.tab-link.current{background:#0084ca; color:#fff;}
+.login-container-lft{background:url(../../images/login-bg-foot.png) repeat-x left bottom #fbfbfb; padding:20px!important; width:60%; margin-right:3%;}
+.login-container-rgt{padding:18px!important; background:#ece9e7; width:37%;}
+.login-container-rgt h5{border-bottom:1px solid #ddd; color:#eb8000; font-size:24px; padding:0 0 10px 0; margin:0 0 10px 0; text-transform:uppercase;}
+.login-page .divider-or{border-right: 1px solid #f3f3f3; box-sizing:border-box; height:93%; position:absolute; right:-33px; top:0; z-index:9; width:auto;}
+.login-page .divider-or em{background:#cacaca;  border:1px solid #d2d2d2; border-radius:27px; color:#717171; display:inline-block; padding:10px;  position:absolute; right:-23px; text-shadow:0 0 0 #000; top:42%; z-index:9; font-style:normal;}
+.login-page .facebook-login{padding-left:70px; padding-top:113px;}
+.login-page .facebook-login a{display:inline-block;}
+.login-container{padding-right:15px!important; padding-bottom:10px !important;}
+.login-page .not-member{position:absolute; left:18px; bottom:9px; text-align:center;}
+.login-container-rgt span{display:block; text-align:center;}
+.forgot-password-form{padding:0;}
+ 
+/************ Login page css ends *******************/
+/* Profile page css for new blocks by rajeev sinha on 10072015 start *********/
+.profile-new-set{}
+.round-border-new{border:solid 1px #ccc; -webkit-border-radius:5px; border-radius:5px; padding:10px; width:49%; margin-right:2%;}
+.round-border-new:nth-child(2){margin-right:0;}
+.my-information .round-border-new .form-group div {padding:0;}
+.my-information .round-border-new .width-equal {width:49%; margin-right:2%;}
+.my-information .round-border-new .width-equal:nth-child(2) {margin-right:0;}
+/* Profile page css for new blocks by rajeev sinha on 10072015 ends *********/
+
+
+/**************************** CSS Registration Start *************************************/
+.container-visitor-inner{margin-top:20px;}
+.container-visitor-inner, .container-visitor-inner div.col-md-8.col-sm-12.col-xs-12{padding:0;}
+.student-registration, .student-registration div.col-md-9.col-sm-12.col-xs-12{padding:0;}
+.container-visitor-inner h4.page-heading{text-transform:capitalize; margin-bottom:10px;}
+.tutor-registration{padding:0;}
+.tutor-registration .form-block{padding:0;}
+.tutor-registration .form-block div:nth-child(1){padding-left:0;}
+.tutor-registration .form-block div:nth-child(2){padding-right:0;}
+.tutor-registration .reg-text span{display:block; margin-bottom:10px;}
+.tutor-registration .captcha-code-width{width:60%;}
+.tutor-registration .captcha-code a{position:absolute; top:0; right:0; }
+.account-txt{display:none;}
+.how-it-work{padding:0; text-align:justify;}
+.how-it-work .control-icons-hiw{font-size:18px;}
+.how-it-work i.icon1-home-tutoring{background-position:-6px -5px;height:23px;vertical-align:text-bottom;width:28px;}
+.how-it-work i.icon1-online-tutoring{background-position:-6px -33px;height:23px;vertical-align:text-bottom;width:28px;}
+.how-it-work .text-blue{color:#01abe6;}
+.reg-right-part{padding-right:0; text-align:justify;}
+.reg-right-part div{padding:0;}
+.reg-right-part img{width:100%;}
+.signup-tutor1{background:#eae6e0; padding:8px 15px 15px!important;}
+.signup-tutor1 span{margin-bottom:10px; display:block;}
+.signup-tutor1 span:nth-child(4) {margin-bottom:0;}
+.signup-tutor1 .block-dtls{border:1px solid #a0957b; padding:10px; display:block;}
+
+.stu-right-part{padding-right:0; text-align:justify;}
+.stu-right-part div{padding:0;}
+.stu-right-part h4.page-heading{font-size:18px; text-transform:capitalize; height:55px; margin-bottom:10px;}
+.stu-right-part span{float:left; margin-top:25px;}
+.stu-right-part img{float:right; vertical-align:middle;}
+.stu-right-part h4.text-blue{color:#01abe6;}
+.stu-right-part h4.text-red{color:#ec1c24;}
+
+.reg-right-part div:nth-child(1){margin-top:27px;}
+/**************************** CSS Registration End *************************************/
+
+
+/********************Review and Testimonials page start ************************/
+.reviews-tetimonials .review-lists{width:100%; float:left; padding:10px 15px; position:relative; background:#eae6e0; margin-bottom:10px;}
+.reviews-tetimonials .review-lists span{display:block; margin-bottom:10px;}
+.reviews-tetimonials .review-lists span.review-txt:before{content:"\201C"; font-size:44px; position:absolute; left:13px; top:26px; z-index:9; font-style:normal;}
+.reviews-tetimonials .review-lists span.review-txt{font-style:normal; padding-left:20px; text-align:justify; display:inline;}
+.reviews-tetimonials .review-lists span.student-name-subject{text-align:right; margin-top:10px;}
+.reviews-tetimonials .review-lists span.student-name-subject em{float:left; font-style:normal;}
+.reviews-tetimonials .rgt-panel{margin-top:40px;}
+/********************Review and Testimonials page ends ************************/
+
+.address-and-phone-div div:nth-child(n+1){padding-left:0;}
+.submit-area{padding:0;}
+.address-and-phone-div2 div:nth-child(n+1){padding-left:0;}
+.profile-new-set .round-border-new div{padding-left:15px; padding-right:0;}
+.padd-left-right-zero{padding-left:0; padding-right:0;}
+
+.new-chkbox input[type="checkbox"]{margin-top:2px;}
+.custom-input-file a{margin-bottom:0;}
+.attachment-list-fmt .bootstrap-filestyle .group-span-filestyle label{margin-bottom:0;}
+.btn-apply-coupon .btn{margin-bottom:0;}
+
+
+
+
+
+/*************************Css for contact us start *********************/
+.contact-us-container{margin-bottom:20px!important;}
+.contact-us-container .contact-form-new{padding-right:15px;}
+.contact-us-container .contact-form-new label{padding-left:0;}
+.contact-us-container .contact-form-pad-rgt{padding-right:20px;}
+.contact-txt{line-height:25px;}
+.contact-right-txt .country{display:block; color:#0082c5 !important; text-transform:uppercase; font-size:16px;}
+.contact-right-txt em{font-style:normal;}
+.contact-right-txt .call-tel{color:#535251;}
+.tutor-radio-select{background:#8cdaf7; padding:10px !important; margin-bottom:20px;}
+.tutor-radio-select label{display:block; margin:5px 0;}
+.contact-us-by-phone span{display:block;}
+.contact-us-by-phone .clone{display:none;}
+.contact-txt .call-tel{color:#535251;}
+/*************************Css for contact us ends *********************/
+
+/**************Student registration by rajeev sinha 07142015 *******************/
+.tutor-registration .email-check{position:absolute; background:#fff; padding:0 5px; left:4%; top:55%; color:#eb8000;  width:60%;}
+.tutor-registration .wrong{position:absolute; right:7px; top:29px; color:#eb8000; font-size:22px; display:none;}
+.tutor-registration .right{position:absolute; right:7px; top:27px; color:#8dc644; font-size:22px;display:none;}
+.tutor-registration #err_div{text-align:center;}
+
+/*************************Css for Tutor Profile Starts *********************/
+.tutor-profile-container .tab-data-container{}
+.tutor-profile-container .tab-data-container{}
+/*************************Css for Tutor Profile ends *********************/
+
+
+
+/*****************************************************************************/
+/******************************************************************************/
+/***************************Media Query Start *******************************/
+/***************************************************************************/
+
+
+@media all and (-webkit-min-device-pixel-ratio:0){
+.refresh-size{/*margin-left:105px;*/}
+.my-trans-filter-form{width:622px;}
+.label-select{width:35%;}
+.notification-bell i{padding:6px 0px 0px 0px;}
+}
+
+@media (max-width: 991px){
+.rgt-panel{padding:10px 0 0 20px !important;}
+.submit-area{padding:inherit;}
+/**************************** CSS Registration Start *************************************/
+
+/**************************** Modify  By Pradeep CSS Registration Start *************************************/
+/*******Modify  By Pradeep CSS Registration Start 14/07/2015 ***********/
+.stu-right-part h4.page-heading{height:auto;}
+.stu-right-part img{float:none;}
+.stu-right-part span{float:none; display:block; margin-top:5px;}
+/*******Modify  By Pradeep CSS Registration End 14/07/2015 ***********/
+
+.container-visitor-inner, .container-visitor-inner div.col-md-8.col-sm-12.col-xs-12{padding:0;}
+.tutor-registration{padding:0;}
+.tutor-registration .form-block{padding:0;}
+.tutor-registration .form-block div:nth-child(1){padding-left:0;}
+.tutor-registration .form-block div:nth-child(2){padding-right:0;}
+.tutor-registration .captcha-code-width{width:61%!important;}
+.reg-right-part{padding:0;}
+.reg-right-part div{padding:0;}
+.stu-right-part{padding-left:inherit; text-align:center;}
+.stu-right-part div:nth-child(1){padding:0;}
+.stu-right-part div.ipad-view{padding:0 15px;}
+.stu-right-part div:nth-child(3){padding:0;}
+/**************************** CSS Registration End *************************************/	
+
+/* Profile page css for new blocks by rajeev sinha on 10072015 start *********/
+.round-border-new{border:solid 1px #ccc; -webkit-border-radius:5px; border-radius:5px; padding:10px; width:100%; margin-right:0; margin-bottom:10px;}
+
+.my-information .round-border-new .width-equal {width:100%; margin-right:0;  margin-bottom:10px;}
+/* Profile page css for new blocks by rajeev sinha on 10072015 ends *********/	
+	
+/************ Login page css start *******************/
+.login-container-lft{width:60%; margin-right:3%; padding-bottom:50px !important;}
+.login-container-rgt{width:37%;}
+.login-page .divider-or{border-bottom: 1px solid #f3f3f3; border-right:0;  box-sizing: border-box; height:93%; position:relative; right:inherit;  top:inherit; z-index: 9; margin-top:20px; width:100%;}
+
+.login-page .divider-or em{position:absolute; right:43%; top:-20px; z-index:9;}
+.login-page .facebook-login{padding-top:45px; padding-left:0;}
+/************ Login page css ends *******************/
+
+
+/* CSS My Account 7/7/2015 */
+.my-accounts-blocks .month-time{width:17%;}
+.my-accounts-blocks .width22per{width:12%;}
+.my-accounts-blocks .width88per{width:88%;}
+.my-accounts-blocks .icon1-student-visit-tutor{background-position: 0px -66px; height: 23px;}
+
+.label-select{width:100%; text-align:left;}
+.past-filter-by-part .my-past-filter-form {
+    padding: 11px 0 0 12px !important;
+}
+
+
+
+
+.pad-zero{padding:0 !important;}/*Edited by pradeep 8/7/2015*/
+.home-page-slider{padding:0;}
+.home-search-panel .title-search-home{font-size:26px;}	
+.india-best-tutor-content .profile-details{width:184px;}
+.testimonials-home{padding-top:5px!important;}
+.testimonials-home .testimonials-home-title{width:100%; font-size:26px; margin:0; padding:0; text-align:center; line-height:32px;}
+.testimonials-home{width:100%; height:316px!important;}
+.testimonials-home .testimonials-home-lists{width:100%;}
+.testimonials-home .testimonials-home-lists:before{display:none;}
+.success-story .profile-image{display:none;}
+.success-story .profile-content{width:100%; padding:0;}
+.subhead-titles{padding-top:15px; float:left;}
+.subhead-titles div:nth-child(1){font-size:26px;}
+.navbar-fixed-top, .navbar-fixed-bottom{padding:0 !important;}/*Edited by pradeep 8/7/2015*/
+.reviews-tetimonials .rgt-panel{padding:0!important; margin-top:0!important;}
+.success-story{height:196px;}
+.success-story .profile-content span{padding:20px 0; display:block;}
+.india-best-tutor-content li a{padding:5px 10px 0 !important;}
+.india-best-tutor-content i.icon1-star{height:20px; width:23px; background-position:-10px -157px;}
+.cash-coupons{background:url(../../images/cash-coupons-img-1.png) no-repeat right top #00abe6; font-size:30px; color:#fff; padding:40px 120px 40px 20px !important; margin:10px 0;}
+.tutor-opportunity{height:268px;}
+.tutor-opportunity img{width:100%; position:absolute; left:0; top:40px; z-index:9;}
+.tutor-opportunity div span{padding-bottom:15px;}
+.article-content{float:left;}
+.footer-container{float:left; padding:10px 9px;}
+
+
+.main-nav .container-homepage{padding:0 !important;}/*Edited by pradeep 8/7/2015*/
+
+
+.testimonials-home .testimonials-home-lists{padding-left:0;}
+.testimonials-home .testimonials-home-title{margin-bottom:13px;  padding-top:10px;}
+.profile-link{margin-top:10px;}
+
+/*Cash Coupons*/
+.cash-coupons{background-position:right 0;background-size:30% auto; font-size:23px; padding-bottom:41.5px !important;}
+
+
+
+
+
+
+	/* visitor page start */
+/*Css By Pradeep*/
+.success-story .profile-content b{text-align:center; margin-top:0;}
+.india-best-tutor-content .profile-details b.statement-text{position:absolute; bottom:-27px;}
+.india-best-tutor-content .profile-details b:nth-child(4){height:60px;}
+.need-help a.call-us{font-size:17px;}
+.visitor-top-nav .dropdown-toggle{margin-left:5px;}	
+.visitor-top-nav .navbar-nav > li > a{padding:3px 5px 0px;}
+.navbar-brand{padding:15px 0;}
+
+.tutor-image-reg-bg{background:url("../../images/become-mem.jpg") no-repeat;height:28px;width:234px; position:absolute; right:0;}
+.main-nav .navbar-collapse{padding-left:0;}
+.main-nav .navbar-nav > li > a{padding:4px 20px}/*Edited by Pradeep*/
+.ipad-on-hide{display:none !important;}
+.tutor-opportunity div b{font-size:24px;}
+/*Css By Pradeep End*/
+/* visitor page ends */	
+
+.container-homepage{width:100%; margin:0 auto; padding:0 10px;}
+.past-filter-by-part .my-past-filter-form {padding: 11px 0 0 12px !important;}
+
+#withdraw-funds .withdraw-input .margin5{margin-top:8px!important;}
+#withdraw-funds .input-group-addon{padding-top:10px;}
+#withdraw-funds .btn.btn-orange{padding:12px 8px 7px !important;}
+#withdraw-funds .withdraw-input .col-sm-2{padding-left:5px;}
+#withdraw-funds .withdraw-input .col-sm-4{padding-right:5px;}
+
+#add-funds .input-group-addon{padding-top:10px;}
+#add-funds .col-sm-2{/*padding-left:5px;*/}
+#add-funds .col-sm-4{/*padding-right:5px;*/}
+#add-funds .submit-btn-add-fund{padding-left:0; padding-right:0;}
+#add-funds .btn.btn-orange{padding:12px 8px 7px !important;}
+#add-funds .margin-top5{margin-top:0px!important;}
+#add-funds .form-group{margin-bottom:20px;}
+.favourite-tutor .panel-heading .panel-title a{padding:15px 15px 10px!important;}
+.list-blocks input[type="checkbox"]{margin-top:4px!important;}
+.my-trans-filter-form{margin-top:-3px;}
+.my-trans-filter-form input{padding:9px 5px 3px!important;}
+.my-trans-filter-form select{padding:6px 5px 3px!important;}
+.timepick-book-session label{padding-left:5px!important;}
+.boook-session-profile-img{margin-bottom:0!important;}
+.hourly-fees{margin-top:5px!important;}
+.form-control{padding:9px 12px 4px !important;}
+.cancel-whiteboard-btn{margin-top:5px;}
+.my-accounts-blocks .h3-buttons-container{padding-top:11px!important;}
+.notification-msg-box li.text-center{clear:left; display:block;}
+.notification-msg-box li.text-center a{padding-top:7px!important; display:block; text-align:center;}
+.my-accounts-blocks .block-row .col-md-9{padding-top:10px!important;}
+.btn-orange.find-me-tutor{padding:12px 20px 5px!important;}
+.btn{padding:8px 8px 4px!important;}
+.verify-mobile .btn{padding-bottom:8px !important; padding-top:11px !important;}
+.caret{margin-top:8px;}
+.notification-bell i{padding-top:6px !important;}
+#apply_coupon{width:40%;}									
+.my-account-past .filter-container-new{width:80%;}/*24/6/2015*/
+
+.width19per{width:19%;}
+.width81per{width:81%;}
+.my-trans-filter-form select{width:94%;}
+.my-trans-filter-form{width:596px; padding-right:0;}
+.my-accounts-blocks .alert{margin-bottom:5px;}
+
+.tutor-transaction-tab a.btn{position:relative;z-index:9;}
+.tutor-account-registration-steps-inside-block .checkbox-span-gap span{width:95%;}
+
+#awaiting-conf-tutor .all-top-margin i.icon1-online-tutoring{background-position:-8px -35px !important; width:25px;}
+#past-conf-tutor .all-top-margin i.icon1-online-tutoring{background-position:-8px -35px !important; width:25px;}
+#awaiting-conf-tutor .icon1-tutor-msg, .icon1-send-email{background-position:-6px -123px;}
+.all-top-margin i.icon1-student-visit-tutor{background-position:-6px -64px !important; width:25px; }
+
+/*****************************************
+Totor CSS By Pradeep Start
+*****************************************/
+.duration-type{padding:0; width:100%;}/*23/6/2015*/
+.request-btn-to-bank{text-align:right; margin-top:10px;}
+.tutor-my-transaction .transation-row div{padding:0;}
+.tutor-my-transaction .transation-row .col-md-2{width:auto;}
+.tutor-my-transaction .transation-row .col-sm-2{width:15.5%;}
+.tutor-my-transaction .transation-row .col-sm-3{width:28%;}
+.tutor-my-transaction .transation-row .infoiconsmall{width:14.5%; padding:0 0 0 15px;}
+.tutor-my-transaction .transation-row .margin5{margin-top:5px;}
+.tutor-my-transaction .transation-row .margin8{margin-top:8px;}
+.tutor-my-transaction .my-transation-blocks .filter-container-new{border-top:1px solid #ccc;padding-bottom:10px !important; padding-top:3px !important;width:100%; padding-left:167px!important; }
+.tutor-my-transaction .closing-balance{width:97.2%;}
+.tutor-my-transaction .closing-balance .col-md-1{margin-top:-5px;}
+
+.custom-width-mockup-select-multiple{padding:0;}
+.custom-width-mockup-select-multiple .form-control{box-shadow:none; padding-top:0!important;}
+.tutor-account-registration-steps-inside-block .custom-width-mockup .bootstrap-filestyle{width:96%!important;}
+.tutor-account-registration-steps-inside-block .custom-width-mockup-select-multiple{width:100%!important; padding:0!important;}
+.tutor-account-registration-steps-inside-block .custom-width-mockup-select-multiple div{padding:0!important;}
+.tutor-account-registration-steps-inside-block .custom-width-mockup .btn.btn-orange.add-more-input-file{top:0!important; left:auto!important; right:-7px;}
+.tutor-account-registration-steps-block .bootstrap-filestyle .btn{padding: 11px 8px 6px !important;}
+.tutor-account-registration-steps-block .btn{padding:11px 8px 8px !important;}
+/*****************************************
+Totor CSS By Pradeep End
+*****************************************/
+
+
+#add-funds h3{margin:10px 0;}
+.my-transation-blocks .filter-container-new{border-top:1px solid #ccc;padding-bottom:10px !important; padding-top:20px !important;width:100%; padding-left:136px!important; }
+.list-blocks .btn{margin-top:0!important;}
+.filter-container-new{padding-left:0 !important; margin-left:0;}
+.my-past-filter-form{margin:0!important;}
+.past-div-submit{width:22.667%;}
+.past-div-one{width:14.667%;}
+/**************** BUG CSS DATE 9-6-2015 START ***************/
+.h3-buttons-container{padding:11px 10px 10px 0 !important; }
+.list-blocks .btn{margin-top:7px;}
+/**************** BUG CSS DATE 9-6-2015 END ***************/
+
+
+.search-panel-container{padding:15px 0; background:#f0f0f0;} 
+.search-panel-container h3{text-align:center; margin-top:10px;}
+.pad-rgt-60{padding-right:15px;}
+.or-divider{position:relative; left:inherit; top:inherit; width:100%; float:left; height:auto; padding:40px 0 0 0; background:url("../../images/divider-bg.png") repeat-x left top; margin-top:30px;}
+.or-divider span{margin-top:0; margin-left:0; position:absolute; left:45%; top:-20px;}
+.legends label{display:inline-block;}
+.book-session-container{padding:20px 10px;}
+.my-transaction-dashboard{border:0;}
+.list-box .profile-pic{width:16.6667%;}
+.list-box .profile-desc{width:58.3333%;}
+.closing-balance{width:97%;}
+.closing-balance .col-md-1{ margin-top:15px;}
+.closing-balance .form-group{margin-bottom:10px;}
+.mailbox div{font-size:13px;}
+.mailbox .attachment-date-legend{padding-right:13px;}
+.mailbox .attachment-date-legend .icon-read-by-tutor{width:20px; background-position:-8px -366px;}
+.mailbox .time-date{margin-left:-5px;}
+
+.my-past-filter-form{margin:10px 0;}
+
+.list-actions span a, .list-actions span a:hover{font-size:13px; }/*Edited By Pradeep*/
+.list-box label{font-size:13px;}/*Edited By Pradeep*/
+.list-box .list-actions label{font-size:13px;}/*Edited By Pradeep*/
+.list-actions.col-sm-3{width:25%; padding:0 13px;}
+
+
+.add-new-phone-no{width:40%;}
+
+.coupon-code-width{/*width:43.667%;*/}
+.captcha-code-width{width:43.667%;}
+
+input[type="text"],
+input[type="file"],
+input[type="button"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="submit"],
+input[type="search"],
+select,
+textarea{ -webkit-appearance: none; /*Safari/Chrome*/
+    -webkit-appearance: none; /*Safari/Chrome*/
+    -moz-appearance: none; /*Firefox*/
+    -ms-appearance: none; /*IE*/
+    -o-appearance: none; /*Opera*/
+    appearance: none;
+    -webkit-border-radius: 0;
+	box-shadow:none;
+}
+
+.ipad-view-select{padding:0; margin:0;}
+.ipad-hide{display:none;}
+.select-margin-top{margin-top:15px; float:left;}
+
+.margin-top10{margin-top:10px;}
+.name-margin-left{margin-left:0px;}
+.recommended-widget a.btn.btn-default{border:solid 1px #77ab2a; padding:4px 7px;}
+.list-blocks.tutor-account .profile-pic-student-tooltip span{margin-top:7px;}
+.icon1-info-small{background-position:-55px -63px;}
+.staus-subject span{margin-top:7px;}
+.button-ipad-center{text-align:left !important;}
+.block-row{padding:20px 10px 10px 10px !important}
+.completed{display:block;}
+
+
+.table-structure a i.icon-remove{padding:0 6px;}
+.btn{padding:8px 8px 5px 8px; margin:0 5px 5px 0; line-height:15px; font-size:14px;}/* rajeev changes 11/06/02015 */
+
+#no-more-tables tr{border:0!important;}
+#banking-info{padding:0;}
+.padding-transaction{padding-right:0;}
+.transation-row div:nth-child(1){padding:0;}
+.transation-row div:nth-child(5){padding-left:0;}
+.transation-row{padding:20px 15px !important;}
+
+.filters .sort-by{width:28%;}/*24/6/2015*/
+.sort-by select{padding:7px 5px 4px!important;}
+.sort-by label{padding-top:5px !important;}
+.filters .search-tutor-breadcrumbs span{padding-top:5px!important;}
+.profile-pic .profile-sessions{padding:9px 5px 4px!important; display:inline-block;}
+.notification-bell{margin-top:-2px;}
+
+.new-legend i{width:36px;}
+.new-legend label{margin-top:3px;}
+.new-legend label{margin-top:3px;}
+.new-legend .icon1-stz{background-position:-6px -538px; width:33px;}
+}
+
+
+
+@media (min-width: 280px) and (max-width:320px) {
+.filters .sort-by{width:63%!important; float:left;}
+.sort-by label{padding-left:0 !important; text-align:left;}
+.profile-desc label.control-label.display-inline{height:17px!important;}
+.legends-icon{margin-bottom:7px;}
+
+.panel-default > .panel-heading + .panel-collapse > .panel-body{padding:10px 0;}
+.glyphicon.refresh-size{/*margin-left:105px!important;*/}
+.transation-row .col-xs-4{width:100%; margin:5px 0;}
+/*****************************************
+Totor CSS By Pradeep Start
+*****************************************/
+.tutor-transaction-tab a.btn{width:100%;}
+.tutor-transaction-tab a.btn:nth-child(2){margin-top:10px;}
+/*****************************************
+Totor CSS By Pradeep End
+*****************************************/
+.verify-on-mobile a.col-xs-4{width:50%;}
+.registration-2 .verify-mobile .col-xs-7{width:60%!important;}
+.registration-2 .verify-mobile .col-xs-5{width:40%!important;}
+.registration-2 .show-pin-code-list .pin-input-field.col-xs-6{width:55%!important;}
+.registration-2 .show-pin-code-list .col-xs-6{width:45%!important;}	
+#apply_coupon{width:50%;}
+#veri_mob .verify-mobile a.col-xs-6{width:44%;}
+.recording-btn button.btn{margin-left:0!important; margin-right:0; font-size:14px; width:105px; padding-left:13px!important; text-align:left;}
+.caret{position:absolute; right:12px !important; top:14px !important;}
+}
+
+@media (min-width: 359px) and (max-width:375px) {
+.filters .sort-by{width:63%!important; float:left;}
+.sort-by label{padding-left:0 !important; text-align:left; width:30%}
+.legends-icon{margin-bottom:7px;}
+.desktop-ipad-notification .notification-bell i {padding-top: 8px !important;}
+.profile-desc label.control-label.display-inline{height:19px!important;}
+.registration-2 .verify-mobile .col-xs-7{width:64%!important;}
+.registration-2 .verify-mobile .col-xs-5{width:36%!important;} 
+.registration-2 .show-pin-code-list .pin-input-field.col-xs-6{width:62%!important;}
+.registration-2 .show-pin-code-list .col-xs-6{width:38%!important;}
+#apply_coupon{width:50%;}
+#veri_mob .verify-mobile a.col-xs-6{width:45%;}	
+}
+
+@media (min-width: 479px) and (max-width:480px) {
+/*CSS 29/06/2015*/
+.tutor-account-registration-steps-block .form-container2 .custom-input-file .bootstrap-filestyle{width:96%!important;}
+
+.filters .sort-by{width:53%!important; float:left;}
+.sort-by label{padding-left:0 !important; text-align:left; width:25%}
+.profile-desc label.control-label.display-inline{height:17px!important;}
+.registration-2 .verify-mobile .col-xs-7{width:72%!important;}
+.registration-2 .verify-mobile .col-xs-5{width:28%!important;} 
+.registration-2 .show-pin-code-list .pin-input-field.col-xs-6{width:72%!important;}
+.registration-2 .show-pin-code-list .col-xs-6{width:28%!important;}
+#apply_coupon{width:33.3%;}
+#veri_mob .verify-mobile a.col-xs-6{width:30.3%;}
+.attachment-list-fmt .bootstrap-filestyle input[type="text"]{width:65%;}
+.attachment-list-fmt.custom-input-file .bootstrap-filestyle{width:96%;}
+.list-box .profile-desc{width:72%!important;}
+}
+
+@media (min-width: 639px) and (max-width:667px) {
+.attachment-list-fmt .bootstrap-filestyle input[type="text"]{width:59%!important;}
+.btn-apply-coupon{width:15%;}
+#attach_file .attachment-list-fmt .bootstrap-filestyle .group-span-filestyle{width:19%!important;}
+.attachment-list-fmt.custom-input-file .add-more-input-file{right:120px!important;}
+/**************************** CSS Registration Start *************************************/
+.tutor-registration .captcha-code-width{width:80%!important;}
+.sign-up-btn-mobile{height:100px!important;}
+/**************************** CSS Registration End *************************************/
+	
+/*Visitor*/
+.filters .search-tutor-breadcrumbs span{padding-top:7px !important; display:inline-block;}
+.business-world .img-responsive{width:45%!important;}
+.financial-express .img-responsive{width:50%!important;}
+
+.sort-by label{padding-top:6px !important;}
+.filters .sort-by{padding-top:0 !important; width:33%!important;}
+.search-tutor-breadcrumbs{width:67%;}
+.tutor-account-registration-steps-block .form-container2.registration-2 .custom-input-file .bootstrap-filestyle {
+  width: 97.5%!important;
+} 
+.tutor-account-registration-steps-block .form-container2.registration-3 .custom-input-file .bootstrap-filestyle {
+  width: 97.5%!important;
+} 	
+
+.registration-2 .show-pin-code-list .pin-input-field.col-xs-6{width:75%!important;}
+.registration-2 .show-pin-code-list .col-xs-6{width:25%!important;}
+#apply_coupon{width:33.3%;}
+#veri_mob .verify-mobile a.col-xs-6{width:31%;}
+}
+
+@media (min-width: 280px) and (max-width:767px) {
+/********************Review and Testimonials page start ************************/
+.reviews-tetimonials .review-lists span.student-name-subject em{float:left; font-style:normal; width:100%; text-align:left;}
+/********************Review and Testimonials page ends ************************/
+
+.my-accounts-blocks .month-time{width:100%;}
+.my-accounts-blocks .width88per{width:66.6667%;}
+.label-select{width:100%; text-align:left; margin-top:15px;}
+.legends-for-tutor-list{margin-top:15px;}
+.attachment-list-fmt .bootstrap-filestyle input[type="text"]{width:63%;}
+.attachment-list-fmt .remove-more-input-file, .attachment-list-fmt .remove-more-input-file:hover{right:0;}
+.new-chkbox input[type="checkbox"]{width:5%; float:left; margin-top:0; margin-right:5px;}
+.new-chkbox span{width:90%; float:left;}
+.my-accounts-blocks .my-trans-filter-form{clear:left;}
+	
+	/* visitor page start */
+/*Css By Pradeep*/
+.container-homepage .navbar-inner{padding:0;}
+.hide-on-mobi{display:none;}
+.container-homepage .navbar-inverse{border-color:#fff;}/*Edited by pradeep 8/7/2015*/
+.visitor-top-nav{display:none;}
+.navbar-fixed-top{margin-top:23px;}
+.topheader-mobile{background:#eb8000;display:table;padding:4px 15px;width:100%;}
+.topheader-mobile a{color:#fff;letter-spacing:1px; line-height:14px;text-transform:uppercase;}
+.signup-tooltip{background:#fff;border:1px solid #ccc;box-sizing:border-box;display:none;left:5px;padding:0;position:absolute;text-align:left;top:30px;
+z-index:99999;}
+.signup-tooltip a{border-bottom:1px solid #ccc;color:#000 !important;display:block;padding:8px 4px 4px;text-decoration:none;}
+.signup-tooltip a:hover{background:#dfdfdf;color:#333;}
+.signup-tooltip::before{border-bottom:7px solid #fff;border-left:5px solid transparent;border-right:5px solid transparent;content:"";height:0;left:20px;
+position:absolute;top:-7px;width:0;z-index:999;}
+.signup-tooltip::after{border-bottom:8px solid #ccc;border-left:7px solid transparent;border-right:7px solid transparent;content:"";height:0;left:18px;
+position:absolute;top:-8px;width:0;z-index:99;}
+.login-tooltip{background:#fff;border:1px solid #ccc;box-sizing:border-box;display:none;padding:0;position:absolute;right:5px;text-align:left;top:30px;z-index:99999;}
+.login-tooltip a{border-bottom:1px solid #ccc;color:#000 !important;display:block;padding:8px 4px 4px;text-decoration:none;width:121px;}
+.login-tooltip a:hover{background:#dfdfdf;color:#333;}
+.login-tooltip::before{border-bottom:7px solid #fff;border-left:5px solid transparent;border-right:5px solid transparent;content:"";height:0;position: absolute;right:20px;top:-7px;width:0;z-index:999;}
+.login-tooltip::after{border-bottom:8px solid #ccc;border-left:7px solid transparent;border-right:7px solid transparent;content:"";height:0;position:absolute;
+right:18px;top:-8px;width:0;z-index:99;}
+
+.main-nav{background:rgba(0, 0, 0, 0) none repeat scroll 0 0;position:relative;right:0;top:-60px;width:100%;}
+.main-nav .navbar-nav > li > a{padding:10px 20px 9px;  color:#535251;  text-shadow:none;background:none!important; box-shadow:none;}
+.main-nav .navbar-nav > li:nth-child(1) a{padding-left:20px!important;}
+.tutor-image-reg-bg{display:none;}
+/*Css By Pradeep End*/
+/* visitor page ends */	
+
+
+/* My Information Page CSS Date 30/06/2015 Start */
+.my-information-blog{margin-bottom:15px;}
+.my-information-page h3.page-header{padding-left:0;}
+
+.my-information-page .padleft-zero,
+.my-information-page .padright-zero,
+.my-information-page .padlefright-zero{padding-left:0; padding-right:0;}
+.my-information-blog{height:200px;}
+/* My Information Page CSS Date 30/06/2015 End */
+
+
+
+	
+.new-legend .icon1-cst{background-position: -6px -510px; width:33px;}
+.margin-top5{margin-bottom:10px;}
+#message_short41{padding-left:0!important;}
+.margin-top5.ipad-padding-left{margin-bottom:10px;}
+.new-legend label{text-align:left;}
+#my-cash-requests .cancel-request-div.h3-buttons-container{padding-right:10px!important;}
+.mobile-change-password div{padding:0;}
+.mobile-choose-area{clear:left; float:left;width:100%; margin-top:15px;}
+.sweet-alert button{padding:5px 17px 2px!important;}
+.sweet-alert button{padding:5px 17px 2px;}
+.book-tuition-margin{display:inline-block;}
+.btn.btn-book-tuition{padding:12px 8px 5px 8px!important; margin:0 5px 5px 0!important; line-height:15px!important; margin-top:25px; font-size:18px!important;}
+.hourly-fees{padding-top:15px!important;}
+.back-to-link{margin-top:15px;}
+.legends-for-tutor-list{margin-bottom:7px;}
+.legends-icon{margin-bottom:7px;}
+.profile-desc label.control-label.display-inline{height:19px;}
+.profile-pic .profile-sessions{padding:3px 5px 2px !important; display:inline-block;}
+.profile-sessions span{line-height:14px!important;}
+.list-actions .btn-dark-grey{font-size:19px;}
+.my-trans-filter-form label{margin:10px 0 0 0!important; line-height:14px; padding:0!important;}
+.tutor-list-top-checkbox{margin-bottom:7px; text-align:center;}
+
+.legends label{height:20px;}
+.legends label:nth-child(3){margin-bottom:0px;}
+.all-top-margin{padding-bottom:7px!important;}
+.all-top-margin i.icon1-student-visit-tutor{vertical-align:text-bottom !important;  height:21px;}
+.all-top-margin i.icon1-online-tutoring{vertical-align:text-bottom !important;  height:21px;}
+.all-top-margin i.icon1-home-tutoring{background-position:-6px -7px !important; width:30px!important; height:21px; vertical-align:text-bottom !important;}
+.action-btn .staricon i.icon1-star{background-position:-9px -153px;width:30px; vertical-align:sub !important; height:21px;}
+#awaiting-conf-tutor .cancel-request-div{padding-right:10px!important; padding-top:12px !important;}
+#chsess_list .text-right.h3-buttons-container.cancel-request-div{padding-top:12px !important; padding-bottom:10px !important; }
+.search-panel-container-inside{margin:20px 0 15px;}
+.legends-icon{margin:0!important; padding:10px 0 0 0!important;}
+
+.notification-msg-box li.text-center{clear:left; display:block;}
+.notification-msg-box li.text-center a{padding-top:7px!important; display:block; text-align:center;}
+
+
+.or-divider{margin-top:25px;}
+.add-balance{padding:6.5px 9px 4px 9px;}
+.filters .sort-by{width:63%;}/*24/6/2015*/
+.my-account-past .filter-container-new{width:100%;}/*24/6/2015*/
+.duration-type{padding:0; width:100%;}/*23/6/2015*/
+.tutor-account-registration-steps-block .form-container2.registration-3{padding:20px 0!important;}
+#add-funds h3{margin:10px 0;}
+h3{font-size:20px;}
+.transation-row .col-xs-4{margin:5px 0;}
+.navbar-nav .open .dropdown-menu > li:last-child a{border-top:0!important; margin-top:0!important;}
+.past-filter-by-part{border-top:1px solid #ccc;}
+.filter-container-new{border-top:1px solid #ccc; padding-top:20px!important;padding-bottom:7px!important;}
+.my-transation-blocks .filter-container-new{border-top:1px solid #ccc; padding-top:20px!important;padding-bottom:0px!important;}
+
+h2 {font-size:20px;}
+h2 .student-credit{float:none; text-align:left; font-size:20px; display:block; margin:10px 0 0;}
+.legends.text-right{text-align:center; margin-top:15px;}
+.my-account-pic{text-align:left;}
+.my-account-pic a{text-align:left; margin-left:0;}
+#chsess_list .my-account-pic a{text-align:left; margin-left:0!important;}
+#past-conf-tutor .my-account-pic a{text-align:left; margin-left:0!important; word-wrap:break-word;}
+.transaction-dashboard .balance-required div{padding:0;}
+.transaction-dashboard .credit-balance, .transaction-dashboard .available-balance{padding:20px;}
+.past-div-submit{padding:0!important; width:auto;}
+.my-trans-filter-form{padding:0 16px 0 9px!important;}
+.select-tag-filter-close{margin-top:10px;}
+#past-conf-tutor .info-icon-img.col-md-2{width:auto!important;}
+.action-btn .staricon{width:auto!important;}
+.ipad-view-select{padding:0; margin:0;}
+.verify-on-mobile{padding:0; margin:0;}
+.select-margin-top{margin-top:15px; float:left;}
+.filter-container-new{padding-left:10px !important; padding-right:10px;padding-top:0 !important;}
+.label01{width:100%; text-align:left;}
+.label02{width:100%; text-align:left;}
+.select-tag-filter{width:100%;}
+.select-tag-filter-close{width:100%;}
+.my-transation-blocks .h3-buttons-container{padding:10px 0px 10px 10px!important;}
+.padding-transaction{padding-left:15px;}
+.minus-price{padding-left:15px;}
+.closing-balance .padtop30{padding-top:0px!important;}
+.closing-balance .col-md-1{width:inherit!important; margin-bottom:10px;}
+.my-trans-filter-form{width:auto;}
+.navbar-brand{padding:13px;}
+.navbar-toggle{padding:7px 10px 7px 50px; border-color:#000 !important; border-radius:0; margin-top:15px; margin-right:10px;}
+.navbar-toggle span{color:#000 !important;}
+.navbar-default .navbar-toggle .icon-bar{background:#000;}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{background:#fff;}
+.sr-only{clip:inherit; overflow:inherit; top:5px; right:75px;}
+.logo{width:120px;}
+.navbar-collapse.collapse{padding-top:0;}
+.block-row .col-md-3, .block-row .col-md-1{padding-top:0;}
+.topheader-mobile{background:#eb8000; padding:10px 10px 6px; width:100%; display:table;}
+.topheader-mobile ul{list-style-type:none; padding:0; margin:0;}
+.topheader-mobile a,
+.topheader-mobile a:hover{color:#fff; text-decoration:none; font-size:12px;}
+.topheader-mobile .dropdown-menu{background:#fff; -webkit-border-radius:0; border-radius:0;}
+.topheader-mobile .dropdown-menu li{border-bottom:solid 1px #ccc;}
+.topheader-mobile .dropdown-menu li:hover{background:#ccc;}
+.topheader-mobile .dropdown-menu > li > a{padding:5px 0; color:#000;}
+.topheader-mobile .dropdown-menu > li > a:hover{color:#000;}
+.mobile-notification{position:absolute; right:125px; top:20px; list-style-type:none; display:block;}
+.dropdown-menu.mobile-notification-box{left:auto; padding:5px 0 10px; right:-111px; width:295px; margin-top: 10px;}/*Edited by pradeep*/
+.dropdown-menu.mobile-notification-box:before{border-bottom:7px solid #f6f6f6;border-left:5px solid transparent;border-right:5px solid transparent; content: ""; height:0; position:absolute; right:40%;/*Edited by pradeep*/ top:-7px; width:0; z-index: 999; box-shadow:0px 0px 0px #ccc;}
+.dropdown-menu.mobile-notification-box:after{border-bottom:9px solid #ccc; border-left:8px solid transparent; border-right:8px solid transparent; content: ""; height:0; position:absolute; right:39%;/*Edited by pradeep*/ top:-9px; width:0; z-index:99;}
+.dropdown-menu.mobile-notification-box li.col-md-12{border-bottom:solid 1px #ccc; padding:10px 0;}
+.mobile-notification a,
+.mobile-notification a:hover{color:#535251; text-decoration:none;}
+.mobile-notification li span{display:block;}
+.desktop-ipad-notification{display:none!important;}
+.my-account-menu:before{display:none;}
+.my-account-menu:after{display:none;}
+.mobile-notification .notification-time{text-align:right;}
+footer.container{padding:0;}
+.copyright.col-md-12.col-xs-12.col-sm-12 div{text-align:center;}
+.date-time-show{padding:0 !important; margin:5px 0 0 0;}/*24/6/2015*/
+
+
+.tutoring-type{display:block; border-bottom:1px solid #c4c3c3; border-right:none;}
+.area-code{display:block; border-bottom:1px solid #c4c3c3; border-right:none; width:auto; }
+.class-and-subject{display:block; border-right:none;}
+
+.mobile-in-hide{display:none;}
+.need-help-bg-iphone{display:block;}
+
+.need-help-bg-iphone{width:100%; margin-right:0px; float:none; background:#2e6989; color:#fff; padding:10px 0px; text-align:center;  display:inline-block;}
+a.footer-live-chat-bg{background:#50b847; color:#fff; font-size:35px !important; font-family: arial !important; line-height:35px !important; padding:10px !important; width:70%; margin:10px auto 0px auto;}
+
+
+.closing-balance{width:100%; margin:0; padding:0;}
+.my-upcoming-request-row del, .my-past-request-blocks del{margin-left:0!important;}
+.my-upcoming-request-row, .my-past-request-row{padding:20px 0!important;}
+.my-past-filter-form a.btn-blue{margin:10px 0 0;}
+/*footer Css for iPhone*/
+
+.footer-iphone{background:#0084ca; padding:0px 0px; display:inline-block; width:100%;}
+.footer-iphone ul,.footer-iphone li,.footer-iphone a {margin: 0; padding: 0; border: 0; list-style: none; font-weight: normal; text-decoration: none; line-height: 1; font-size: 14px;  position: relative;}
+.footer-iphone > ul > li {margin: 0 0 0px 0; padding:0px 0px; border-bottom: 1px solid #00abe6;}
+.footer-iphone > ul > li:last-child {margin: 0;}
+.footer-iphone > ul > li > a { font-size: 12px; display: block; color: #fff; padding:10px 15px 10px 20px; /*letter-spacing:1px;*/ text-transform:uppercase;}
+.footer-iphone > ul > li > a > span {display: block; padding:10px 0 6px;}
+.footer-iphone > ul > li > a:hover {text-decoration: none;}
+.footer-iphone > ul > li.active {border-bottom: none;}
+.footer-iphone ul li.active {border-bottom: none; }
+.footer-iphone > ul > li.active > a {color: #fff; border-bottom: 1px solid #00abe6;}
+.footer-iphone > ul > li.has-sub > a span {background: url(../../images/icon_plus-1.png) 98% center no-repeat;}
+.footer-iphone > ul > li.has-sub.active > a span {background: url(../../images/icon_minus-1.png) 98% center no-repeat;}
+/* Sub menu */
+.footer-iphone ul ul {padding: 0px 0px; display: none;}
+.footer-iphone ul ul li {padding: 0px 0px 0px 0px;border-bottom: 1px solid #00abe6;}
+.footer-iphone ul ul a {display: block; color: #fff; padding:10px; padding-left:30px; font-size: 13px; line-height:24px;   letter-spacing:1px; text-transform:capitalize;}
+.footer-iphone ul ul a:hover { color:#535251; background:#fff;}
+.footer-iphone ul ul a.active {color:#535251; background:#fff;}
+
+.iphone-needhelp{display:block; padding:0;}
+.hide{display:none !important;}
+.desktop-show{display:none !important;}
+.show-mobile{display:block !important;}
+.border-no{border:0 !important;}
+/*Notification*/
+.more-notification ul li div{padding-left:0px; padding-right:0px;}
+.transaction-dashboard{padding:0;}
+.transaction-dashboard .available-balance{border-left:solid 0px #bdbdbd; border-top:solid 1px #bdbdbd; }
+.transaction-dashboard .credit-balance, .my-transaction-dashboard .available-balance{padding:20px 0;}
+.navbar-default .navbar-nav > li > a {border-bottom:1px solid #e7e7e7; line-height: 24px;}
+.list-box .profile-pic{width:106px; margin:0 10px 0 0;}
+.list-box .profile-desc{width:56.333%;}
+.display-inline{display:block !important;}
+.hide-mobile{display:none !important;}
+.profile-offers{height:35px; overflow:hidden;}
+.list-box .list-actions label{line-height:15px;}
+.filters span, .filters label{display:inline;}
+.filters .sort-by{padding:10px 0 0 0;}
+.filters select{width:65%;}
+.icons-status{height:20px;}
+#results .control-label.icons-status{height:20px; margin-top:8px;}
+#results .control-label.icons-status i.icon1-home-tutoring{background-position:-7px -7px; height:24px;}
+#results .control-label.icons-status i.icon1-online-tutoring{background-position:-7px -35px; height:24px;}
+#results .control-label.icons-status i.icon1-student-visit-tutor{background-position:-6px -66px; height:24px; }
+.list-box .list-actions label{height:23px;}
+.list-actions input[type="button"]{width:auto;}
+/*Edit By Pradeep 25-5-2015*/
+.navbar .navbar-nav .open .dropdown-menu > .active > a, .navbar .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar .navbar-nav .open .dropdown-menu > .active > a:focus{background:#fff;}
+/*Address-and-phone*/
+.my-information{padding:0;}
+/********** Custom Scroll-Bar css **********************/
+.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {background-color:rgba(0, 0, 0, 0.75) !important;}
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{background-color: rgba(0, 0, 0, 0.75) !important;}
+.pricing-plan label{padding:0!important;}
+.price-rang div div{padding:0 !important;}
+.label-info{white-space:inherit;}
+.verify-mobile{float:none; padding:0!important;}
+.verified-mobile{float:left; padding:0; width:100%;}
+.tab-content{padding:0;}
+#email-and-password{padding:0;}
+.transation-row{padding:20px 3px !important;}
+
+.my-upcoming-request-blocks .h3-buttons-container{padding:11px 0 0;}
+.my-upcoming-request-blocks .cancel-hide-btn{float:left; width:100%; margin-bottom:10px;}
+.my-upcoming-request-blocks .cancel-hide-btn .btn-blue{float: left; margin:0 0 0 4px;}
+.my-upcoming-request-blocks .cancel-hide-btn .btn-dark-grey{float: left; margin:0 0 0 5px;}
+.my-trans-filter-form .btn-blue{margin:10px 0 10px;}
+.mailbox div{font-size:12px;}
+.attachment-date-legend{position:absolute; right:5px; top:0; z-index:9; /*width:110px;*/}
+.icon-read-by-tutor{background-position:-9px -367px!important;}
+.mailbox li{border-bottom:solid 1px #ddd;}
+.add-funds-submit{padding:0 0 0 5px;}
+.add-funds .input-group{margin-left:10px;}
+
+.withdraw-funds-submit{padding:0 0 0 5px;}
+.withdraw-funds .input-group{margin-left:10px;}
+#no-more-tables{padding:0; font-size:12px;}
+.my-past-filter-form a.btn-blue{margin:0px 0 0}
+.my-past-filter-btn{margin:10px 0; text-align:left;}
+.my-past-filter-btn .btn-dark-grey{margin-bottom:0px;}
+.my-past-filter-form{margin:0; padding:0 15px!important;}
+.my-past-filter-form  label{padding:0;}
+.my-trans-filter-form{text-align:left; padding:0;}
+.my-trans-filter-form label{padding:0;}
+.my-trans-filter-btn{margin:10px 0; text-align:left; float:left;}
+.my-trans-filter-form select{width:100%;}
+
+.transaction-dashboard .credit-balance span, .transaction-dashboard .available-balance span{font-size:23px;}
+
+.my-account-pic img{margin-bottom:10px;}
+.my-account-pic a{display:block; text-align:left;}
+.block-row{padding:10px!important;}
+.block-row .col-md-3, .block-row .col-md-9, .block-row .col-md-2, .block-row .col-md-1{padding:0;}
+.mailbox li div{padding-bottom:0 !important; padding-top:2px !important;}
+.mailbox label{font-size:11px; padding:2px;}
+.breadcrumbs{padding:0;}
+.new-legend{margin:10px 0; padding:0;}
+.new-legend div{padding:0; text-align:center;}
+.new-legend label{font-size:13px; display:block;}
+#date-time-show{float:left; margin:20px 0 0 0 !important;}
+.click-reply-button-box {padding:0 !important;}
+.click-reply-box{padding:0 !important;}
+.click-reply-box .action-area{padding:0 !important;}
+.action-area-container .action-area label{float:left; border:0 !important; padding:0 10px!important;}
+
+.list-actions span a, .list-actions span a:hover{font-size:13px; }/*Edited By Pradeep*/
+.list-box label{font-size:13px;}/*Edited By Pradeep*/
+.list-box .list-actions label{font-size:13px; float:none;}/*Edited By Pradeep*/
+.list-actions.col-xs-7{width:auto;}
+
+
+.legends label{font-size:13px; }
+
+.add-new-phone-no{width:68%;}
+.custom-width-input-file{width:97%!important;}
+.coupon-code-width{width:54.666%;}
+.captcha-code-width{width:54.667%;}
+
+.profile-offers{bottom:auto; position:static;}
+
+.filter-container-new {  padding-left: 0px !important;  padding-top: 0px !important;}
+.slider-bg{display:none;}
+.recommended-widget input[type="checkbox"]{width:5%; float:left; margin-left:0; margin-right:0;}
+.recommended-widget span{width:90%; float:right;}
+.tutor-account .col-sm-3.note-for-staff1{width:100% !important;} 
+.tutor-account .note-for-staff{display:initial; margin-left:12px;}
+.tutor-account .margin-top10{margin-top:0 !important;}
+.tutor-account .margin-top10new{margin-top:10px !important;}
+.tutor-account .pad-left30{padding-left:30px !important;}
+.tutor-account .block-row{padding:10px 5px!important;}
+.tutor-account .name-margin-left{margin-left:30px;}
+.tutor-account .width14per{width:100%; text-align:left!important;}
+.tutor-account .button-ipad-center{padding-left:10px;}
+.profile-pic-student-tooltip a.name-margin-left{float:left;}
+.profile-pic-student-tooltip span.name-margin-left{margin-top:0!important; float:left;}
+.profile-pic-student-tooltip span.name-margin-left a{float:left;}
+.profile-pic-student-tooltip span.name-margin-left a i.icon1-info-small{background-position:-50px -67px;}
+/*****************************************
+Totor CSS By Pradeep Start
+*****************************************/
+.payment-dashboard{text-align:left;}	
+.payment-dashboard div{margin:5px;}
+.request-btn-to-bank{text-align:left; margin-top:0;}
+.tutor-my-transaction .transation-row .col-sm-2{width:inherit;}
+.tutor-my-transaction .transation-row{padding:20px !important;}
+.tutor-my-transaction .transation-row .col-sm-3{width:inherit;}
+.tutor-my-transaction .transation-row .infoiconsmall{width:inherit; margin-top:10px;}
+.tutor-my-transaction .transation-row .paddingleft{padding-left:40px;}
+.tutor-my-transaction .transation-row .paddingleft .col-xs-12:nth-child(2){margin-top:10px;}
+.tutor-my-transaction .transation-row .margin5{margin-top:10px;}
+.tutor-my-transaction .closing-balance{width:100%;}
+.tutor-my-transaction .closing-balance .col-xs-12{float:none;}
+.tutor-my-transaction .closing-balance .col-md-3{width:inherit;}
+.tutor-my-transaction .closing-balance label, .tutor-my-transaction .closing-balance span{display:inline-block; width:auto; padding:0;}
+.tutor-my-transaction .closing-balance .add-balance{padding:3px 10px;}
+.tutor-my-transaction .closing-balance .col-md-1{margin-top:0px;}
+.tutor-my-transaction .my-transation-blocks .filter-container-new{padding-left:0!important;}
+
+/*Step Design*/
+.straight-line.nav > li{margin-left:10px;}
+
+.straight-line.nav > li > a{border-radius:22px; -moz-border-radius:22px; -webkit-border-radius:22px;  padding:4px 0; width:30px;}
+.straight-line.nav > li:nth-child(1):after{content:"1";left:11px; position:absolute; top:7px; cursor:pointer;}
+.straight-line.nav > li:nth-child(2):after{content:"2";left:11px; position:absolute; top:7px; cursor:pointer;}
+.straight-line.nav > li:nth-child(3):after{content:"3";left:11px; position:absolute; top:7px; cursor:pointer;}
+.straight-line.nav > li:nth-child(4):after{content:"4";left:11px; position:absolute; top:7px; cursor:pointer;}
+.straight-line.nav > li:nth-child(5):after{content:"5";left:11px; position:absolute; top:7px; cursor:pointer;}
+.straight-line.nav > li > a{text-indent:-999999px;}
+/***** Request Transfer to Bank Css ********************/
+.tutor-my-transaction .request-text .internal-lable div:nth-child(2){padding-left:0;}
+
+
+/* Step-3 */
+.table-structure .input-main-width{width:100%; text-align:center; margin-top:-2px;}
+.table-structure .title{height:auto!important;}
+.table-structure .close-icon-width{position:absolute; right:0;}
+.table-structure.margin-top0{margin-top:15px;}
+.table-structure a i.icon-remove{display:inherit; padding:0;right:0; top:-11px; margin:0;}
+.table-structure .close-icon-width .title{background:none;}
+.table-structure .close-icon-degree{background:#fff; border:1px solid #ccc; border-radius:18px; float:left; height:28px; padding:10px;right:10px;top:-24px;
+width: 29px;}
+.table-structure .mobile-hide{display:none;}
+.table-structure .close-icon-degree a{left:8px; position:absolute; top:7px;}
+.tutor-account-registration-steps-block .form-container2 .container-text{padding:0px 10px!important;}
+.tutor-account-registration-steps-block .form-container2{padding:10px 0!important;}
+.tutor-account-registration-steps-inside-block{border:none; padding:0; margin-bottom:0px;}
+.tutor-account-registration-steps-inside-block .checkbox-span-gap span{width:92%;}
+.tutor-account-registration-steps-block .form-container2 .form-group div{padding:0!important;}
+.tutor-account-registration-steps-block .example-modal{display:block;float:none;font-size:14px!important;padding:10px 0 0;width:100%;}
+/*.tutor-account-registration-steps-block .form-container2 .custom-input-file .bootstrap-filestyle{width:95%!important;}*/
+.tutor-account-registration-steps-block h3, .tutor-account-registration-steps-block h4{padding:10px; margin-bottom:10px;}
+
+.max-height{height:auto;}
+
+/*CSS 29/06/2015*/
+.tutor-account-registration-steps-block .btn{padding:11px 8px 8px!important;}
+.tutor-account-registration-steps-block .bootstrap-filestyle .btn{padding:11px 8px 6px!important;}
+.tutor-account-registration-steps-block .form-container{padding:0 10px 20px 10px!important;}
+.tutor-account-registration-steps-block .checkbox-span-gap input[type="checkbox"]{float:left; width:20px;}
+.tutor-account-registration-steps-block .checkbox-span-gap span{float:left; width:92%; margin-top:4px;}
+.custom-width-mockup-select-multiple{padding:0;}
+.custom-width-mockup-select-multiple .form-control{box-shadow:none; padding-top:0!important;}
+.step3-input div{margin-bottom:5px;}
+.step3-input div:nth-child(3){margin-bottom:0;}
+.question-step5{padding-bottom:0!important;}
+.tutor-account-registration-steps-block.registration-5 div.col-md-12.col-sm-12.col-xs-12{padding:0 0 2px 0!important;}
+.tutor-account-registration-steps-inside-block h4{border-top:1px solid #ccc;}
+.tutor-account-registration-steps-block div.col-md-12.col-sm-12.col-xs-12{padding:0;}
+.tutor-account-registration-steps-block .form-container2 .form-group div.bootstrap-select{margin-bottom:5px!important;}
+.tutor-account-registration-steps-inside-block .info-dotted-orange{margin-top:5px;}
+.checkbox-span-gap{margin-bottom:10px;}
+.checkbox-span-gap .step3-check{margin-top:0px!important;}
+.tutor-account-registration-steps-block .form-container2.registration-5 .form-group div.question-step5{padding-left:16px!important;}
+.tutor-account-registration-steps-block .form-container2.registration-5 .form-group div{padding:0 8px!important;}
+.tutor-account-registration-steps-block .form-container2.registration-5 .form-group div.select-about{padding:0 16px!important;}
+.add-drgree-certificates{margin:10px 0;}
+/*****************************************
+Totor CSS By Pradeep End
+*****************************************/
+.caution-container{padding:0;}
+i.glyphicon-remove-circle{font-size:20px; top:7px;}
+.select-tag-filter-close i.glyphicon-remove-circle{font-size:20px; top:2px;}
+.my-transation-blocks .filter-container-new{padding-left:0!important;}
+#banking-info div{padding:0;}
+#withdraw-funds{padding:0;}
+.withdraw-input{text-align:center;}
+.withdraw-input.row{margin:auto;}
+.withdraw-input .text-right{text-align:center;}
+.withdraw-input .form-control{height:31px;}
+.top-text-to-widthdraw .form-group{margin-bottom:5px;}
+.search-panel-container .search-container{width:100%!important;}
+.or-divider span{left:42%;}
+.my-upcoming-request-blocks i.glyphicon-remove-circle{font-size:20px; top:2px;}
+.select-tag-filter-close i.glyphicon-remove-circle{font-size:20px; top:7px;}
+#my-trans-filter-form .select-tag-filter-close i.glyphicon-remove-circle{font-size:22px; top:2px;}
+.price-tuition .col-xs-12.text-left{text-align:center;}
+.price-tuition .col-xs-12.text-right{text-align:center;}
+.cancel-request-div{border-top:1px solid #ccc;}
+#awaiting-conf-tutor .cancel-request-div{border-top:1px solid #ccc; padding-bottom:10px !important;}
+#chsess_list .cancel-request-div{border-top:1px solid #ccc; padding-bottom:10px !important; }
+.cancel-request-div .cancel-hide-btn{float:right; margin-bottom:0; width:155px; padding-right:0!important;}
+#awaiting-conf-tutor .my-account-pic a{margin-left:0!important;}
+#awaiting-conf-tutor .cancel-hide-btn{margin-bottom:5px !important;}
+#awaiting-conf-tutor .all-top-margin i.icon1-online-tutoring{background-position:-8px -35px !important; width:25px;}
+#past-conf-tutor .all-top-margin i.icon1-online-tutoring{background-position:-8px -35px !important; width:25px;}
+#chsess_list .all-top-margin i.icon1-online-tutoring{background-position:-8px -35px !important; width:25px;}
+#awaiting-conf-tutor .icon1-tutor-msg, .icon1-send-email{background-position:-6px -123px;}
+.all-top-margin i.icon1-student-visit-tutor{background-position:-6px -64px !important; width:25px; }
+.my-accounts-blocks .info-icon-img.col-md-2{text-align:left;}
+
+
+.my-accounts-blocks .block-row .col-md-3, .my-accounts-blocks .block-row .col-md-9, .my-accounts-blocks .block-row .col-md-2, .my-accounts-blocks .block-row .col-md-4{padding-bottom:5px; padding-top:0;}
+.col-xs-4.my-account-pic-holder{width:85px;}
+
+div.pp_details{width:100% !important;}
+div.ppt{width:100% !important;}
+.nsb-2-suggestbox{min-width:100%!important;}
+
+.favourite-tutor .panel-heading .panel-title a{padding:10px 30px 10px 15px;}
+.favourite-tutor .panel-title a i{position:absolute;right:9px;top:21px;}
+.panel-title{position:relative;}
+.profile-sessions{padding:3px 10px 0 10px;}
+.profile-sessions span:nth-child(1){display:inline; font-size:14px;}
+.list-actions label span{display:inlin-black; padding-top:5px;}
+.navbar-collapse{background:#fff; margin:0 0 0 -15px!important; padding:0;position:absolute; width:100%; z-index:9999;}
+.navbar-collapse.collapse{padding:0; margin:0;}
+
+.navbar-nav > li > a{position:relative;}
+.caret{position:absolute; right:20px;}
+.navbar-nav{margin:0;}
+.modal-footer{text-align:right; padding:15px 8px;}
+.modal-footer button{margin:0 2px;}
+.modal-footer button:nth-child(1){margin-left:24px;}
+.iphone-view{height:14px;}
+/***************regostration step3 css*/
+.tutor-account-registration-steps-inside-block .custom-width-mockup .bootstrap-filestyle{width:100%!important;}
+.tutor-account-registration-steps-inside-block .custom-width-mockup-select-multiple{width:100%!important;}
+ /************* Step-4 CSS **************/
+.subject-select a.glyphicon-remove.remove-data{top:5px; position:absolute;}
+.remove-mobile-view{position:absolute; width:30px; right:5px; float:right;}
+
+.tutor-account-registration-steps-block .action-area-registration-steps{background:#f6f6f6; border-top:solid 1px #ddd; padding:10px 10px 5px 10px!important;}
+.table-structure .input-main-width .title{padding:7px 10px; text-align:left;}
+.table-structure .input-main-width .input-gap-mobile{padding:7px 9px; border:Solid 1px #ccc;}
+.tutor-account-registration-steps-inside-block .info-dotted-orange{padding:5px !important;}
+.tutor-account-registration-steps-inside-block h4{padding-left:0; padding-right:0; }
+.tutor-account-registration-steps-inside-block h4 span{display:block; padding:0 10px;}
+.tutor-account-registration-steps-inside-block h4 a.example-modal,
+.tutor-account-registration-steps-inside-block h4 a.per-statement-modal
+{display:block; padding:10px 10px 0 10px; border-top:solid 1px #ccc; margin-top:10px; float:none;}
+.tutor-account-registration-steps-block div.col-md-12.col-sm-12.col-xs-12.pad-left-right-15{padding-left:10px!important;padding-right:10px!important;}
+.tutor-account-registration-steps-inside-block .form-group div:nth-child(1){padding:5px 0!important;}
+.tutor-account-registration-steps-inside-block{padding-bottom:0!important;}
+.col-md-12.col-sm-12.col-xs-12.form-container2.tutor-survey-container{padding-left:10px!important; padding-right:10px!important;}
+.col-md-12.col-sm-12.col-xs-12.form-container2.tutor-survey-container .form-group input{margin-top:5px;}
+.modal-body{padding:15px;}
+.tutor-account-registration-steps-block .form-container2 .custom-input-file .add-more-input-file{top:0; right:-5px;}
+
+.registration-2 .verify-mobile .col-xs-7{width:80%;}
+.registration-2 .verify-mobile .col-xs-5{width:20%;} 
+.width19per{width:100%;}
+.width81per{width:100%;}
+.my-accounts-blocks .my-account-pic img{width:61%;} 
+
+.xdsoft_datetimepicker .xdsoft_month{width:71px !important;}
+.xdsoft_datetimepicker .xdsoft_month{margin-left:0;}
+.book-session-container .xdsoft_datetimepicker .xdsoft_calendar td > div{right:-3px; top:-3px;}
+.xdsoft_datetimepicker.xdsoft_inline{height:auto;}
+
+.availability-time-show{margin:0; width:100%;}
+.book-session-container{float:left; padding-top:10px;}
+.margin-top-mobile-zero{margin-top:0 !important;} 
+.margin-bottom-mobile-zero{margin-bottom:0 !important;} 
+.availability-time-show{margin:0;}
+h3.text-org{float:left;margin-top:15px;}
+.availability-time-show{background:#eb8000; padding:10px 0; color:#fff; margin:20px 0 0 0!important; width:100%;}
+.icon-info-phone{padding-left:0; padding-right:2px;}
+.icon-info-phone a i.icon1-info{background-position:7px -300px;}
+ 
+
+#freeLink,
+#paidLink{margin:15px 0; float:left; width:100%;}
+.margin-top-15{margin-top:15px;}
+.width-right-new{padding-left:0; padding-right:0; margin-left:0;}
+.checkbox-communicated{padding-left:0; padding-right:0; margin-left:0;}
+.checkbox-communicated span{text-align:justify;}
+ 
+.favourite-tutor h4.panel-title{font-size:14px;}
+.favourite-tutor .panel-title a i{top:10px;}
+
+
+.modalbox-iframe{width:98%;} 
+.modal-body{width:98%;} 
+.modal-body .col-md-12.col-sm-12.col-xs-12{padding:5px 15px 0;}
+.modal-body .form-group{margin-bottom:5px;}
+.rat-container{padding:20px 10px;}
+.rat-container div{padding:0;}
+.rat-container label{padding:0;}
+ 
+.pad-fmt{padding:10px 0!important;}
+.attachment-list-fmt .bootstrap-filestyle input[type="text"]{width:63%;}
+.attachment-list-fmt .bootstrap-filestyle .group-span-filestyle label{height:34px; padding:12px 0 5px!important;}
+.attachment-list-fmt.custom-input-file .add-more-input-file{right:-12px; height:34px; width:31px;}
+#apply_coupon{height:34px; width:140px!important;}
+.book-session-container #apply_coupon{height:34px; /*width:119px;*/}
+.book-session-container .coupon-applied{right:-42px; width:167px;}
+#awaiting-conf-tutor .icon1-online-tutoring{background-position:-6px -30px; width:25px;}
+#chsess_list .icon1-online-tutoring{background-position:-6px -30px; width:25px;}
+#past-conf-tutor .icon1-online-tutoring{background-position:-6px -30px; width:25px;}
+#past-conf-tutor #results .icon1-online-tutoring{background-position:-8px -33px; width:25px;}
+
+
+#my-transation i.icon1-student-visit-tutor{background-position:-5px -60px!important;}
+#my-transation i.icon1-home-tutoring{background-position:-5px -60px!important;}
+.add-fund-price-pad{padding-left:0; padding-right:0;}
+.padding-top10px{padding-top:10px !important;}
+.add-funds  div{padding-left:0; padding-right:0; margin-left:0;}
+.add-funds  h3{padding-left:0; padding-right:0;}
+.add-fund-price-pad .input-group{margin-left:0;}
+
+
+.pad-zero{padding:0!important;}
+.navbar-fixed-top{margin-top:0;}
+.main-nav{top:0px;}
+.home-page-slider{display:none;}
+.navbar-collapse{margin:0 0 0 -1px !important;}/*Edited by pradeep 8/7/2015*/
+.container-homepage .rgt-panel{display:none;}
+.img-responsive{display:inline;}
+.business-world .img-responsive{width:65%;}
+.financial-express .img-responsive{width:87%;}
+
+}
+
+@media (min-width: 639px) and (max-width:667px) {
+.input-container{display:inline-block;width:63%;}
+.filters .search-tutor-breadcrumbs span{padding-top:7px !important; display:inline-block;}
+.sort-by label{padding-top:6px !important;}
+.filters .sort-by{padding-top:0 !important; width:33%!important;}
+.search-tutor-breadcrumbs{width:67%;}
+.tutor-account-registration-steps-block .form-container2.registration-2 .custom-input-file .bootstrap-filestyle { width: 97.5%!important;} 
+.tutor-account-registration-steps-block .form-container2.registration-3 .custom-input-file . 
+.registration-2 .show-pin-code-list .pin-input-field.col-xs-6{width:75%!important;}
+.registration-2 .show-pin-code-list .col-xs-6{width:25%!important;}
+#apply_coupon{width:130px!important;}
+#veri_mob .verify-mobile a.col-xs-6{width:31%;}
+.attachment-list-fmt .bootstrap-filestyle input[type="text"]{width:65%;}
+.attachment-list-fmt.custom-input-file .bootstrap-filestyle{width:96%;}
+.new-chkbox input[type="checkbox"]{width:3%;}
+}
+@media (max-width: 1024px){
+/*** modified by rajeev sinha on 14072015  start***/
+.login-container-rgt{text-align:justify;}
+/*** modified by rajeev sinha on 14072015  ends***/
+
+.verified-mobile{padding:0;}
+.list-actions.col-sm-3{padding:0 12px;}
+input[type="text"],
+input[type="file"],
+input[type="button"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="submit"],
+input[type="search"],
+select,
+textarea{
+    -webkit-appearance: none; /*Safari/Chrome*/
+    -moz-appearance: none; /*Firefox*/
+    -ms-appearance: none; /*IE*/
+    -o-appearance: none; /*Opera*/
+    appearance: none;
+    -webkit-border-radius: 0;
+ box-shadow:none;
+}
+
+/*.filter-container-new {
+    padding-left: 78px !important;
+    padding-top: 3px !important;
+}*/
+.col-sm-3.note-for-staff1{width:19%; text-align:left;}
+
+.note-for-staff .icon-file-text-o{padding-left:0; margin-right:0 !important; font-size:17px;}
+.width14per{width:14%;}
+.tutor-account-registration-steps-inside-block .custom-width-mockup .bootstrap-filestyle{width:96%!important;}
+.tutor-account-registration-steps-inside-block .custom-width-mockup-select-multiple{width:100%!important;}
+.table-structure .title{background:#eae6e0; padding:7px 2px; height:55px; font-size:13px;}
+.tutor-account-registration-steps-inside-block .custom-width-mockup .btn.btn-orange.add-more-input-file{top:0!important; left:auto!important; right:-7px;}
+.table-structure a i.icon-remove{paddg:0 6px;}
+
+
+}
+
+
+
+/**************css by rajeev sinha for My Information  bugs on 01072015 start */
+@media (min-width: 767px) and (max-width:768px) {
+
+/*** modified by rajeev sinha on 14072015 start***/
+.login-container-lft{padding-bottom:45px !important;}
+.login-page .not-member{position:absolute; left:18px; bottom:9px; text-align:center;}
+/*** modified by rajeev sinha on 14072015 ends***/
+
+
+/**************Student registration by rajeev sinha 07142015 *******************/
+.tutor-registration .email-check{position:absolute; background:#fff; padding:0 5px; left:6%; top:56%; color:#eb8000;}
+
+
+/*************************Css for contact us start *********************/
+
+.contact-right-txt em{font-style:normal; display:block; }
+.contact-us-by-phone{ border:solid 1px #ccc; margin:15px auto!important; float:none; display:table; padding:0 15px 15px 15px !important; text-align:center;}
+.contact-us-by-phone .clone{display:inline;}
+.contact-us-container .contact-form-pad-rgt{padding-right:0;}
+/*************************Css for contact us ends *********************/
+.my-information-page{min-height:560px;}
+.my-information-blog{height:200px;}
+
+.attachment-list-fmt.custom-input-file .bootstrap-filestyle{width:100%;}
+.attachment-list-fmt .bootstrap-filestyle input[type="text"]{width:111px;}
+.attachment-list-fmt .bootstrap-filestyle .group-span-filestyle{width:123px;}
+.attachment-list-fmt .bootstrap-filestyle .group-span-filestyle label{height:34px; padding:12px 0 5px !important;}
+.attachment-list-fmt .add-more-input-file{padding:9px 8px 10px 8px !important;}
+.coupon-code-width{width:43%;}
+#apply_coupon{/*width:139px!important;*/ height:34px;}
+.captcha-code img#capchaImage{height:33px;}
+.btn-apply-coupon #apply_coupon{width:146px!important;}
+
+
+.profile-img-my-acc-hide{display:none;}
+.my-accounts-blocks.list-blocks .month-time .icon1-online-tutoring{background-position:0 -34px; vertical-align:top;}
+.my-accounts-blocks.list-blocks .min-subject{padding-top:15px !important;} 
+.minute-time{text-align:left;} 
+.minute-time .text-center{text-align:left;} 
+#awaiting-conf-tutor .my-account-pic a{margin-left:0!important;}
+#chsess_list .my-account-pic a{margin-left:0!important;}
+.my-account-past .my-account-pic a{margin-left:0!important;}
+#awaiting-conf-tutor .width14per{width:14%;}
+#chsess_list .width14per{width:14%;}
+#past-conf-tutor .width14per{width:14%!important;}
+
+
+/* Profile page css for new blocks by rajeev sinha on 10072015 start *********/
+.round-border-new{border:solid 1px #ccc; -webkit-border-radius:5px; border-radius:5px; padding:10px; width:49%; margin-right:2%; margin-bottom:0;}
+.profile-new-set.my-information label{padding-right:0;}
+.my-information .round-border-new .width-equal {width:49%; margin-right:2%;  margin-bottom:0;}
+.my-information .round-border-new .width-equal:nth-child(2) {margin-bottom:0; margin-right:0; width:49%;}
+.my-information .round-border-new .width-equal .verify-mobile .btn-orange{width:65px;}
+/* Profile page css for new blocks by rajeev sinha on 10072015 ends *********/
+
+
+/********************Review and Testimonials page start ************************/
+.reviews-tetimonials .india-best-tutor-content .profile-details{width:74%;}
+/********************Review and Testimonials page ends ************************/
+
+}
+@media (min-width: 768px) {
+.container{width:750px;}
+.btn.btn-book-tuition,
+.btn.btn-book-free-tuition{padding:13px 30px!important; margin:20px 5px 5px 0 !important; line-height:15px!important; font-size:23px!important;margin-top:25px;}
+}
+@media (min-width: 992px) {
+.container{width: 970px;}
+.refresh-size{/*margin-left:105px;*/}
+
+
+}
+
+@media (min-width: 768px) and (max-width:1024px) {
+.mar-left-pad-lr-zero{margin-left:0; padding-left:0; padding-right:0;}
+.hourly-fees{margin-top:5px;}
+.add-fund-price-pad{padding-left:0; padding-right:0;}
+
+
+
+}
+
+@media (min-width: 1023px) and (max-width:1024px) {
+
+/*** modified by Pradeep on 14072015 start***/
+.form-block .input-group{padding-left:0!important;}
+/*** modified by Pradeep on 14072015 ends***/
+/*** modified by rajeev sinha on 14072015 start***/
+.login-container{padding-right:0 !important;}
+.login-container-lft{padding-bottom:30px !important;}
+.login-page .not-member{position:absolute; left:18px; bottom:9px; text-align:center;}
+/*** modified by rajeev sinha on 14072015 ends***/
+
+.submit-area{padding:inherit;}
+.attachment-list-fmt .bootstrap-filestyle .group-span-filestyle{width:93px!important;}
+.custom-input-file .bootstrap-filestyle .btn-default{width:100%!important;}
+
+/**************************** CSS Registration Start *************************************/
+
+.tutor-registration .captcha-code-width{width:55%!important;}
+.tutor-registration .refresh-size{margin-left:0;}
+.tutor-registration .captcha-code a{right:-13px; }
+.tutor-registration .form-block div:nth-child(2){padding-left:15px;}
+.tutor-registration .form-block .captcha-code-width{padding-left:0!important;}
+.tutor-registration .form-block .sign-up-btn-mobile{padding-left:0!important;}
+/**************************** CSS Registration End *************************************/
+
+.my-information-page{min-height:450px;}
+.my-information-blog{height:200px;}
+
+.testimonials-home{height:236px !important;}
+.success-story{height:174px;}
+.success-story .profile-content b{padding-top:5px !important;}
+.testimonials-home .testimonials-home-lists:before{font-size:183px; left:-21px;}
+.container-homepage{width:970px;}
+.navbar-brand{padding-left:0;}
+
+.ipaid-l-space{width:44.666667%}
+.label-select{width:38%;}
+.india-best-tutor-content .profile-details{width:71%;}
+.home-search-panel{margin-bottom:15px;}
+.india-best-tutor-content i.icon1-star{height:20px; width:23px; background-position:-10px -157px;}
+.visitor-top-nav .navbar-nav > li > a{padding:3px 5px 0;}
+.visitor-top-nav .navbar-nav > li:nth-child(4){margin:0 7px;}
+.visitor-top-nav .dropdown-toggle{margin-left:7px;}
+.caret{margin-top:8px!important;}
+.tutor-opportunity{height:200px;}
+.tutor-opportunity img{width:72%;}
+.india-best-tutor-content .profile-details b.statement-text{position:absolute; bottom:-12px;}
+
+.india-best-tutor-content .profile-details b:nth-child(4){height:60px;}
+
+.cash-coupons{background:#00abe6 url("../../images/cash-coupons-img-1.png") no-repeat scroll right top; background-size:16%!important; padding:30px 120px 32px 20px !important;}
+.tutor-opportunity div b{font-size:23px;}
+
+}
+/**************css by rajeev sinha for My Information  bugs on 01072015 ends */
+@media (min-width: 1023px) and (max-width: 1200px){
+.attachment-list-fmt.custom-input-file .bootstrap-filestyle{width:100%;}
+.attachment-list-fmt .bootstrap-filestyle input[type="text"]{width:156px;}
+.attachment-list-fmt .bootstrap-filestyle .group-span-filestyle{width:85px; float:left;}
+.attachment-list-fmt .bootstrap-filestyle .group-span-filestyle label{height:34px; padding:10px 0 5px!important;}
+.attachment-list-fmt .add-more-input-file{padding:9px 8px 10px 8px !important;}
+#apply_coupon{width:110px!important; height:34px;}
+.custom-input-file .bootstrap-filestyle .btn-default{width:84%;}
+.captcha-code img#capchaImage{height:26px;}
+
+
+.past-filter-by-part .my-past-filter-form {padding:11px 0 0 48px !important;}
+.past-filter-by-part .my-past-filter-form .past-div-submit{width:24.667% !important;}
+.new-legend i{width:36px;}
+.new-legend label{margin-top:3px;}
+.new-legend label{margin-top:3px;}
+.new-legend .icon1-stz{background-position:-6px -538px; width:33px;}
+
+.notification-msg-box li.text-center{clear:left; display:block;}
+.notification-msg-box li.text-center a{padding-top:7px!important; display:block; text-align:center;}
+.notification-bell{margin-top:-2px;}
+.profile-pic .profile-sessions{padding:9px 5px 4px!important; display:inline-block;}
+
+.sort-by select{padding:7px 5px 4px!important;}
+.sort-by label{padding-top:5px !important;}
+.filters .search-tutor-breadcrumbs span{padding-top:7px!important;}
+
+.transation-row{padding:20px 15px !important;}
+.transation-row div:nth-child(1){padding:0;}
+.transation-row div:nth-child(5){padding-left:0;}
+.padding-transaction{padding-right:0;}
+#banking-info{padding:0;}
+#add-funds .form-group{margin-bottom:20px;}
+#add-funds .input-group-addon{padding-top:10px;}
+#add-funds .col-sm-2{padding-left:5px;}
+#add-funds .col-sm-4{padding-right:5px;}
+#add-funds .btn.btn-orange{padding:12px 8px 7px !important;}
+#add-funds .margin-top5{margin-top:8px!important;}
+
+#withdraw-funds .withdraw-input .margin5{margin-top:8px!important;}
+#withdraw-funds .input-group-addon{padding-top:10px;}
+#withdraw-funds .btn.btn-orange{padding:12px 8px 7px !important;}
+#withdraw-funds .withdraw-input .col-sm-2{padding-left:5px;}
+#withdraw-funds .withdraw-input .col-sm-4{padding-right:5px;}
+
+.favourite-tutor .panel-heading .panel-title a{padding:15px 15px 10px!important;}
+.filter-container-new { padding-left: 25px !important; padding-top: 3px !important;}
+.btn{padding:8px 8px 5px 8px; margin:0 5px 5px 0; line-height:15px; font-size:14px;}/* rajeev changes 11/06/02015 */
+.duration-type{padding:0; width:69.8%;}/*23/6/2015*/
+.my-accounts-blocks .my-trans-filter-form{widrh:94%!important;}
+.my-accounts-blocks .filter-container-new{padding-left:24px!important;}
+.filters .sort-by{width:22%;}
+.pad-right-zero{padding-right:0;}
+.btn.btn-book-tuition,
+.btn.btn-book-free-tuition{padding:13px 30px!important; margin:20px 5px 5px 0!important; line-height:15px!important; font-size:23px!important;margin-top:25px;}
+.timepick-book-session em{padding:0 10px !important;}
+.mar-left-pad-lr-zero1{margin-left:0; padding-left:0; padding-right:0;}
+.notification-bell i{padding-top:6px !important;}
+.caret{margin-top:6px;}
+
+.btn-orange.find-me-tutor{padding:12px 20px 5px!important;}
+.btn{padding:8px 8px 4px!important;}
+.verify-mobile .btn{padding-bottom:8px !important; padding-top:11px !important;}
+.cancel-whiteboard-btn{margin-top:5px;}
+.my-accounts-blocks .h3-buttons-container{padding-top:11px!important;}
+.action-btn .staricon{width:99px!important;}
+.my-accounts-blocks .block-row .btn{margin-top:0;}
+.form-control{padding:9px 12px 4px !important;}
+.my-trans-filter-form{margin-top:-3px;}
+.my-trans-filter-form input{padding:9px 5px 3px!important;}
+.my-trans-filter-form select{padding:6px 5px 3px!important;}
+.list-blocks input[type="checkbox"]{margin-top:4px!important;}
+
+/*Tutor*/
+.custom-width-mockup-select-multiple{padding:0;}
+.custom-width-mockup-select-multiple .form-control{box-shadow:none; padding-top:0!important;}
+
+.tutor-account-registration-steps-inside-block .custom-width-mockup .bootstrap-filestyle{width:97.5%!important;}
+.tutor-account-registration-steps-inside-block .custom-width-mockup-select-multiple{width:100%!important; padding:0!important;}
+.tutor-account-registration-steps-inside-block .custom-width-mockup-select-multiple div{padding:0!important;}
+.tutor-account-registration-steps-inside-block .custom-width-mockup .btn.btn-orange.add-more-input-file{top:0!important; left:auto!important; right:-7px;}
+.tutor-account-registration-steps-block .bootstrap-filestyle .btn{padding: 11px 8px 6px !important;}
+.tutor-account-registration-steps-block .btn{padding:11px 8px 8px !important;}
+/*****************************************/
+/****VISITORS PAGE HOMEPAGE CSS ******************/
+
+
+.testimonials-home{background:#eae6e0; padding:19px 20px !important; height:280px !important; position:relative; margin:10px 0;}
+.success-story .profile-image{display:none;}
+.success-story .profile-content{width:100%; padding:0; font-size:14px;}
+.success-story{height:180px;}
+.success-story .profile-content span{padding:20px 0; display:block;}
+.success-story .profile-content b{padding-top:10px !important;}
+.india-best-tutor-content li a .avatar-pic{height:132px;}
+.india-best-tutor-content li a .avatar-pic span{padding:5px;}
+.india-best-tutor-content li a .avatar-pic span b,
+.india-best-tutor-content li a .avatar-pic span i{line-height:11px;}
+.india-best-tutor-content i.icon1-star{height:23px; width:23px; background-position:-8px -153px;}
+.india-best-tutor-content li a{padding:3px 7px !important;}
+.rgt-panel{padding-top:10px!important;}
+.india-best-tutor-content li a{padding:25px 15px !important;}
+.testimonials-home .testimonials-home-lists::before{top:-44px;}
+.testimonials-home{height:236px !important;}
+.success-story{height:161px;}
+.success-story .profile-content b{padding-top:5px !important;}
+.testimonials-home .testimonials-home-lists::before{font-size:183px; left:-21px;}
+
+}
+
+@media (min-width:639px) and (max-width:640px){
+.list-box .profile-desc{width:79%;}
+
+}
+
+@media (min-width: 768px) {
+/*.container{width:750px;}*/
+.btn.btn-book-tuition,
+.btn.btn-book-free-tuition{padding:13px 30px!important; margin:20px 5px 5px 0!important; line-height:15px!important; font-size:23px!important;margin-top:25px;}
+
+}
+
+
+@media (min-width: 1200px) {
+.container {width: 1080px;}
+.refresh-size{margin-left:0px;}
+
+	@media all and (-webkit-min-device-pixel-ratio:0){
+	.refresh-size{/*margin-left:105px;*/}
+	}
+  
+}
+@media (min-width:280px) and (max-width:767px){
+/*** modified by rajeev sinha on 14072015 start***/
+.login-page .tabs li{padding:13px 20px 7px 20px!important;}
+/*** modified by rajeev sinha on 14072015 ends***/
+/************ Login page css start *******************/
+.login-container{padding-right:0 !important;}
+.login-page .login-container-lft{width:100%; margin-right:0; padding:10px !important; background:#fbfbfb;}
+.login-page .login-container-rgt{width:100%;}
+.login-page .not-member{position:relative; left:inherit; bottom:inherit;}
+.login-page .facebook-login{padding-top:30px; padding-bottom:30px;}
+.login-page .divider-or{width:100%;}
+.login-page .divider-or em{right:43%;}
+.login-page .not-member{padding:0 0 10px 0;}
+.login-container p{display:block; /*padding-bottom:20px;*/}
+.login-container-rgt{text-align:justify;}
+.login-container-rgt span{padding:10px 0;}
+/************ Login page css ends *******************/
+
+.my-accounts-blocks .block-row .col-md-9{padding-top:0px!important; padding-bottom:0!important;}
+.my-accounts-blocks .block-row .icon1-tutor-msg, .icon1-send-email{background-position:-6px -121px!important;}
+
+
+.cancel-whiteboard-btn{margin-top:inherit;}
+.my-accounts-blocks .h3-buttons-container{padding-top:12px!important;}
+.favourite-tutor .profile-desc i.icon1-home-tutoring{background-position:-7px -7px; height:28px}
+.favourite-tutor .profile-desc i.icon1-online-tutoring{background-position:-7px -35px; height:28px}
+.favourite-tutor .profile-desc i.icon1-student-visit-tutor{background-position:-6px -66px; height:28px}
+.notification-bell i{padding-top:8px !important;}
+.mailbox label{font-size:13px;}
+#Reply .action-area-container .action-area{margin-top:10px;}
+.bredcrumb-new-legend .new-legend i{float:left;}
+.book-session-container .clear-left-new{clear:left!important;}
+.clear-left-ipad{clear:left;}
+.clear-left-what-want{clear:left;}
+#book_session_btn{clear:left;}
+#address_div_adr{clear:left;}
+#veri_mob{clear:left;}
+.mar-left-pad-lr-zero{margin-left:0; padding-left:0; padding-right:0;}
+
+#chsess_list.my-accounts-blocks.list-blocks h3{padding:18px 10px 13px 16px !important;}
+#awaiting-conf-tutor.my-accounts-blocks.list-blocks h3{padding:18px 10px 13px 16px !important;}
+.my-account-past.my-accounts-blocks.list-blocks h3{padding:18px 10px 13px 16px !important;}
+
+/******************VISITOR PAGE HOMEPAGE ***********************/
+.navbar-fixed-top, .navbar-fixed-bottom{position:relative;}
+
+/*CSS By Pradeep 8/7/2015*/
+.home-search-panel{/*border:10px solid #eae6e4;*/float:none;padding:10px 0px; margin-top:0px;}
+.home-search-panel .title-search-home{font-size:18px; padding:0;}
+.call-us-tel{display:block; margin-top:5px;}
+.helpyou-new span:nth-child(1){display:block; margin-bottom:5px;}
+.helpyou-new .btn{margin-right:0;}
+.home-search-panel .input-container{margin:0 0 5px;}
+.subhead-titles{padding:15px 0 10px; }
+.subhead-titles div:nth-child(1){font-size:18px; margin-bottom:10px;}
+.subhead-titles div:nth-child(2){font-size:14px; margin:5px 0;}
+.three-columns div span{text-align:center;}
+.three-columns img{display:none;}
+.three-columns div span{font-size:14px;}
+.three-columns .color-orange{font-size:18px;}
+.three-columns div:nth-child(1){padding:0;}
+.three-columns div{padding:0; margin-bottom:15px;}
+.three-columns div:nth-child(3){padding:0;}
+.testimonials-home .testimonials-home-lists{padding-left:0;}
+.testimonials-home .testimonials-home-title{font-size:18px; line-height:20px; margin-bottom:10px; padding-top:0;}
+.testimonials-home{height:inherit!important; padding:10px 10px 10px!important;}
+.success-story{display:none;}
+.success-story .profile-content b{font-size:18px;}
+.success-story .profile-content span{padding:10px 0;}
+.cash-coupons{background-image:none; padding:10px !important; text-align:center; font-size:18px; margin-bottom:15px;}
+.cash-c-btn{display:block;}
+.cash-c-btn a{padding:4px 7px; background:#0084ca; font-size:14px; margin-top:5px; color:#fff; border-radius:0;}
+.tutor-opportunity{height:inherit; padding-top:0 !important;}
+.tutor-opportunity div:nth-child(1){padding:0;}
+.tutor-opportunity div b{font-size:18px; text-align:center; padding-bottom:10px;}
+.tutor-opportunity div span{text-align:center; padding-bottom:10px;}
+.tutor-opportunity .tutor-signup-link i{margin-top:0;}
+.tutor-opportunity div span.hide-on-mobi{display:none;}
+.tutor-opportunity div:nth-child(3){display:inline-block; text-align:center; margin:0px 0 10px; padding:0;}
+.tutor-opportunity .col-md-2{display:none;}
+
+.article-content .business-world{padding-right:0!important; border-right:none!important; border-bottom:1px solid #ccc; display:inline-block; text-align:center;  padding-bottom:10px; margin-bottom:10px;}
+.article-content .business-world a{float:none;}
+.article-content .financial-express{padding-left:0; text-align:center;}
+
+.container-homepage .navbar-header{margin:inherit;}
+
+
+.visitor-top-nav .navbar-nav > li:nth-child(4){margin:0 5px;}
+.need-help a.call-us{font-size:16px;}
+/*Copyright*/
+.copyright{height:50px;}
+.copyright.col-md-12.col-xs-12.col-sm-12 div:nth-child(1){margin-top:12px;}
+.copyright.col-md-12.col-xs-12.col-sm-12 div:nth-child(2){position:absolute; width:96%; margin-top:-6px;}
+.subhead-titles div:nth-child(2) span{margin:/*5px*/ 0;}
+.ipad-on-hide{display:block!important;}
+
+.container-homepage .navbar{float:left;}
+
+/*CSS By Pradeep 8/7/2015 end*/
+/*CSS 10-7-2015*/
+.mobile-logo{display:block;}
+.mobile-logo-1{display:none;}
+
+
+/**************************** CSS Registration Start *************************************/
+.container-visitor-inner{border-top:1px solid #ccc; margin-top:0;}
+
+.container-visitor-inner, .container-visitor-inner div.col-md-8.col-sm-12.col-xs-12{padding:5px;}
+.student-registration, .student-registration div.col-md-9.col-sm-12.col-xs-12{padding:5px;}
+.tutor-registration{padding:0;}
+.stu-right-part div.ipad-view{padding:0;}
+.tutor-registration .form-block div:nth-child(2){padding:0;}
+.tutor-registration .form-block div:nth-child(1){padding:0;}
+.tutor-registration .captcha-code-width{width:55% !important;}
+.stu-right-part img{display:none;}
+.tutor-registration .captcha-code .control-label{width:100%;}
+.tutor-registration .sign-up-btn-mobile{position:absolute;}
+.tutor-registration .reg-text{margin-top:45px; margin-bottom:0px;}
+.account-txt{display:inline-block;}
+.sign-up-btn-mobile span{display:none;}
+.tutor-registration .captcha-code a{right:9px; }
+.stu-right-part{padding-right:5px;}
+.tutor-registration .reg-text span{text-align:center;}
+.control-icons-hiw i{display:none;}
+/**************************** CSS Registration End *************************************/
+
+.address-and-phone-div div:nth-child(n+1){padding-left:15px;}
+.address-and-phone-div2 div{padding:0!important;}
+
+.address-and-phone-div .verified-mobile, .address-and-phone-div .verified-mobile div{padding:0!important;}
+.submit-area{padding:0 15px !important;}
+.address-and-phone-div .round-border-new div:nth-child(n+1){padding-left:0;}
+
+.inside-height-visitors{padding:10px!important;}
+.attachment-list-fmt .bootstrap-filestyle .group-span-filestyle{width:37%!important;}
+.btn-apply-coupon{position:relative;}
+.btn-apply-coupon a{position:absolute; right:-13px; top:0;}
+
+
+
+/*************************Css for contact us start *********************/
+.contact-us-container .contact-form-new{padding-right:0;}
+.contact-us-by-phone .clone{display:none;}
+.contact-us-container .contact-form-pad-rgt{padding-right:0;}
+.contact-us-by-phone span{display:block;}
+/*************************Css for contact us ends *********************/
+.about-us-content{padding-right:0!important;}
+.tutor-faq .faq-answer{padding-left:21px;}
+/*************************Modify Css By Pradeep for contact us / Reviws start 14/07/2015 *********************/
+.contact-right-txt div{text-align:center;}
+.contact-us-by-phone h4{text-align:left;}
+.contact-txt{text-align:justify;}
+.reviews-tetimonials .review-lists{text-align:justify; padding:10px 15px;}
+/*************************Modify Css By Pradeep for contact us / Reviws End 14/07/2015 *********************/
+
+.reviews-tetimonials .review-lists span.review-txt{padding-left:3px;text-align:justify;
+display:block;text-indent:20px;}
+.reviews-tetimonials .review-lists span.review-txt:before{left:-6px;}
+
+}
+
+
