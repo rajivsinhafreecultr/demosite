@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js sidebar-large lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]><html class="no-js sidebar-large lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]><html class="no-js sidebar-large lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html>
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>.:: SAMPLE ::.</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- css library start -->
+<link href="commonincludes/css/bootstrap.css" rel="stylesheet">
+<link href="commonincludes/css/bootstrap-theme.css" rel="stylesheet">
+<link href="commonincludes/css/bootstrap_calendar.css" rel="stylesheet">
+<link href="commonincludes/css/font-awesome.css" rel="stylesheet">
+<link href="commonincludes/css/font-awesome-ie7.css" rel="stylesheet">
+<link href="commonincludes/css/custom.css" rel="stylesheet">
+<link href="commonincludes/css/slideshow.css" rel="stylesheet">
+<link href="commonincludes/css/jcarousel.responsive.css" rel="stylesheet">
+<link href="commonincludes/css/responsive-visitor.css" rel="stylesheet">
+<link href="commonincludes/css/custom-icons.css" rel="stylesheet">
+<link href="commonincludes/css/jquery.mCustomScrollbar.css" rel="stylesheet">
+<!-- css library ends -->
+</head>
+
+<body>
+<!--mobile links start-->
+<div class="topheader-mobile">
+<a href="javascript:void();" class="become-student pull-left">Sign&nbsp;Up</a>
+<span class="signup-tooltip" style="display: none;">
+	<i class="node-top-lft"></i>
+	<a href="student-registration.php" class="become-student">Become a Student</a>
+    <a href="tutor-registration.php" class="become-student">Become A Tutor</a>
+</span>
+
+<a href="javascript:void();" class="call-talk pull-right">Login</a>
+<span class="login-tooltip zindexnew" style="display: none;">
+	<i class="node-top-rgt"></i>
+	<a href="signin.php?type=1" class="login-student">Student Login</a>
+    <a href="signin.php?type=2" class="login-tutor">Tutor Login</a>
+</span>
+</div>
+<!--mobile links ends-->
+<!--upper links start-->
+<div class="container container-homepage pad-zero">
+	<!-- header start here -->
+    <nav class="navbar navbar-inverse navbar-fixed-top " role="navigation">
+<div class="navbar-inner"> <!--changes made here-->
+    <div class="container">
+
+        <div class="navbar-header">
+            <a class="navbar-brand logo" href="#" title="">
+                <img src="images/logo.png" alt="" class="img-responsive">
+            </a>
+        </div>
+<input type='hidden' name='show_toggle' id='show_toggle'  value=''>
+        <div class="collapse navbar-collapse visitor-top-nav" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="tel:1800-3010-5555"><i class="icon-phone phone-icon-visitor"></i> 1800-3010-5555</a></li>
+                <li><a href="#">Become a Student</a></li>
+                <li><a href="#">Become a Tutor</a></li>
+                <li><a href="#" class="login-visitor">Login</a></li>
+                <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="flag-img"><img src="images/india-flag.png" alt="India"></span>india <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+          <li><a href="#"><span class="flag-img"><img src="images/india-flag.png" alt="India"></span> India</a></li>
+            <li><a href="#"><span class="flag-img"><img src="images/usa-flag.png" alt="India"></span> USA</a></li>
+          </ul>
+        </li>
+            </ul>
+        </div>
+    </div>
+</div>
+</nav>
+    
+    <!--Header Ends here -->
+</div>
+<!--upper links ends-->
+<!--Main links start-->
+<div class="main-nav">
+
+<nav class="navbar navbar-default">
+        <div class="container container-homepage">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Menu</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse pos-rel">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Student <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Search For A Tutor</a></li>
+                  <li><a href="#">Find Me A Tutor</a></li>
+                  <li><a href="#">Login</a></li>
+                  <li><a href="#">Sign Up</a></li>
+                  <li><a href="#">FAQ</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Tutors <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Login</a></li>
+                  <li><a href="#">Sign Up</a></li>
+                  <li><a href="#">FAQ</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">How It Works <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">For Student</a></li>
+                  <li><a href="#">For Tutor</a></li>
+                </ul>
+              </li>
+              <li class="dropdown ipad-on-hide">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Reviews And Testimonials</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact Us <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Students And Parents</a></li>
+                  <li><a href="#">Tutors</a></li>
+                  <li><a href="#">Others</a></li>
+                </ul>
+              </li>
+            </ul>
+            <div class="pull-right"><a href="#" class="tutor-image-reg-bg"></a></div>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>
+
+
+</div>
+<!--Main links ends-->
+ 
+<!-- slideshow start -->
+
+<div class="col-md-12 col-sm-12 col-xs-12 home-page-slider">
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+<div class="carousel-inner">
+    <div class="item active">
+      <img src="images/banner-1.jpg" alt="...">
+    </div>
+    <div class="item">
+      <img src="images/banner-2.jpg" alt="...">
+    </div>
+  </div>
+</div>
+</div>
+ 
+<!-- slideshow ends -->
+
+ <!-- search global start -->
+ <div class="home-search-panel col-md-12 col-sm-12 col-xs-12 pull-left" id="stickyheader1">
+ 	<div class="col-md-12 col-xs-12  container-homepage float-none">
+	 <span class="title-search-home col-md-12 col-sm-12 col-xs-12">Find The Best Teacher for Home And Online Tuition</span>
+		<!-- search bar comes here-->
+        <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+        <div class="col-md-8 col-sm-10 col-xs-12 input-container"><input type="text" class="form-control"></div>
+        </div>
+        <div class="helpyou-new col-md-12 col-sm-12 col-xs-12 text-center"><span>OR Have Our Staff Find A Tutor For You</span> <a  href="findmeatutor.php?new_session_type=tutorTravelStudent" target="_blank" class="btn btn-orange">Post Your Learning Requirement</a> <span class="call-us-tel">OR Call us at <a href="tel:180030105555">1800-3010-5555</a></span></div>
+
+	</div>
+ </div>
+<!-- search global ends --> 
+<!-- Home three text start -->
+<div class="container text-center subhead-titles">
+	<div class="col-md-12 col-sm-12 col-xs-12">Trusted by India and the World</div>
+<div class="col-md-12 col-sm-12 col-xs-12">
+	With over 100,000 registered students, Eduwizards is the world's favorite tutoring website.
+	<span>Home Tutoring is now available to students of Delhi/NCR. Expanding soon to more cities.</span>
+    Online Tutoring, of course, does not depend on student's location and is now available to all students.
+</div>
+
+</div>
+
+<!-- Home three text ends -->
+ 
+<!-- Home three section and right review start --> 
+<div class="container container-homepage">
+	<div class="col-md-12 col-sm-12 col-xs-12">
+    <div class="col-md-8 col-sm-12 col-xs-12 three-columns">
+           	  <div class="col-md-4 col-sm-4 col-xs-12">
+            <img src="images/thumb-icon.png" alt="" />
+            <b class="color-orange">Easy to Use</b>
+            <span class="col-md-12 col-sm-12 col-xs-12">Eduwizards lets you select tutors by viewing their reviews, profiles and qualifications. Communicate with tutors to make sure you have the best fit. Or have our staff find you the right tutor.</span>
+            </div>
+           	  <div class="col-md-4 col-sm-4 col-xs-12">
+            <img src="images/result-icon.png" alt="" />
+            <b class="color-blue">Trusted Reviews</b>
+            <span class="col-md-12 col-sm-12 col-xs-12">Take tuitions from top tutors, ranked and reviewed by students. Our reviews are always genuine because they are from actual tutoring sessions booked and taken within our system.</span>
+            </div>
+           	  <div class="col-md-4 col-sm-4 col-xs-12">
+            <img src="images/best-tutor-icon.png" alt="" />
+            <b class="color-darkpink">Best Tutors, Best Fit</b>
+            <span class="col-md-12 col-sm-12 col-xs-12">You don't pay for your first session with an Eduwizards tutor unless you are fully satisfied. For any support, customer care is available 24x7.</span>
+            </div>
+            </div>
+    <div class="col-md-4 col-sm-5 col-xs-12 rgt-panel">
+        	<div class="col-md-12 col-sm-12 col-xs-12 india-best-tutor">India's Best Tutors - Reviewed by Students</div>
+            <div class="col-md-12 col-sm-12 col-xs-12 india-best-tutor-content">
+            	<ul>
+                	<li><a href="#">
+                    	<span class="avatar-pic"><img src="images/avatar.jpg" alt=""/><span><b>1000+</b><i>Sessions</i></span></span>
+                        <span class="profile-details">
+                        	<b>Jaydeep  V.</b>
+                            <b>Nasik</b>
+                            <b><i class="icon1-star"></i> 4.5</b>
+                            <b>Offers Computers, Languages and 4 other subjects.</b>
+                            <b>I am the best online tutor</b>
+                        </span>
+                    </a></li>
+                    <li><a href="#">
+                    	<span class="avatar-pic"><img src="images/avatar.jpg" alt=""/><span><b>1000+</b><i>Sessions</i></span></span>
+                        <span class="profile-details">
+                        	<b>Jaydeep  V.</b>
+                            <b>Nasik</b>
+                            <b><i class="icon1-star"></i> 4.5</b>
+                            <b>Offers Computers, Languages and 4 other subjects.</b>
+                            <b>I am the best online tutor</b>
+                        </span>
+                    </a></li>
+                    <li><a href="#">
+                    	<span class="avatar-pic"><img src="images/avatar.jpg" alt=""/><span><b>1000+</b><i>Sessions</i></span></span>
+                        <span class="profile-details">
+                        	<b>Jaydeep  V.</b>
+                            <b>Nasik</b>
+                            <b><i class="icon1-star"></i> 4.5</b>
+                            <b>Offers Computers, Languages and 4 other subjects.</b>
+                            <b>I am the best online tutor</b>
+                        </span>
+                    </a></li>
+                    <li><a href="#">
+                    	<span class="avatar-pic"><img src="images/avatar.jpg" alt=""/><span><b>1000+</b><i>Sessions</i></span></span>
+                        <span class="profile-details">
+                        	<b>Jaydeep  V.</b>
+                            <b>Nasik</b>
+                            <b><i class="icon1-star"></i> 4.5</b>
+                            <b>Offers Computers, Languages and 4 other subjects.</b>
+                            <b>I am the best online tutor</b>
+                        </span>
+                    </a></li>
+                    <li><a href="#" class="text-right col-md-12 col-sm-12 col-xs-12 last-child">Search For A Tutor <span>»</span></a></li>
+                </ul>
+            </div>
+        </div>
+            
+            
+    	<div class="col-md-8 col-sm-7 col-xs-12 lft-panel">
+        	
+            <!-- testimonials start -->
+			<div class="col-md-12 col-sm-12 col-xs-12 testimonials-home">
+            	<div class="col-md-4 col-sm-4 col-xs-12 testimonials-home-title">
+                	Here's what the world thinks about us
+                </div>
+                <div class="col-md-8 col-sm-8 col-xs-12 testimonials-home-lists">
+                 <div class="testimonial-carousel"> 
+                   <div id="carousel-example-generic1" class="carousel slide" data-ride="carousel">
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                      <div class="carousel-caption">
+                        <div class="title-name">Sumit, India</div>
+                        <div class="testimonial-carousel-content">It is a long established fact that a reader will be distracted by the readable content of
+a page when looking at its layout. The point of using Lorem Ipsum is....
+				  </div>
+                  <div class="nameofcollege">College Algebra</div>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="carousel-caption">
+                        <div class="title-name">Sumit, India</div>
+                        <div class="testimonial-carousel-content">It is a long established fact that a reader will be distracted by the readable content of
+a page when looking at its layout. The point of using Lorem Ipsum is....
+				  </div>
+                  <div class="nameofcollege">College Algebra</div>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="carousel-caption">
+                        <div class="title-name">Sumit, India</div>
+                        <div class="testimonial-carousel-content">It is a long established fact that a reader will be distracted by the readable content of
+a page when looking at its layout. The point of using Lorem Ipsum is....
+				  </div>
+                  <div class="nameofcollege">College Algebra</div>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="carousel-caption">
+                        <div class="title-name">Sumit, India</div>
+                        <div class="testimonial-carousel-content">It is a long established fact that a reader will be distracted by the readable content of
+a page when looking at its layout. The point of using Lorem Ipsum is....
+				  </div>
+                  <div class="nameofcollege">College Algebra</div>
+                      </div>
+                    </div>
+                  </div>
+              <!-- Controls -->
+              <a class="left carousel-control"  href="#carousel-example-generic1" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                
+              </a>
+              <a class="right carousel-control" href="#carousel-example-generic1" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+               
+              </a>
+            </div>
+          </div>
+       </div>
+      </div>
+			<!-- testimonials ends -->
+            <!-- Success Story start -->
+            <div class="col-md-12 col-sm-12 col-xs-12 success-story">
+            	<div class="profile-image"><img src="images/story-img1.jpg" alt="" /></div>
+                <span class="col-md-12 col-sm-12 col-xs-12 profile-content">
+                	<b>Eduwizards student success story</b>
+                    <span>Anushka from Delhi found an excellent tutor through Eduwizards who changed the way she studied. Her marks are up and she now enjoys the subject.</span>
+                    <a href="#" class="profile-link">Read her success story<img src="images/story-read-img.png" alt=""/></a>
+                </span>
+            </div>
+            <!-- Success Story ends -->
+            <!-- Cash Coupon start -->
+            <div class="col-md-12 col-sm-12 col-xs-12 cash-coupons">Cash Coupons for Our Students! <span class="cash-c-btn"><a class="btn" href="#">Read more</a></span></div>
+            <!-- Cash Coupon ends -->
+            
+	  </div>
+        
+        
+    
+    </div>
+    
+    <div class="col-md-12 col-sm-12 col-xs-12 tutor-opportunity">
+    	<div class="col-md-5 col-sm-5 col-xs-12">
+        	<b>Great Opportunity For Tutors</b>
+            <span>"I have been providing Online Tutoring to USA students through Eduwizards and look forward to now connecting with students in India for Home Tutoring &amp; Online Tutoring. Getting good reviews from students is best way to get increased business."</span>
+            <div class="col-md-12 col-sm-12 col-xs-12 tutor-signup-link"><i>- Tutor from Delhi/NCR</i></div>
+        </div>
+        <div class="col-md-2 col-sm-2 col-xs-12 text-center"><img src="images/tutor-img.png" alt=""/></div>
+        <div class="col-md-5 col-sm-5 col-xs-12">
+        	<b>Sign-up and Start Earning</b>
+            <span class="hide-on-mobi">We are looking for good tutors to create an even bigger and better experience for students. Be part of India's fastest growing website for connecting qualified tutors with students. Our tutors have already earned more than Rs. 500 lakhs.</span>
+            <div class="col-md-12 col-sm-12 col-xs-12 tutor-signup-link"><a href="#" class="btn btn-orange">Tutor Signup</a></div>
+        </div>
+    </div>
+    
+    
+</div>
+<!-- News start -->
+    <div class="col-md-12 col-sm-12 col-xs-12 article-content">
+    	<div class="container-homepage">
+        	<div class="col-md-5 col-sm-5 col-xs-12 business-world"><a href="BW - Showing Talented Educators The Money.pdf" target="_blank" title="BusinessWorld"><img src="images/bw-logo.jpg" alt="Business World" class="img-responsive" /></a></div>
+            <div class="col-md-6 col-sm-7 col-xs-12 financial-express"><a href="http://computer.financialexpress.com/news/now-get-your-private-tutor-online/12309/" target="_blank" title="Financial Express"><img src="images/financial-exp-logo.jpg" alt="Financial Express" class="img-responsive" /></a></div>
+        </div>
+         
+    	
+    </div>
+    <!-- News ends -->
+
+<!-- Home three section and right review ends -->
+<!-- Footer start-->
+<div class="col-md-12 footer-container mobile-in-hide">
+  <footer class="container">
+    <div class="col-md-2 col-sm-4 col-xs-6">
+      <label class="control-label">Learn With Us</label>
+      <a href="adv_tutor_search.php">Search for a Tutor</a> <a href="findmeatutor.php?new_session_type=tutorTravelStudent">Find me a Tutor</a>
+      <label class="connect-with-us">Connect With Us</label>
+      <div class="social-links"> <a target="_blank" href="https://www.facebook.com/EduwizardsIndiaTutoring"><i class="icon1-facebook"></i></a> <a href="javascript:void();"><i class="icon1-linkedin"></i></a> <a href="javascript:void();"><i class="icon1-youtube"></i></a> <a target="_blank" href="https://twitter.com/EduwizardsIndia"><i class="icon1-twitter"></i></a> </div>
+    </div>
+    <div class="col-md-2 col-sm-4 col-xs-6">
+      <label class="control-label">Get To Know Us</label>
+      <a href="about-us.php">About Us</a> <a href="contact-us.php">Contact Us</a> <a href="#">Our Team</a> <a href="reviews_testimonials.php">Reviews and Testimonials</a> <a href="termsandconditions.php?event=TutorHiringSafetyTips">Safety</a> </div>
+    <div class="col-md-2 col-sm-4 col-xs-6">
+      <label class="control-label">Tutors By Location</label>
+      <a href="search.php?city_name=Delhi&amp;city_id=252&amp;FormSubmiteed=1">Tutors In Delhi</a> <a href="search.php?city_name=Gurgaon&amp;city_id=413&amp;FormSubmiteed=1">Tutors In Gurgaon</a> <a href="search.php?city_name=Noida&amp;city_id=1286&amp;FormSubmiteed=1">Tutors In Noida</a> <a href="search.php?city_name=Faridabad&amp;city_id=408&amp;FormSubmiteed=1">Tutors In Faridabad</a> <a href="search.php?city_name=Ghaziabad&amp;city_id=1227&amp;FormSubmiteed=1">Tutors In Ghaziabad</a> <a href="tutor_all_cities.php?left_flag=1&amp;event=cityTutorCount">More ..</a> </div>
+    <div class="col-md-2 col-sm-4 col-xs-6">
+      <label class="control-label">Tutors By Subjects</label>
+      <a href="search.php?course_name=Mathematics&amp;FormSubmiteed=1">Tutors In Mathematics</a> <a href="search.php?course_name=Science&amp;FormSubmiteed=1">Tutors In Science</a> <a href="search.php?course_name=English&amp;FormSubmiteed=1">Tutors In English</a> <a href="search.php?course_name=Statistics&amp;FormSubmiteed=1">Tutors In Statistics</a> <a href="search.php?course_name=Test Preparation&amp;FormSubmiteed=1">Tutors In Test Preparation</a> <a href="tutor_all_subjects.php?left_flag=1&amp;event=subjectTutorCount">More ..</a> </div>
+    <div class="col-md-4 col-sm-8 col-xs-12 need-help text-center">
+      <h3 class="">Need Help?</h3>
+      <div class="col-md-12 col-xs-12"> Call us at <a href="#">1800-3010-5555</a> </div>
+      <div class="col-md-12 col-xs-12">or email us at:</div>
+      <div class="col-md-12 col-xs-12">
+        <label class="col-md-4 col-xs-5 text-right">Students:</label>
+        <div class="col-md-8 col-xs-7 text-left"><a href="mailto:student@eduwizards.com">student@eduwizards.com</a></div>
+      </div>
+      <div class="col-md-12 col-xs-12">
+        <label class="col-md-4 col-xs-5 text-right">Tutors:</label>
+        <div class="col-md-8 col-xs-7 text-left"><a href="mailto:itutor@eduwizards.com">itutor@eduwizards.com</a></div>
+      </div>
+      <div class="col-md-12 col-xs-12">
+        <label class="col-md-4 col-xs-5 text-right">New Tutors:</label>
+        <div class="col-md-8 col-xs-7 text-left"><a href="mailto:apply@eduwizards.com">apply@eduwizards.com</a></div>
+      </div>
+    </div>
+  </footer>
+</div>
+
+
+<div class="footer-container iphone-needhelp">
+<footer>
+    <div class="col-md-4 col-sm-8 col-xs-12 need-help text-center">
+      <h3 class="">Need Help?</h3>
+      <div class="col-md-12 col-xs-12"> Call us at <a href="#">1800-3010-5555</a> </div>
+      <div class="col-md-12 col-xs-12">or email us at:</div>
+      <div class="col-md-12 col-xs-12">
+        <label class="col-md-4 col-xs-5 text-right">Students:</label>
+        <div class="col-md-8 col-xs-7 text-left"><a href="mailto:student@eduwizards.com">student@eduwizards.com</a></div>
+      </div>
+      <div class="col-md-12 col-xs-12">
+        <label class="col-md-4 col-xs-5 text-right">Tutors:</label>
+        <div class="col-md-8 col-xs-7 text-left"><a href="mailto:itutor@eduwizards.com">itutor@eduwizards.com</a></div>
+      </div>
+      <div class="col-md-12 col-xs-12">
+        <label class="col-md-4 col-xs-5 text-right">New Tutors:</label>
+        <div class="col-md-8 col-xs-7 text-left"><a href="mailto:apply@eduwizards.com">apply@eduwizards.com</a></div>
+      </div>
+    </div>
+    </footer>
+ </div>   
+<div class="footer-iphone HelveticaNeue-Light">
+  <ul>
+    <li class="has-sub"> <a class="uper-c" href="#"><span>Tutors By Location</span></a>
+      <ul>
+        <li><a href="#">Tutors In Delhi</a></li>
+        <li><a href="#">Tutors In Gurgaon</a></li>
+        <li><a href="#">Tutors In Noida</a></li>
+        <li><a href="#">Tutors In Faridabad</a></li>
+        <li> <a href="#">Tutors In Ghaziabad</a></li>
+      </ul>
+    </li>
+    <li class="has-sub"><a class="uper-c" href="#"><span>Tutors By Subjects</span></a>
+      <ul>
+        <li> <a href="#">Tutors In Mathematics</a> </li>
+        <li> <a href="#">Tutors In Science</a> </li>
+        <li> <a href="#">Tutors In English</a> </li>
+        <li> <a href="#">Tutors In Statistics</a> </li>
+        <li> <a href="#">Tutors In Test Preparation</a> </li>
+        <li><a href="#">More ..</a></li>
+      </ul>
+    </li>
+    <li class="has-sub"><a class="uper-c" href="#"><span>GET TO KNOW US</span></a>
+      <ul>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="javascript:void();">Our Team</a></li>
+        <li><a href="#">Reviews and Testimonials</a></li>
+        <li><a href="#">Safety</a></li>
+      </ul>
+    </li>
+    <li class="has-sub "><a class="uper-c" href="#"><span>Learn With Us</span></a> 
+      
+      <!-- student Session show this link start -->
+      <ul>
+        <li><a href="#">Search for a Tutor</a></li>
+        <li><a href="#">Find me a Tutor</a></li>
+      </ul>
+      <!-- student Session show this link ends --> 
+    </li>
+  </ul>
+</div>
+
+
+<div class="copyright col-md-12 col-xs-12 col-sm-12">
+  <div class="col-md-6 col-xs-12 col-sm-6">&copy; 2015 Eduwizards All Rights Reserved</div>
+  <div class="col-md-6 col-xs-12 col-sm-6 pull-right text-right"><a href="termsandconditions.php?event=TermsOfUse">Terms of Use</a> | <a href="privacy.php">Privacy Policy</a></div>
+</div>
+<!-- Footer ends-->
+
+<!-- JS library start --> 
+<script src="js/jquery-1.11.js"></script> 
+<script src="js/bootstrap.js"></script> 
+<script src="js/bootstrap_calendar.js"></script>
+<script src="js/bootstrap.file-input.js"></script> 
+<script src="js/footer-iphone.js"></script> 
+<!-- new js for slideshow start-->
+<script defer src="js/jquery.flexslider.js"></script>
+
+<script>
+$(document).ready(function() {       
+           
+ 
+ 
+ $('.call-talk').click(function(){
+	$('.login-tooltip').show();
+	$('.login-tooltip').addClass("zindexnew");
+	$('.signup-tooltip').hide();
+	$('.signup-tooltip').removeClass("zindexnew");
+	if(document.getElementById('show_toggle'))
+	document.getElementById('show_toggle').value=2;
+ }); 
+ 
+$('.become-student').click(function(){
+	$('.login-tooltip').hide();
+	$('.login-tooltip').removeClass("zindexnew");
+	$('.signup-tooltip').show();
+	$('.signup-tooltip').addClass("zindexnew");
+	if(document.getElementById('show_toggle'))
+	document.getElementById('show_toggle').value=1;
+	
+ });
+
+$('body').click(function(event){
+if(document.getElementById('show_toggle'))
+{
+		if(document.getElementById('show_toggle').value==0)
+		{
+			$('.login-tooltip').hide();
+			$('.signup-tooltip').hide();
+		}
+		if(document.getElementById('show_toggle').value==2)
+		{
+			document.getElementById('show_toggle').value=0;
+		}
+		if(document.getElementById('show_toggle').value==1)
+		{
+			document.getElementById('show_toggle').value=0;
+		}
+}
+
+
+
+//event.stopPropagation();
+
+    
+});
+
+ 
+        }); 
+
+
+		
+</script>
+
+<script>
+$(document).ready(function () {
+	if( /Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+   
+    $('.navbar-default .navbar-nav > li.dropdown').click(function () {
+        $('ul.dropdown-menu', this).toggle.slideDown('fast');
+        $(this).addClass('open');
+    }, function () {
+        $('ul.dropdown-menu', this).toggle.slideUp('fast');
+        $(this).removeClass('open');
+    });
+	
+		}
+	
+	else {
+		
+    $('.navbar-default .navbar-nav > li.dropdown').hover(function () {
+        $('ul.dropdown-menu', this).stop(true, true).slideDown('fast');
+        $(this).addClass('open');
+    }, function () {
+        $('ul.dropdown-menu', this).stop(true, true).slideUp('fast');
+        $(this).removeClass('open');
+    });
+		
+		}
+});
+// Can also be used with $(document).ready()
+</script>
+<!-- new js for slideshow ends-->
+<script>
+$('.carousel').carousel(100);
+</script>
+<script> 
+jQuery(document).ready(function($){
+    // Sticky Header
+    if ($('#stickyheader').length) {
+    $(function()
+    {
+        var stickyHeaderTop = $('#stickyheader').offset().top;
+        $(window).scroll(function()
+        {
+            if ($(window).scrollTop() > (stickyHeaderTop -130))
+            {
+                $('#stickyheader').css(
+                {
+                    position: 'fixed',
+                    top: '124px'
+                });
+                $('.admin-bar #stickyheader').css(
+                {
+                    top: '0',
+					
+                });
+            }
+            else
+            {
+                $('#stickyheader').css(
+                {
+                    position: 'relative',
+                    top: '0px',
+                });
+            }
+        });
+    });
+    };
+
+}); 
+
+</script>   
+<!-- JS library ends -->
+
+</body>
+</html>

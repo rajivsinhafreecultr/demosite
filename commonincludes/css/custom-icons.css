@@ -1,0 +1,70 @@
+/*Sprite Css For All Icons Start*/
+.icon1-home-tutoring,
+.icon1-online-tutoring,
+.icon1-student-visit-tutor,
+.icon1-tutor-sms,
+.icon1-tutor-msg,
+.icon1-read-reviews,
+.icon1-see-availability,
+.icon1-add-favourite-tutor,
+.icon1-send-email,
+.icon1-facebook,
+.icon1-linkedin,
+.icon1-youtube,
+.icon1-twitter,
+.icon1-info,
+.icon1-imonline,
+.icon1-star,
+/* mailbox css */
+.icon1-read-by-tutor,
+.icon1-mail-sent,
+.icon1-read,
+.icon1-rejected,
+.icon1-edited-by-admin,
+.icon1-stz,
+.icon1-cst,
+.icon1-read-reviews-disable,
+.icon1-info-small{background-image:url(../../images/custom-icons.png); background-repeat:no-repeat; display:inline-block; width:36px; height:30px; vertical-align:middle;}
+
+
+
+
+.icon1-home-tutoring{background-position:0 -5px;}
+.icon1-online-tutoring{background-position:0px -30px;}
+.icon1-student-visit-tutor{background-position:0px -60px;}
+.icon1-tutor-sms{background-position:0px -90px;}
+.icon1-tutor-msg,
+.icon1-send-email{background-position:0px -123px;}
+.icon1-read-reviews{background-position:0px -181px;}
+.icon1-see-availability{background-position:0px -210px;}
+.icon1-add-favourite-tutor{background-position:0px -240px;}
+.icon1-info{background-position:0px -300px;}
+.icon1-imonline{background-position:0px -329px; width:28px;}
+.icon1-star{background-position:0px -153px;}
+.icon1-read-reviews-disable{background-position:-35px -181px;}
+.icon1-info-small{background-position:-50px -63px;}
+/* mailbox css */
+.icon1-read-by-tutor{background-position:0px -365px; height:20px;}
+.icon1-mail-sent{background-position:0px -395px; height:20px;}
+.icon1-read{background-position:0px -425px; height:20px;}
+.icon1-rejected{background-position:0px -455px; height:20px;}
+.icon1-edited-by-admin{background-position:0px -486px; height:20px;}
+.icon1-stz{background-position:0px -537px; height:20px;}
+.icon1-cst{background-position:0px -510px; height:20px;}
+
+
+
+/* Social Icons*/
+.icon1-facebook{background-position:-49px -4px; transition:all 0.2s ease 0s; width:30px; height:30px;}
+.icon1-facebook:hover{background-position:-49px -31px; transition:all 0.2s ease 0s; width:30px; height:30px;}
+
+.icon1-linkedin{background-position:-79px -4px; transition:all 0.2s ease 0s; width:30px; height:30px;}
+.icon1-linkedin:hover{background-position:-79px -31px; transition:all 0.2s ease 0s; width:30px; height:30px;}
+
+.icon1-youtube{background-position:-110px -4px; transition:all 0.2s ease 0s; width:30px; height:30px;}
+.icon1-youtube:hover{background-position:-110px -31px; transition:all 0.2s ease 0s; width:30px; height:30px;}
+
+.icon1-twitter{background-position:-140px -4px; transition:all 0.2s ease 0s; width:30px; height:30px;}
+.icon1-twitter:hover{background-position:-140px -31px; transition:all 0.2s ease 0s; width:30px; height:30px;}
+
+/*Sprite Css For All Icons End*/

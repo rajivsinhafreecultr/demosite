@@ -1,0 +1,364 @@
+.new-search-block input#searchCity2{display:none; border:0; border-left:solid 1px #dfdfdf; border-right:solid 1px #dfdfdf; border-left:none;}
+.select-home-online{width:100%;float:left;}
+.select-subjects{padding-left:320px !important; box-sizing:border-box;}
+.txt-title.HelveticaNeue-Thin.font-30{width:100%; text-align:center !important;}
+.select-subjects-online{padding-left:105px !important;}
+.spanright{float:right;}
+#searchCity2{font-family:"HelveticaLTStd-Light"; font-size:13px; color:rgba(83, 82, 81, 1) !important; height:34px; margin-top:1px !important;}
+
+.nsb-ticket {height:33px; margin-top:0px!important; border:0!important;}
+.nsb-ticket.temp-zindex{font-family:"HelveticaLTStd-Light"; font-size:13px; color:rgba(83, 82, 81, 1) !important; border-right:1px solid #dfdfdf !important}
+/*New Css by saurav */
+/*#home-search-block {left: 0;  margin: 0 auto; position: absolute; right: 0; top: 70%; z-index: 1000; background-color:#09ace6; opacity: 0.88 height: auto; border: 1px solid #fff; padding: 7px 10px; width: 90%; }*/
+a{text-decoration:none !important;}
+#home-search-block .searchBlock{margin: 0 auto; width: 100%;}
+#home-search-block .orange-strip { position: relative; width: 100%; float: left; background-color: #ef8e1e; height:31px; border-top: 1px solid #fff; background-color: #ef8e1e; padding: 6px 0px 6px 132px;}
+#home-search-block .orange-strip p{ color: #fff; font-size: 14px;}
+#home-search-block .nsb-bg{background-color: #ebebeb; padding: 2px 6px;}
+#home-search-block .nsb-1-suggestbox{display: none;position: absolute;top:36px;width:100%; background-color: #fff;left:0;z-index:99;padding:0px 0px; height: 404px !important;}
+
+#home-search-block .nsb-1-suggestbox-cities-subheader{font-weight:600;color:#333;font-size:16px;background-color:#8dbf44;padding: 7px 4px 7px 7px; margin:0 0 4px 0; color: #ffffff;}
+
+
+#home-search-block *,
+:before,
+:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+ .menu #menu-button::after{box-sizing:initial !important;}
+
+.nsb-2-suggestbox p{padding: 10px 4px 10px 7px; font-size:14px; color: #333333; border-bottom: 1px solid #d4d4d4;}
+.nsb-2-suggestbox p:hover{background-color:#F8F8F8;cursor:pointer; color: #00abe6;}
+#searchCity2{margin:0 !important;}
+
+.temp-zindex{position:relative !important;z-index:1000 !important;}
+.fixed-overlay{background-color:rgba(0,0,0,0.4);position:fixed; height:100%; width:100%;top: 0px;left: 0px;display:none;z-index:99;}
+.nsb-1	{/*cursor:pointer;*/}
+.hero-title{ font-size:28px !important;color#000;margin-bottom:12px;}
+.hero-title-city{color:#FE7776; font-size:30px !important;color#000;margin-bottom:0px;}
+
+.new-search-block{margin:0 auto; padding:0 37px 0 0 !important; width:100%; position:relative; z-index:999; border:solid 1px #ccc; display:inline-block;}
+.temp-zindex:first, .nsb-search-button	{position:absolute !important;}
+.nsb-2-suggestbox		{left: 165px; text-align:left;}
+.hero-block div			{height:100%;}
+.nsb-1{position:absolute !important;padding-left:6px;height: 27px;margin: 5px 0px 10px 0px !important;border: 1px solid #6F6F6F;outline:none;width: 211px !important; padding-right:30px !important;  background:#fff /*url(../../images/drp.png) 95% 48% no-repeat*/ !important; left:100px; top:0px; z-index:9999!important; border-left:solid 1px #dfdfdf; border-right:solid 1px #dfdfdf;}
+
+.nsb-2{padding-left:10px;height:27px;margin:0px !important;border: 1px solid #fff !important;border-right:0px !important; width: 100% !important;float: left;outline:none;border-right:0px;background-color:#fff !important; color:#444 !important; font-family:"HelveticaLTStd-Light"; font-size:13px; color:rgba(83, 82, 81, 1) !important;}
+
+.nsb-1-search-city{border: 1px solid #ccc;height: 25px;margin: 7px 0px !important;width: 204px;outline: none;padding-left: 5px;}
+.nsb-1-suggestbox-cities{height:400px;overflow-y:auto;overflow-x:hidden;}
+.nsb-1-suggestbox-cities.allLocations{height:403px;overflow-y:auto;overflow-x:hidden; text-align:left;}
+.nsb-1-suggestbox-cities p{padding: 7px 4px 7px 7px; font-size:12px; color: #333333; border-bottom: 1px solid #d4d4d4; text-align:left;}
+.nsb-1-suggestbox-cities p:hover{background-color:#F8F8F8;cursor:pointer; color: #00abe6;}
+
+
+.nsb-1-suggestbox-cities-subheader:last	{margin-top:4px;}
+.nsb-2-suggestbox{display: none ;position: absolute;top: 36px;min-width: 410px; width:100% !important; background-color: #fff;left:0 !important;height: auto; padding-bottom:0px; overflow-y: auto;z-index:99;}
+
+.nsb-ticket{display: none;  width:96px; overflow: hidden;  cursor: pointer; font-size: 14px; background-color: #FFFFFF; border: 1px solid #727272; border-right:0px;position: absolute !important;  left:0; top:0px; z-index:9999!important;}
+
+@media all and (-webkit-min-device-pixel-ratio:0){
+.nsb-ticket,
+#searchCity2{height:30px !important;}
+.nsb-ticket p{margin-top:0px!important;}
+}
+
+.text-upper	{text-transform:uppercase;}
+.nsb-ticket p{padding:7px; font-size: 13px;}
+.nsb-2-suggestbox2{display: none;position: absolute;top:36px;width:100% !important;background-color: #fff;left:0;height: 295px;overflow-y: auto;z-index:99; text-align:left;}
+.nsb-2-suggestbox3{display: none;position: absolute;top:41px; width:100% !important; background-color: #fff;left:0px;overflow:hidden; z-index:99; padding-bottom:20px !important; padding-left:155px; height: auto; background: url(../../images/tab-bg.jpg) -44px top repeat-y #fff !important; display:none !important;}
+
+.nsb-search-button{float: left;width: 39px;height: 34px; background-size: 15px 15px; right:0px; margin-top:0; border:  0px solid #fff; background:#fff url(../../images/magnify.png) center center no-repeat !important; border-left: 0px; position: absolute !important; border-left: 0px !important}
+.home-search-block-inside .nsb-search-button{float: left;width: 39px;height: 35px; background-size: 15px 15px; right:-1px; margin-top:6px; border:0px solid #fff; background:#c3c2c0 url(../../images/magnify1.png) center center no-repeat !important; border-left: 0px; position: absolute !important; border-left: 0px !important}
+.home-search-block-inside .nsb-ticket{margin-top:6px !important; border-right:1px solid #ccc !important;}
+
+#nsb-tabmenu { width:auto; }
+.nsb-2-suggestbox2 p{ padding: 2px 4px 2px 7px; font-size: 13px}
+.nsb-2-suggestbox2 p:hover{background-color:#F8F8F8;cursor:pointer;}
+.nsb-2-suggestbox2 p a{text-decoration:none;color:#333;}
+.nsb-2-suggestbox2 p a:visited{text-decoration:none;color:#333;}
+.nsb-2-suggestbox2 p span{float:right;}
+.nsb-2-suggestbox a {display:block;color:#333;padding: 1px 8px;text-decoration:none;}
+.nsb-2-suggestbox a:hover{background-color:#F8F8F8;cursor:pointer;}
+
+
+#nsb-nav { overflow: hidden; padding-left: 0; width:155px; position: absolute; margin-left: 0px;/* background-color: #00abe6;*/ height: auto; left: 0px; }
+
+#nsb-nav li {font-weight:normal; list-style: none; background: #EEE;}
+
+#nsb-nav li p {  cursor:pointer;  
+    padding:12px 10px;
+    border-top: 1px solid #fff;
+    display: block;
+    background: #00abe6;
+     text-decoration: none;
+color: #707070;
+font-size: 15px;
+font-weight: 600;
+color: #fff;
+letter-spacing:0;
+}
+
+#nsb-nav li:first-child p {
+    border-top: 0px solid #CCC;
+}
+
+#nsb-tab-content {
+padding: 0px 0px 0px 0px;
+width: 100%;
+margin-top: -1px;
+ 
+float: left;
+height: auto;
+}
+#nsb-tab-content div {display: none;
+height: auto;
+overflow-y: auto;
+overflow-x: hidden;
+width: 100%;}
+
+#nsb-nav li p.active {
+background: #FFF;
+text-decoration: none;
+color: #383838;
+}
+.nsb-tab-content-column{width: 45%;
+float: left !important;
+margin-left: 20px;
+margin-bottom: 10px;}
+.nsb-tab-content-column li.loud{margin-left:-8px;font-size: 16px;
+margin-top: 11px;
+list-style: none !important;
+color: #eb8000; padding-bottom: 9px;}
+.nsb-tab-content-column li{list-style-type: none;
+padding: 3px 0px;
+margin-left: 0px !important;}
+.nsb-tab-content-column li a{ text-decoration: none; color: #333; font-size: 13px; font-weight:normal;
+padding: 5px 0px 5px 0px; line-height: 22px;}
+.nsb-tab-content-column li a:hover{color: #00abe6;}
+.nsb-onlineLO{border-top: 1px solid #ccc;
+margin: 0px 0px 0px 0px;
+padding: 9px 6px !important;
+color: #000;}
+.hlight{background-color:yellow;}
+
+
+/* We use this to get basic styling on all basic form elements */ 
+#home-search-block input[type="text"],
+#home-search-block input[type="password"],
+#home-search-block input[type="date"],
+#home-search-block input[type="datetime"],
+#home-search-block input[type="datetime-local"],
+#home-search-block input[type="month"],
+#home-search-block input[type="week"],
+#home-search-block input[type="email"],
+#home-search-block input[type="number"],
+#home-search-block input[type="search"],
+#home-search-block input[type="tel"],
+#home-search-block input[type="time"],
+#home-search-block input[type="url"],
+.nsb-1-suggestbox textarea {
+ background-color: #fff;
+  /*border: 1px solid #999;*/
+  color: rgba(83, 82, 81, 1);
+  display: block;
+  height: 34px;
+  margin: 0 0 0 0;
+  padding: 4px;
+  width: 100%;
+  }
+    
+  
+  
+#home-search-block input[type="text"]:focus,
+#home-search-block input[type="password"]:focus,
+#home-search-block input[type="date"]:focus,
+#home-search-block input[type="datetime"]:focus,
+#home-search-block input[type="datetime-local"]:focus,
+#home-search-block input[type="month"]:focus,
+#home-search-block input[type="week"]:focus,
+#home-search-block input[type="email"]:focus,
+#home-search-block input[type="number"]:focus,
+#home-search-block input[type="search"]:focus,
+#home-search-block input[type="tel"]:focus,
+#home-search-block input[type="time"]:focus,
+#home-search-block input[type="url"]:focus,
+#home-search-block textarea:focus {
+    
+    border-color: #999999; }
+	
+#home-search-block input[type="text"]:focus,
+#home-search-block input[type="password"]:focus,
+#home-search-block input[type="date"]:focus,
+#home-search-block input[type="datetime"]:focus,
+#home-search-block input[type="datetime-local"]:focus,
+#home-search-block input[type="month"]:focus,
+#home-search-block input[type="week"]:focus,
+#home-search-block input[type="email"]:focus,
+#home-search-block input[type="number"]:focus,
+#home-search-block input[type="search"]:focus,
+#home-search-block input[type="tel"]:focus,
+#home-search-block input[type="time"]:focus,
+#home-search-block input[type="url"]:focus,
+#home-search-block textarea:focus {
+background: #fff !important;
+border-color: #999999;
+outline: none; }
+	
+#home-search-block input[type="text"][disabled],
+#home-search-block input[type="password"][disabled],
+#home-search-block input[type="date"][disabled],
+#home-search-block input[type="datetime"][disabled],
+#home-search-block input[type="datetime-local"][disabled],
+#home-search-block input[type="month"][disabled],
+#home-search-block input[type="week"][disabled],
+#home-search-block input[type="email"][disabled],
+#home-search-block input[type="number"][disabled],
+#home-search-block input[type="search"][disabled],
+#home-search-block input[type="tel"][disabled],
+#home-search-block input[type="time"][disabled],
+#home-search-block input[type="url"][disabled],
+#home-search-block textarea[disabled] {
+background-color: transparent !important; }
+
+/* Adjust margin for form elements below */
+#home-search-block input[type="file"],
+#home-search-block input[type="checkbox"],
+#home-search-block input[type="radio"],
+#home-search-block select {
+  margin: 0 0 1rem 0; }
+
+#home-search-block input[type="checkbox"] + #home-search-block label,
+#home-search-block input[type="radio"] + #home-search-block label {
+  display: inline-block;
+  margin-left: 0em;
+  margin-right: 1rem;
+  margin-bottom: 0;
+  vertical-align: baseline; }
+
+/* Normalize file input width */
+#home-search-block input[type="file"] {
+  width: 100%; }
+
+/* We add basic fieldset styling */
+fieldset {
+  border: solid 1px #dddddd;
+  padding: 1.25rem;
+  margin: 1.125rem 0; }
+  fieldset legend {
+    font-weight: bold;
+    background: white;
+    padding: 0 0.1875rem;
+    margin: 0;
+    margin-left: -0.1875rem; }
+
+/*.column,
+.columns {
+  position: relative;
+  padding-left: 0.9375em;
+  padding-right: 0.9375em;
+  width: 100%;
+  float: left; }*/
+  
+.nsb-2-suggestbox2 #ajaxcategory p{padding: 10px 7px; border-bottom: 1px solid #d4d4d4;}
+.home-o-tutor-bg .option-part .right-txt{margin-top:0;}
+
+.helpyou-new{width:100%; float:left; text-align:center; color:#fff; font-size:15px; margin:10px 0 7px 0; padding-top: 7px;}
+.helpyou-new.mobile-show{display:none;}
+.helpyou-new a.buttonnew{color:#fff; background:rgba(235, 128, 0, 1); padding:5px 10px; text-decoration:none; border:solid 1px #fff; margin:0 10px;}
+.helpyou-new a b{text-shadow:0 0 0 #fff;}
+.search-home-online-tab{padding-left:420px;}
+
+
+
+
+#home-search-block{/*margin-bottom:25px;*/}
+body{overflow:auto !important;}
+.fixed-overlay{background-color:rgba(0,0,0,0.4)!important;}
+
+@media all and (-webkit-min-device-pixel-ratio:0){
+.nsb-ticket p{padding:7px 6px;}
+}
+
+@media (max-width: 1024px){
+
+.select-subjects{padding-left:320px !important; box-sizing:border-box;}
+.select-subjects-online{padding-left:105px !important;}
+
+}
+
+@media (max-width: 768px){
+
+.select-subjects{padding-left:320px !important; box-sizing:border-box;}
+.select-subjects-online{padding-left:105px !important;}
+
+}
+
+
+@media (min-width:280px) and (max-width: 640px){
+.select-subjects{padding-left:170px !important; box-sizing:border-box;}
+.select-subjects-online{padding-left:105px !important;}
+.nsb-1{width:65px !important; padding-right:5px !important;}
+.nsb-2-suggestbox{min-width:auto!important;}
+}
+
+@media (min-width:641px) and (max-width: 767px){
+.select-subjects{padding-left:207px !important; box-sizing:border-box;}
+.select-subjects-online{padding-left:105px !important;}
+.nsb-1{width:100px !important;}
+}
+/*****************************Past tuitions css**************************/
+#results .past-tuition-padding{padding-top:0 !important;}						
+#results .info-icon-img.col-md-2{width:16.6667%;}
+.action-btn .staricon{width:109px; float:left; text-align:center;}
+#results  .my-account-pic a{margin-left:15px;}
+#chsess_list  .my-account-pic a{margin-left:15px;}
+#awaiting-conf-tutor  .my-account-pic a{margin-left:15px;}
+#past-conf-tutor  .my-account-pic a{margin-left:15px;}
+#past-conf-tutor .info-icon-img.col-md-2{width:16.6667%;} 
+#past-conf-tutor .min-subject{padding-top:0;}
+#chsess_list .min-subject{padding-top:0;}
+#awaiting-conf-tutor .min-subject{padding-top:0;}
+#chsess_list .cancelled{text-align:left; padding-top:0;}
+.copyright  .container div{padding:0;}
+.header-container .navbar-right {margin-right:0 !important;}
+ 
+/*************existing css **************/
+.dropdown-menu.notification-msg-box{right:-111px;}
+.navbar-nav > li > .dropdown-menu.notification-msg-box:before{border-bottom:7px solid #f6f6f6; border-left:7px solid transparent; border-right:7px solid transparent; top:-7px; right:129px;}
+
+.navbar-nav > li > .dropdown-menu.notification-msg-box:after{border-bottom:9px solid #ccc; border-left:9px solid transparent; border-right:9px solid transparent; top:-9px; right:127px;}
+
+.profile-desc i.icon1-home-tutoring{width:25px; background-position:-4px -1px;}
+.profile-desc i.icon1-online-tutoring{width:25px; background-position:-4px -28px;}
+.profile-desc i.icon1-student-visit-tutor{width:25px; background-position:-4px -59px;}
+
+.nsb-1-suggestbox-cities p,
+.nsb-2-suggestbox2 p{margin:0;}
+.panel-body .list-actions  .student-credit{padding-bottom:10px;}
+.panel-body .list-actions  .btn-dark-grey{font-size:18px;}
+.tutor-list.list-box .btn-dark-grey{font-size:18px;}
+.tutor-list.list-box .student-credit{padding-bottom:10px;}
+.caution-container{padding:0;}
+.caution i{font-size:14px; padding:0 5px 2px; }
+.caution-txt{background:#f2f2f2; border:solid 1px #d4d4d4; padding:10px;}
+.legend-container{padding:0;}
+.mailbox li{padding:5px 0 5px 10px; }
+.attachment-date-legend .glyphicon-paperclip{padding-top:3px;}
+#Reply .action-area-container {padding:8px!important;}
+#Reply .action-area-container .button-action input[type="submit"]{margin:0;}
+.cancel-whiteboard-btn a:nth-child(1){margin-right:5px;}
+.cancel-whiteboard-btn a:nth-child(2){margin-left:5px;}
+
+/*******Calendar css custom for disable *************/
+.specialDate { background-color: #BCF5A9 !important; }
+.speDate { background-color: #D3D3D3 !important; }
+.speDate div{display:none;}
+
+/***************** CSSS For kmjsfjs*******************/
+.book-session-container .xdsoft_datetimepicker .xdsoft_calendar td > div{position:relative; top:-10px; right:-13px;}
+.book-session-container .xdsoft_calendar{width:378px!important;}
+.book-session-container  .xdsoft_datepicker{width:377px!important;}
+.book-session-container .xdsoft_inline{width:380px!important;}
+.book-session-container .xdsoft_datetimepicker .xdsoft_calendar td, .xdsoft_datetimepicker .xdsoft_calendar th{height:40px;}
